@@ -1,2 +1,16 @@
-<h1>Welcome to SvelteKit</h1>
-<p>Visit <a href="https://kit.svelte.dev">kit.svelte.dev</a> to read the documentation</p>
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link active" aria-current="page" href="#">X-Posts</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Videos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#">Articles</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link" href="#">Podcasts</a>
+  </li>
+
+</ul>
