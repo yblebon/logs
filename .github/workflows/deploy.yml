@@ -34,7 +34,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
         with:
           # location of the coverage artifacts
-          path: "./app/build"
+          path: "./app/build/prerendered"
           
   deploy:
     # Add a dependency to the build job
