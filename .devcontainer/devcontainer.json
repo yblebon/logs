@@ -1,0 +1,7 @@
+{
+    "name": "Logs project container",
+    "build": {
+        "context": ".",
+        "dockerfile": "../Dockerfile"
+    }
+}
