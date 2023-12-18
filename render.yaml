@@ -2,5 +2,6 @@ services:
   - type: web
     name: my log
     runtime: static
+    rootDir: app
     buildCommand: yarn build
     staticPublishPath: ./build
