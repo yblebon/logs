@@ -1,1 +1,1 @@
-FROM oven/bun
+FROM node:lts-buster
