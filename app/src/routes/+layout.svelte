@@ -20,22 +20,39 @@
 	export let data;
 	let selected = "videos";
 	console.log(data);
+	
+	function changeContent(){
+		selected = this.id;
+		
+		console.log(this.id);
+	}
 </script>
 
 
 
 <ul class="nav justify-content-center">
   <li class="nav-item">
-    <a class="nav-link">X-Posts</a>
+    <a class="nav-link">
+      <button id="x-posts" type="button" on:click={changeContent} class="btn text-uppercase fw-bolder text-white btn-info">X-Posts</button>
+    </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link">Videos</a>
+    <a class="nav-link">
+      <button id="videos" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black">Videos</button>
+    </a>
   </li>
   <li class="nav-item">
-    <a class="nav-link">Articles</a>
+    <a class="nav-link">
+    
+    <button id="articles" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black ">Articles</button>
+    
+    </a>
   </li>
     <li class="nav-item">
-    <a class="nav-link">Podcasts</a>
+    <a class="nav-link">
+    <button id="podcasts" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black">Podcasts</button>
+    
+    </a>
   </li>
 </ul>
 
