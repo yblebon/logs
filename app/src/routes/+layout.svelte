@@ -18,11 +18,19 @@
     import XpostComponent from './xpost.svelte';
     import VideoComponent from './video.svelte';
 	export let data;
-	let selected = "videos";
+let selected = "x-posts";
 	console.log(data);
 	
+	
+	
+	
 	function changeContent(){
+		document.getElementById(selected).classList.remove("btn-info")
 		selected = this.id;
+		
+		document.getElementById(selected).classList.add("btn-info")
+
+		
 		
 		console.log(this.id);
 	}
@@ -33,7 +41,7 @@
 <ul class="nav justify-content-center">
   <li class="nav-item">
     <a class="nav-link">
-      <button id="x-posts" type="button" on:click={changeContent} class="btn text-uppercase fw-bolder text-white btn-info">X-Posts</button>
+      <button id="x-posts" type="button" on:click={changeContent} class="btn text-uppercase fw-bolder btn-info text-black">X-Posts</button>
     </a>
   </li>
   <li class="nav-item">
