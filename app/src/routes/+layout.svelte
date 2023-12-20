@@ -5,4 +5,39 @@
 </svelte:head>
 
 
+
+
+<script>
+    import XpostComponent from './xpost.svelte';
+	export let data;
+	console.log(data);
+</script>
+
+
+
+<ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link">X-Posts</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link">Videos</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link">Articles</a>
+  </li>
+    <li class="nav-item">
+    <a class="nav-link">Podcasts</a>
+  </li>
+</ul>
+
+
+{#each data.xPosts as xpost}
+  <svelte:component this={XpostComponent} xpost={xpost}>
+  </svelte:component>
+
+
+{/each}
+
+
+
 <slot></slot>
