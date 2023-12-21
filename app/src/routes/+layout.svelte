@@ -6,6 +6,8 @@
  <link href="https://vjs.zencdn.net/8.5.2/video-js.css" rel="stylesheet" />
  <script src="https://vjs.zencdn.net/8.5.2/video.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/videojs-playlist/dist/videojs-playlist.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/howler/2.2.4/howler.min.js" integrity="sha512-xi/RZRIF/S0hJ+yJJYuZ5yk6/8pCiRlEXZzoguSMl+vk2i3m6UjUO/WcZ11blRL/O+rnj94JRGwt/CHbc9+6EA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
  
  
  
@@ -17,6 +19,7 @@
 <script>
     import XpostComponent from './xpost.svelte';
     import VideoComponent from './video.svelte';
+    import PodcastComponent from './podcast.svelte'
 	export let data;
 let selected = "x-posts";
 	console.log(data);
@@ -68,16 +71,21 @@ let selected = "x-posts";
 {#if selected == "x-posts"}
 
 {#each data.xPosts as xpost}
-  <svelte:component this={XpostComponent} xpost={xpost}>
-  </svelte:component>
+  <XpostComponent xpost={xpost}/>
 {/each}
 
 {:else if selected == "videos"}
 
 {#each data.videos as video}
-  <svelte:component this={VideoComponent} video={video}>
-  </svelte:component>
+	  <VideoComponent video={video} />
 {/each}
+
+{:else if selected == "podcasts"}
+
+{#each data.podcasts as podcast}
+	  <PodcastComponent podcast={podcast} />
+{/each}
+
 
 {:else}
 
