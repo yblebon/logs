@@ -17,6 +17,7 @@
 <script>
     import XpostComponent from './xpost.svelte';
     import VideoComponent from './video.svelte';
+    import PodcastComponent from './podcast.svelte'
 	export let data;
 let selected = "x-posts";
 	console.log(data);
@@ -68,16 +69,21 @@ let selected = "x-posts";
 {#if selected == "x-posts"}
 
 {#each data.xPosts as xpost}
-  <svelte:component this={XpostComponent} xpost={xpost}>
-  </svelte:component>
+  <XpostComponent xpost={xpost}/>
 {/each}
 
 {:else if selected == "videos"}
 
 {#each data.videos as video}
-  <svelte:component this={VideoComponent} video={video}>
-  </svelte:component>
+	  <VideoComponent video={video} />
 {/each}
+
+{:else if selected == "podcasts"}
+
+{#each data.podcasts as podcast}
+	  <PodcastComponent podcast={podcast} />
+{/each}
+
 
 {:else}
 
