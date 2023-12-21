@@ -1,6 +1,39 @@
 <script>
 	export let podcast;
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
+	
+	console.log(podcast.src)
+	
+	let podcastInstance = new Howl({
+          src: [podcast.src],
+          html5: true,
+          volume: 0.9,
+          format: ["m4a"],
+          onload: function() {
+          	console.log("loading podcast ...");
+          },
+        
+          onplay: function(id) {
+          	console.log("playing podcast ...");
+          },
+        
+          onstop: function(id) {
+          	console.log("stopping podcast ...");
+          },
+          onend: function() {
+          	console.log("podcast ended");
+            Howler.unload();
+          },
+          onplayerror: function() {
+          	console.log("error playing podcast");
+            Howler.unload();
+          },
+          onloaderror: function() {
+          	console.log("error loading podcast");
+            Howler.unload();
+          }
+          
+      });
 
 
 </script>
