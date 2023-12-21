@@ -2,6 +2,8 @@
 	export let podcast;
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
 	
+	let status = "stop";
+	
 	console.log(podcast.src)
 	
 	let podcastInstance = new Howl({
@@ -15,25 +17,44 @@
         
           onplay: function(id) {
           	console.log("playing podcast ...");
+          	status = "playing";
           },
         
           onstop: function(id) {
           	console.log("stopping podcast ...");
+          	status = "stop";
           },
           onend: function() {
           	console.log("podcast ended");
+          	status = "stop";
             Howler.unload();
           },
           onplayerror: function() {
           	console.log("error playing podcast");
+          	status = "stop";
             Howler.unload();
           },
           onloaderror: function() {
           	console.log("error loading podcast");
+          	status = "stop";
             Howler.unload();
           }
           
       });
+      
+      function updateStatus(){
+       console.log(status)
+       if ( status == 'stop') {
+        
+         podcastInstance.play();
+       }
+       
+       else if (status == 'playing'){
+               podcastInstance.stop()
+        
+       }
+
+      }
 
 
 </script>
@@ -56,9 +77,22 @@
 	  <span class="me-2 badge bg-dark">{podcast.date}</span>
        {/if}
 
-<span>
-<i class="float-end gg-play-button-o"></i>
-</span>
+
+<button on:click={updateStatus} type="button" class="btn btn-primary float-end btn-sm">
+
+
+       {#if status == 'stop'}
+<i class="gg-play-button-o"></i>
+
+{:else if status == 'playing'}
+
+<i class="gg-play-stop-o"></i>
+
+
+       {/if}
+
+
+</button>
 
 
 
