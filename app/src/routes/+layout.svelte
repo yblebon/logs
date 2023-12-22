@@ -22,10 +22,10 @@
 
 
 <script>
-    import XpostComponent from './xpost.svelte';
-    import VideoComponent from './video.svelte';
-    import PodcastComponent from './podcast.svelte';
-    import ArticleComponent from './article.svelte'
+    import XpostComponent from '../components/xpost.svelte';
+    import VideoComponent from '../components/video.svelte';
+    import PodcastComponent from '../components/podcast.svelte';
+    import ArticleComponent from '../components/article.svelte'
     
 	export let data;
 let selected = "x-posts";
@@ -75,33 +75,4 @@ let selected = "x-posts";
 </ul>
 
 
-{#if selected == "x-posts"}
-
-{#each data.xPosts as xpost}
-  <XpostComponent xpost={xpost}/>
-{/each}
-
-{:else if selected == "videos"}
-
-{#each data.videos as video}
-	  <VideoComponent video={video} />
-{/each}
-
-{:else if selected == "podcasts"}
-
-{#each data.podcasts as podcast}
-	  <PodcastComponent podcast={podcast} />
-{/each}
-
-
-{:else if selected == "articles"}
-
-{#each data.articles as article}
-	  <ArticleComponent article={article} />
-{/each}
-
-
-
-{:else}
-
-{/if}
+<slot />
