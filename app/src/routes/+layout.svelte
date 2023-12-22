@@ -48,31 +48,19 @@ let selected = "x-posts";
 
 
 
-<ul class="nav justify-content-center">
-  <li class="nav-item">
-    <a class="nav-link">
-      <button id="x-posts" type="button" on:click={changeContent} class="btn text-uppercase fw-bolder btn-info text-black">X-Posts</button>
-    </a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link">
-      <button id="videos" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black">Videos</button>
-    </a>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link">
-    
-    <button id="articles" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black ">Articles</button>
-    
-    </a>
-  </li>
-    <li class="nav-item">
-    <a class="nav-link">
-    <button id="podcasts" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black">Podcasts</button>
-    
-    </a>
-  </li>
-</ul>
+
+<div class="navbar-nav">
+
+
+      <a on:click={changeContent} id="x-posts" class="nav-item nav-link" href="x-posts">X-Posts</a>
+      <a on:click={changeContent}  id="videos" class="nav-item nav-link" href="videos">Videos</a>
+      <a on:click={changeContent} id="podcasts" class="nav-item nav-link" href="podcasts">Podcasts</a>
+      <a on:click={changeContent} id="articles" class="nav-item nav-link" href="articles">Articles</a>
+    </div>      
+      
+
+      
+
 
 
 <slot />
