@@ -3,7 +3,7 @@
   "setupTasks": [
     {
       "name": "Install Dependencies",
-      "command": "npm install"
+      "command": "cd app && npm install"
     }
   ],
 
@@ -11,7 +11,7 @@
   "tasks": {
     "npm run dev": {
       "name": "Start preview",
-      "command": "npm run preview",
+      "command": "cd app && npm run preview",
       "runAtStart": true
     }
   }
