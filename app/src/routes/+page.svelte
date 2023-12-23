@@ -1,26 +1,14 @@
-<div class="">
+<script>
 
-<video
-    autoplay
-    id="my-video"
-    class="video-js"
-    controls
-    preload="auto"
-    width="100%" height="auto"
-    poster="fafo/icons/IMG_2860.jpeg"
+export let data;
 
-  >
-    <source src="https://bafybeihpq6dojtist6ryf7ny7bn6gmih4b3yyas4szbmceowvheoofpdgm.ipfs.w3s.link/IMG_2514.mov" type="video/mp4" />
-    <p class="vjs-no-js">
-      To view this video please enable JavaScript, and consider upgrading to a
-      web browser that
-      <a href="https://videojs.com/html5-video-support/" target="_blank"
-        >supports HTML5 video</a
-      >
-    </p>
-  </video>
+console.log(data);
 
-</div>
+</script>
+
+{#each data.xPosts as xpost}
+  <XpostComponent xpost={xpost}/>
+{/each}
 
 
 
