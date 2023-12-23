@@ -1,5 +1,7 @@
 <script>    
 	export let data;
+	
+	import { base } from '$app/paths';
     
     let selected = "home";
 	
@@ -25,32 +27,32 @@
     <div class="collapse navbar-collapse" id="navbarNav">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="/">
+          <a class="nav-link" href="{base}/">
             <button id="home" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black btn-info">Home</button>
            </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/x-posts">
+          <a class="nav-link" href="{base}/x-posts">
               <button id="x-posts" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black">X-Posts</button>
            </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/videos">
+          <a class="nav-link" href="{base}/videos">
               <button id="videos" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black">Videos</button>
            </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/podcasts">
+          <a class="nav-link" href="{base}/podcasts">
               <button id="podcasts" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black">Podcasts</button>
            </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/articles">
+          <a class="nav-link" href="{base}/articles">
               <button id="articles" type="button" on:click={changeContent}  class="btn text-uppercase fw-bolder text-black">Articles</button>
            </a>
         </li>
         <li class="nav-item">
-          <a class="ms-3 nav-link" href="/contact" tabindex="-1" aria-disabled="true">Contact</a>
+          <a class="ms-3 nav-link" href="{base}/contact" tabindex="-1" aria-disabled="true">Contact</a>
         </li>
       </ul>
     </div>

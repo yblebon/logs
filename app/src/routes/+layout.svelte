@@ -26,7 +26,7 @@
     import ArticleComponent from '../components/article.svelte';
     import MenuComponent from '../components/menu.svelte'
     
-	export let data;
+	
     
     let selected = "x-posts";
 	
