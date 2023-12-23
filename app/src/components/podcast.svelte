@@ -1,11 +1,14 @@
 <script>
-
 	export let podcast;
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
 	
+	/**
+	
+	var howler = require('howler');
 	
 	
-	let podcastInstance = new Howl({
+	
+	let podcastInstance = new howler.Howl({
           src: [podcast.src],
           html5: true,
           volume: 0.9,
@@ -36,6 +39,7 @@
           
       });
 
+       */
 
 </script>
 
