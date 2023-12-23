@@ -29,10 +29,6 @@
     
 	export let data;
 let selected = "x-posts";
-	console.log(data);
-	
-	
-	
 	
 	function changeContent(){
 		document.getElementById(selected).classList.remove("btn-info")
@@ -40,7 +36,6 @@ let selected = "x-posts";
 		
 		document.getElementById(selected).classList.add("btn-info")
 
-		
 		
 		console.log(this.id);
 	}
