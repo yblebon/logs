@@ -13,8 +13,6 @@
   href="https://cdn.jsdelivr.net/npm/css.gg/icons/icons.css"
   rel="stylesheet"
 />
-
- 
  
 </svelte:head>
 
@@ -25,10 +23,12 @@
     import XpostComponent from '../components/xpost.svelte';
     import VideoComponent from '../components/video.svelte';
     import PodcastComponent from '../components/podcast.svelte';
-    import ArticleComponent from '../components/article.svelte'
+    import ArticleComponent from '../components/article.svelte';
+    import MenuComponent from '../components/menu.svelte'
     
 	export let data;
-let selected = "x-posts";
+    
+    let selected = "x-posts";
 	
 	function changeContent(){
 		document.getElementById(selected).classList.remove("btn-info")
@@ -41,22 +41,7 @@ let selected = "x-posts";
 	}
 </script>
 
-
-
-
-<div class="navbar-nav">
-
-
-       <a on:click={changeContent} id="x-posts" class="nav-item nav-link" href="/">Home</a>
-      <a on:click={changeContent} id="x-posts" class="nav-item nav-link" href="x-posts">X-Posts</a>
-      <a on:click={changeContent}  id="videos" class="nav-item nav-link" href="videos">Videos</a>
-      <a on:click={changeContent} id="podcasts" class="nav-item nav-link" href="podcasts">Podcasts</a>
-      <a on:click={changeContent} id="articles" class="nav-item nav-link" href="articles">Articles</a>
-    </div>      
-      
-
-      
-
+<MenuComponent />
 
 
 <slot />
