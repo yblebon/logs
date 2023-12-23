@@ -50,7 +50,7 @@
            </a>
         </li>
         <li class="nav-item">
-          <a class="ms-3 nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Contact</a>
+          <a class="ms-3 nav-link" href="/contact" tabindex="-1" aria-disabled="true">Contact</a>
         </li>
       </ul>
     </div>
