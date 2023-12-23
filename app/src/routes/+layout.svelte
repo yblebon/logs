@@ -52,6 +52,7 @@ let selected = "x-posts";
 <div class="navbar-nav">
 
 
+       <a on:click={changeContent} id="x-posts" class="nav-item nav-link" href="/">Home</a>
       <a on:click={changeContent} id="x-posts" class="nav-item nav-link" href="x-posts">X-Posts</a>
       <a on:click={changeContent}  id="videos" class="nav-item nav-link" href="videos">Videos</a>
       <a on:click={changeContent} id="podcasts" class="nav-item nav-link" href="podcasts">Podcasts</a>
