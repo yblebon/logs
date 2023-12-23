@@ -1,8 +1,9 @@
 <script>
+
 	export let podcast;
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
 	
-	console.log(podcast.src)
+	
 	
 	let podcastInstance = new Howl({
           src: [podcast.src],
@@ -60,13 +61,7 @@
 <i class="float-end gg-play-button-o"></i>
 </span>
 
-
-
-
-
      </p>    
- 
-     
-       </div>
+   </div>
 
 </div>
