@@ -10,7 +10,7 @@
   {#if xpost.src == "filebase"}
 	  <img src="{filebaseBase}/{xpost.id}" class="card-img-top">
 {:else}
-	<img src="{filebaseBase}" class="card-img-top">
+	<img src="{xpost.src}" class="card-img-top">
 {/if}
 
    <div class="card-body bg-light">
