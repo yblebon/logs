@@ -4,7 +4,7 @@ services:
     runtime: static
     rootDir: app
     buildCommand: yarn build
-    staticPublishPath: ./build/prerendered
+    staticPublishPath: ./build
     buildFilter:
       paths:
       - src/**/*.js
