@@ -1,25 +1,4 @@
-const articles = [
-    {
-      "title": "Operation Mockingbird",
-      "url": "https://en.wikipedia.org/wiki/Operation_Mockingbird",
-      "summary": ""
-    },
-     {
-      "title": "Project Blue Beam",
-      "url": "https://timesofindia.indiatimes.com/what-is-project-blue-beam/articleshow/3371815.cms",
-      "summary": ""
-    },
-         {
-      "title": "Planet Saturn",
-      "url": "https://en.wikipedia.org/wiki/Saturn",
-      "summary": ""
-    },
-     {
-      "title": "Tuskegee Syphilis Study",
-      "url": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
-      "summary": ""
-    }
-  ]
+import articles from '$lib/data/articles.json';
     
 
 export const load = () => {
