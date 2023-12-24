@@ -12,7 +12,7 @@
   {#if video.src == "filebase"}
      <source src="{filebaseBase}/{video.id}" type="video/mp4">
 {:else}
-   	 <source src="{filebaseBase}" type="video/mp4">
+   	 <source src="{video.src}" type="video/mp4">
 {/if}
 
 </video>
