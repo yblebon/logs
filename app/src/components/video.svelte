@@ -24,7 +24,10 @@
      
  
        {#if video.upload_date !== undefined}
-	  <span class="me-2 badge bg-dark float-end">{video.upload_date}</span>
+       
+       <br />
+
+	  <span class="me-2 text-bg-secondary  badge">{video.upload_date}</span>
 {/if}
      </p>    
  

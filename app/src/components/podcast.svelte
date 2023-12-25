@@ -58,7 +58,8 @@
      
  
        {#if podcast.upload_date !== undefined}
-	  <span class="me-2 badge bg-dark">{podcast.upload_date}</span>
+              <br />
+	  <span class="me-2 badge text-bg-secondary">{podcast.upload_date}</span>
        {/if}
 
 <span>
