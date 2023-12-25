@@ -10,8 +10,13 @@
   // These tasks can be run from CodeSandbox. Running one will open a log in the app.
   "tasks": {
     "npm run dev": {
-      "name": "Start preview",
-      "command": "cd app && npm run preview",
+      "name": "Start dev",
+      "command": "cd app && npm run dev",
+      "runAtStart": true
+    },
+     "docs build": {
+      "name": "Build docs",
+      "command": "cd app && npm run build && mv build ../docs",
       "runAtStart": true
     }
   }

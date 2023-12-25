@@ -5,7 +5,7 @@
 		    "type": "video/mp4",
 			"poster": "https://ipfs.filebase.io/ipfs/QmXUbu4HRotmzLtWbc41bMtf5yFYfh4Ma7twaxu2LjUSMG",
 			"title": "Quick workout listening to BBC radio live, Toulouse",
-			"date": "22-12-2023"
+              "upload_date": "2023-12-22"
 			},
 		{
 			"src": "filebase",
@@ -13,7 +13,7 @@
 		    "type": "video/mp4",
 			"poster": "IMG_0461.png",
 			"title": "Quick running session after workout, Toulouse",
-			"date": "15-12-2023"
+              "upload_date": "2023-12-15"
 			},
 		{
 			"src": "filebase",
@@ -21,14 +21,14 @@
 		    "type": "video/mp4",
 			"poster": "IMG_0461.png",
 			"title": "Promenade centre, Toulouse",
-			"date": "14-12-2023"
+              "upload_date": "2023-12-14"
 			},
 		{
 			"src": "https://ipfs.filebase.io/ipfs/QmdQVY4WzGhoo7YXxqqfJZitavVJGNByjoJhyEQsoGy7sZ",
 		        "type": "video/mp4",
 			"poster": "IMG_0461.png",
 			"title": "Jardins des Plantes, Toulouse",
-			"date": "04-12-2023"
+              "upload_date": "2023-12-04"
 			},
 		{
 			"src": "https://ipfs.filebase.io/ipfs/QmUGMZTM8kTmcijsCDhC9sRaMB6hweJoMVAyQStS8RiZkk",
