@@ -11,7 +11,6 @@
 		document.getElementById(selected).classList.add("btn-info")
 
 		
-		console.log(this.id);
 	}
 	
 </script>
