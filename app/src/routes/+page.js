@@ -3,9 +3,9 @@ import videos from '$lib/data/videos.json';
 import articles from '$lib/data/articles.json';
 import podcasts from '$lib/data/podcasts.json';
 
-function sortFunction(a,b){  
-    let dateA = new Date(a.upload_at).getTime();
-    let dateB = new Date(b.upload_at).getTime();
+function sortFunction(a,b){
+    let dateA = new Date(a.upload_date);
+    let dateB = new Date(b.upload_date);
     return dateA > dateB ? 1 : -1;  
 }; 
 
