@@ -6,10 +6,14 @@
 	
 	let status = "stop";
 	
-	/**
 	
+	let podcastInstance;
 	
-	let podcastInstance = new Howl({
+	function createInstance(){	 	 
+	 
+	 
+
+	podcastInstance = new Howl({
           src: [podcast.src],
           html5: true,
           volume: 0.9,
@@ -44,8 +48,15 @@
           }
           
       });
+      
+      }
 
      function playPodcast(){
+      
+      if (podcastInstance == null){
+       createInstance();
+      }
+      
       if (status == "playing"){
           podcastInstance.stop();
        
@@ -55,7 +66,9 @@
       }
 
      }
-     */
+     	
+	
+
        
 
 </script>
