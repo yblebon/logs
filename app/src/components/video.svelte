@@ -23,8 +23,8 @@
           <span class="me-2 rounded-pill badge bg-dark">{video.title}</span>
      
  
-       {#if video.date !== undefined}
-	  <span class="me-2 badge bg-dark float-end">{video.date}</span>
+       {#if video.upload_date !== undefined}
+	  <span class="me-2 badge bg-dark float-end">{video.upload_date}</span>
 {/if}
      </p>    
  

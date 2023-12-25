@@ -27,8 +27,8 @@
      
      {/if}
      
-       {#if xpost.date !== undefined}
-	  <span class="me-2 badge bg-dark float-end">{xpost.date}</span>
+       {#if xpost.upload_date !== undefined}
+	  <span class="me-2 badge bg-dark float-end">{xpost.upload_date}</span>
 {/if}
      </p>    
  
