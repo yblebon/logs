@@ -26,7 +26,7 @@
 </div>
 
   {#if xpost.src == "filebase"}
-	  <img src="{filebaseBase}/{xpost.id}" class="card-img-top">
+	  <img src="{filebaseBase}/{xpost.id}" class="card-img-top rounded-0">
 {:else}
 	<img src="{xpost.src}" class="card-img-top">
 {/if}

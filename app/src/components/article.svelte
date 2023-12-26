@@ -18,7 +18,7 @@
           </span>
 </div>          
 
-   <img id="podcast-poster-img" class="img-fluid" src="https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV"/>
+   <img id="podcast-poster-img" class="img-fluid rounded-0" src="https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV"/>
 
 
    <div class="card-body bg-light">
