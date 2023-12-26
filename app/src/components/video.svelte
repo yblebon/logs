@@ -6,7 +6,15 @@
 </script>
 
 
-<div class="card me-2 ms-2 mt-2" >
+<div class="card me-4 ms-4 mt-4" >
+
+<div class="card-header">
+
+          <span class="me-2 badge text-lowercase text-bg-danger">{video.title}</span>
+
+
+</div>
+
  <video class="card-img-top video-js" controls width="100%" height="300" preload="auto" poster="fafo/IMG_0461.png">
 
   {#if video.src == "filebase"}
@@ -19,13 +27,10 @@
 
    <div class="card-body bg-light">
      <p class="card-text">
-
-          <span class="me-2 rounded-pill badge bg-dark">{video.title}</span>
      
  
        {#if video.upload_date !== undefined}
        
-       <br />
 
 	  <span class="me-2 text-bg-secondary  badge">{video.upload_date}</span>
 {/if}
