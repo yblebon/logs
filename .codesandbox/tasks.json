@@ -17,7 +17,7 @@
      "docs build": {
       "name": "Build docs",
       "command": "cd app && npm run build && mv build ../docs",
-      "runAtStart": true
+      "runAtStart": false
     }
   }
 }
