@@ -75,9 +75,9 @@
 
 
 <div class="card me-4 ms-4 mt-4" >
-<div class="card-header">
+<div class="card-header text-bg-warning">
 
-          <span class="me-2 badge text-lowercase text-bg-warning">{podcast.title}</span>
+          <span class="me-2 badge text-lowercase ">{podcast.title}</span>
           
                     
           <button type="button" on:click={playPodcast} class="btn btn-outline-primary float-end">
