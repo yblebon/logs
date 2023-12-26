@@ -44,7 +44,7 @@
           <a class="nav-link" href="{base}/">
             <button id="home" type="button" on:click={changeContent}  class="fw-bolder text-decoration-underline text-black">Home
             
-            <span class="badge text-bg-secondary">{logsCount}</span>
+
             
             </button>
            </a>
@@ -52,28 +52,28 @@
         <li class="nav-item">
           <a class="nav-link" href="{base}/x-posts">
               <button id="x-posts" type="button" on:click={changeContent}  class="fw-bolder text-black">X-Posts
-              <span class="badge text-bg-secondary">0</span>
+
               </button>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/videos">
               <button id="videos" type="button" on:click={changeContent}  class="fw-bolder text-black">Videos
-              <span class="badge text-bg-secondary">0</span>
+
               </button>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/podcasts">
               <button id="podcasts" type="button" on:click={changeContent}  class="fw-bolder text-black">Podcasts
-              <span class="badge text-bg-secondary">0</span>
+
               </button>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/articles">
               <button id="articles" type="button" on:click={changeContent}  class="fw-bolder text-black">Articles    
-   <span class="badge text-bg-secondary">0</span>        
+
                        </button>
            </a>
         </li>
