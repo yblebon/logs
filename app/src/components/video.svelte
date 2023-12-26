@@ -8,9 +8,9 @@
 
 <div class="card me-4 ms-4 mt-4" >
 
-<div class="card-header">
+<div class="card-header text-bg-danger">
 
-          <span class="me-2 badge text-lowercase text-bg-danger">{video.title}</span>
+          <span class="me-2 badge text-lowercase ">{video.title}</span>
 
 
 </div>

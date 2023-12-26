@@ -4,9 +4,9 @@
 
 <div class="card me-4 ms-4 mt-4" >
 
-<div class="card-header">
+<div class="card-header text-bg-dark">
 
-          <span class="me-2 badge text-lowercase text-bg-info">
+          <span class="me-2 text-lowercase">
           
                     <a href="{article.url}">
      {article.title}
