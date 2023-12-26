@@ -42,43 +42,43 @@
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="{base}/">
-            <button id="home" type="button" on:click={changeContent}  class="fw-bolder text-decoration-underline text-black">Home
+            <span id="home" on:click={changeContent}  class="fw-bolder text-decoration-underline text-black">Home
             
 
             
-            </button>
+            </span>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/x-posts">
-              <button id="x-posts" type="button" on:click={changeContent}  class="fw-bolder text-black">X-Posts
+              <span id="x-posts" on:click={changeContent}  class="fw-bolder text-black">X-Posts
 
-              </button>
+              </span>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/videos">
-              <button id="videos" type="button" on:click={changeContent}  class="fw-bolder text-black">Videos
+              <span id="videos" on:click={changeContent}  class="fw-bolder text-black">Videos
 
-              </button>
+              </span>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/podcasts">
-              <button id="podcasts" type="button" on:click={changeContent}  class="fw-bolder text-black">Podcasts
+              <span id="podcasts"  on:click={changeContent}  class="fw-bolder text-black">Podcasts
 
-              </button>
+              </span>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/articles">
-              <button id="articles" type="button" on:click={changeContent}  class="fw-bolder text-black">Articles    
+              <span id="articles" on:click={changeContent}  class="fw-bolder text-black">Articles    
 
-                       </button>
+                       </span>
            </a>
         </li>
         <li class="nav-item vr">
-          <a class="ms-3 nav-link" href="{base}/contact" tabindex="-1" aria-disabled="true">Contact</a>
+          <a class="ms-3 fw-bolder nav-link" href="{base}/contact" tabindex="-1" aria-disabled="true">Contact</a>
         </li>
       </ul>
     </div>
