@@ -75,17 +75,11 @@
 
 
 <div class="card me-4 ms-4 mt-4" >
-   <img id="podcast-poster-img" class="img-fluid" src="https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV"/>
+<div class="card-header">
 
-
-   <div class="card-body bg-light">
-     <p class="card-text">
-
-          <span class="me-2 rounded-pill badge bg-dark">
-      
+          <span class="me-2 badge text-lowercase text-bg-warning">{podcast.title}</span>
           
-          {podcast.title}</span>
-          
+                    
           <button type="button" on:click={playPodcast} class="btn btn-outline-primary float-end">
 
  {#if status == "stop"}
@@ -105,6 +99,18 @@
 
 
 </button>
+
+
+</div>
+
+
+   <img id="podcast-poster-img" class="img-fluid" src="https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV"/>
+
+
+   <div class="card-body bg-light">
+     <p class="card-text">
+
+
      
  
        {#if podcast.upload_date !== undefined}
