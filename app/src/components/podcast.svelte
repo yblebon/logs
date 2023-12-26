@@ -74,7 +74,7 @@
 </script>
 
 
-<div class="card me-2 ms-2 mt-2" >
+<div class="card me-4 ms-4 mt-4" >
    <img id="podcast-poster-img" class="img-fluid" src="https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV"/>
 
 

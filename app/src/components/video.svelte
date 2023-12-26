@@ -6,7 +6,7 @@
 </script>
 
 
-<div class="card me-2 ms-2 mt-2" >
+<div class="card me-4 ms-4 mt-4" >
  <video class="card-img-top video-js" controls width="100%" height="300" preload="auto" poster="fafo/IMG_0461.png">
 
   {#if video.src == "filebase"}

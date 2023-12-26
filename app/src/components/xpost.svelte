@@ -5,7 +5,7 @@
 
 </script>
 
-<div class="card me-2 ms-2 mt-2" >
+<div class="card me-4 ms-4 mt-4" >
 
   {#if xpost.src == "filebase"}
 	  <img src="{filebaseBase}/{xpost.id}" class="card-img-top">
