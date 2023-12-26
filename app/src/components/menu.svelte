@@ -3,6 +3,9 @@
 	import { base } from '$app/paths';
     
     let selected = "home";
+    
+  export let logsCount = 0;
+
 	
 	function changeContent(){
 		document.getElementById(selected).classList.remove("text-decoration-underline")
@@ -39,30 +42,42 @@
       <ul class="navbar-nav">
         <li class="nav-item">
           <a class="nav-link" href="{base}/">
-            <button id="home" type="button" on:click={changeContent}  class="fw-bolder text-decoration-underline text-black">Home</button>
+            <button id="home" type="button" on:click={changeContent}  class="fw-bolder text-decoration-underline text-black">Home
+            
+            <span class="badge text-bg-secondary">{logsCount}</span>
+            
+            </button>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/x-posts">
-              <button id="x-posts" type="button" on:click={changeContent}  class="fw-bolder text-black">X-Posts</button>
+              <button id="x-posts" type="button" on:click={changeContent}  class="fw-bolder text-black">X-Posts
+              <span class="badge text-bg-secondary">0</span>
+              </button>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/videos">
-              <button id="videos" type="button" on:click={changeContent}  class="fw-bolder text-black">Videos</button>
+              <button id="videos" type="button" on:click={changeContent}  class="fw-bolder text-black">Videos
+              <span class="badge text-bg-secondary">0</span>
+              </button>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/podcasts">
-              <button id="podcasts" type="button" on:click={changeContent}  class="fw-bolder text-black">Podcasts</button>
+              <button id="podcasts" type="button" on:click={changeContent}  class="fw-bolder text-black">Podcasts
+              <span class="badge text-bg-secondary">0</span>
+              </button>
            </a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/articles">
-              <button id="articles" type="button" on:click={changeContent}  class="fw-bolder text-black">Articles</button>
+              <button id="articles" type="button" on:click={changeContent}  class="fw-bolder text-black">Articles    
+   <span class="badge text-bg-secondary">0</span>        
+                       </button>
            </a>
         </li>
-        <li class="nav-item">
+        <li class="nav-item vr">
           <a class="ms-3 nav-link" href="{base}/contact" tabindex="-1" aria-disabled="true">Contact</a>
         </li>
       </ul>
