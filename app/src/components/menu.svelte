@@ -18,9 +18,15 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container-fluid">
-    <a class="navbar-brand fs-2" href="#">
+    <a class="navbar-brand fs-2" href="#">     
     
-    Logs
+    <strong>
+    
+    Log
+    
+    </strong>
+    
+    
 
     <small class="text-body-secondary">    Y.B Lebon</small>
 
