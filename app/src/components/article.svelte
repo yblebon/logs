@@ -1,5 +1,10 @@
 <script>
 	export let article;
+	
+	function readArticle(){
+	 var win = window.open(article.url, '_blank');
+  win.focus();
+	}
 </script>
 
 <div class="card me-4 ms-4 mt-4" >
@@ -11,7 +16,7 @@
      {article.title}
           </span>
           
-           <button type="button" class="btn btn-outline-secondary float-end">
+           <button type="button" on:click={readArticle} class="btn btn-outline-secondary float-end">
 
  {#if  article.url !== null }
  
