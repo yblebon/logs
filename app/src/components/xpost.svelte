@@ -13,7 +13,7 @@
 
      {#if xpost.tags !== null }
        {#each xpost.tags as tag}
-          <span class="me-2 badge ">{tag}</span>
+          <span class="me-2 badge float-end ">{tag}</span>
 {/each}
            
      
