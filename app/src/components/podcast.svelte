@@ -80,7 +80,7 @@
           <span class="me-2 badge text-lowercase ">{podcast.title}</span>
           
                     
-          <button type="button" on:click={playPodcast} class="btn btn-outline-primary float-end">
+          <button type="button" on:click={playPodcast} class="btn  float-end">
 
  {#if status == "stop"}
  
