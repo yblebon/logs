@@ -84,3 +84,7 @@
     </div>
   </div>
 </nav>
+
+<div class="border-bottom border-2 border-black">
+
+</div>

@@ -12,6 +12,8 @@ console.log(data)
 
 </script>
 
+
+
 {#each data.dataList.reverse() as content }
 
 {#if content.type == "xpost"}
