@@ -77,10 +77,34 @@
 <div class="card me-4 ms-4 mt-4" >
 <div class="card-header text-bg-warning">
 
-          <span class="me-2 badge text-lowercase ">{podcast.title}</span>
+
           
-                    
-          <button type="button" on:click={playPodcast} class="btn btn-outline-primary float-end">
+   
+
+
+
+
+          <span class="me-2 badge text-lowercase float-end ">{podcast.title}</span>
+
+
+</div>
+
+
+   <img id="podcast-poster-img" class="img-fluid" src="https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV"/>
+
+
+   <div class="card-body bg-light">
+     <p class="card-text">
+
+
+     
+ 
+       {#if podcast.upload_date !== undefined}
+	  <span class="me-2 badge text-bg-secondary">{podcast.upload_date}</span>
+       {/if}
+       
+                        
+          <button type="button" on:click={playPodcast} class="btn  float-end">
 
  {#if status == "stop"}
  
@@ -99,27 +123,6 @@
 
 
 </button>
-
-
-</div>
-
-
-   <img id="podcast-poster-img" class="img-fluid" src="https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV"/>
-
-
-   <div class="card-body bg-light">
-     <p class="card-text">
-
-
-     
- 
-       {#if podcast.upload_date !== undefined}
-              <br />
-	  <span class="me-2 badge text-bg-secondary">{podcast.upload_date}</span>
-       {/if}
-
-
-
 
 
 
