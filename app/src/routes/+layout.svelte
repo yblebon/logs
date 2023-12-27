@@ -13,5 +13,8 @@
 
 <MenuComponent />
 
+<div class="container">
+
+</div>
 
 <slot />

@@ -10,7 +10,7 @@
 
 <div class="card-header text-bg-danger">
 
-          <span class="me-2 badge text-lowercase float-end">{video.title}</span>
+          <span class="me-2 badge text-lowercase text-wrap float-end">{video.title}</span>
 
 
 </div>
