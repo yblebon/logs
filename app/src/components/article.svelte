@@ -7,7 +7,7 @@
 	}
 </script>
 
-<div class="card me-4 ms-4 mt-4" >
+<div class="card me-4 ms-4 mt-4">
 
 <div class="card-header text-bg-dark">
 
