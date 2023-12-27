@@ -9,7 +9,7 @@
 
 <div class="card me-4 ms-4 mt-4" >
 
-<div class="card-header text-bg-success">
+<div class="card-header text-wrap text-bg-success">
 
      {#if xpost.tags !== null }
        {#each xpost.tags as tag}

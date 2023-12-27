@@ -7,11 +7,11 @@
 	}
 </script>
 
-<div class="card me-4 ms-4 mt-4" >
+<div class="card me-4 ms-4 mt-4">
 
 <div class="card-header text-bg-dark">
 
-          <span class="me-2 badge text-lowercase float-end">
+          <span class="me-2 badge text-lowercase text-wrap float-end">
          
      {article.title}
           </span>

@@ -11,7 +11,17 @@
     
 </script>
 
+<style>
+
+
+
+</style>
+
 <MenuComponent />
 
+<div class=" container-sm">
 
 <slot />
+
+</div>
+

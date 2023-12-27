@@ -84,7 +84,7 @@
 
 
 
-          <span class="me-2 badge text-lowercase float-end ">{podcast.title}</span>
+          <span class="me-2 badge text-lowercase text-wrap float-end ">{podcast.title}</span>
 
 
 </div>

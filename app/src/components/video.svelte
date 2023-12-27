@@ -10,12 +10,12 @@
 
 <div class="card-header text-bg-danger">
 
-          <span class="me-2 badge text-lowercase float-end">{video.title}</span>
+          <span class="me-2 badge text-lowercase text-wrap float-end">{video.title}</span>
 
 
 </div>
 
- <video class="card-img-top rounded-0 video-js" controls width="100%" height="300" preload="auto" poster="fafo/IMG_0461.png">
+<video class="card-img-top rounded-0 video-js" controls width="100%" height="300" preload="auto" poster="fafo/IMG_0461.png">
 
   {#if video.src == "filebase"}
      <source src="{filebaseBase}/{video.id}" type="video/mp4">
