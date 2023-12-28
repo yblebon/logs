@@ -1,7 +1,11 @@
 <script>
 
+
+
 import ArticleComponent from '../../components/article.svelte';
 export let data;
+
+    
 
 </script>
 
