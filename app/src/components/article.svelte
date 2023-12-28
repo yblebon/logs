@@ -1,11 +1,28 @@
 <script>
 	export let article;
+	import { onMount } from 'svelte';
+	
+	let poster = "https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV";
 	
 	function readArticle(){
 	 var win = window.open(article.url, '_blank');
   win.focus();
 	}
+	
+	    onMount(async () => { 
+    
+
+
+const response = await fetch(`https://g.tenor.com/v1/search?q=${article.gif}&key=LIVDSRZULELA&limit=1&media_filter=mediumgif`)
+
+    let result = await response.json()
+    let gif = result['results'][0]['media'][0]['mediumgif']
+    if (gif != null) {
+     poster = gif.url;
+    }
+  });
 </script>
+
 
 <div class="card me-4 ms-4 mt-4">
 
@@ -19,7 +36,7 @@
           
 </div>          
 
-   <img id="podcast-poster-img" class="img-fluid rounded-0" src="https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV"/>
+   <img id="podcast-poster-img" class="img-fluid rounded-0" src="{poster}"/>
 
 
    <div class="card-body bg-light">
