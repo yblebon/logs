@@ -11,6 +11,22 @@ const filebaseBase = "https://ipfs.filebase.io/ipfs";
 
 <div class="accordion mt-4" id="accordionExample">
 
+<div class="accordion-item">
+
+ <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-title" aria-expanded="true" aria-controls="collapse-title">
+        {dots.title}
+      </button>
+    </h2>
+
+</div>
+<div id="collapse-title" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         	  <img src="{filebaseBase}/{dots.poster}" class="card-img-top rounded-0">
+      </div>
+    </div>
+
+
 
 
 {#each dots.dots as dotsElement, index }

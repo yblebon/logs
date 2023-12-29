@@ -1,6 +1,7 @@
 [
   {
     "title": "Operation Code name J.C: Split psyops scenario",
+    "poster": "QmPHLPZ9xHKoi9UPc8C1GsXBgyXxsMrsgJSvyAVKKpmViV",
     "dots": [
       {
         "title": "Split scenario start",
@@ -41,6 +42,7 @@
   },
     {
     "title": "Operation Code name J.C: Shutter Island psyops scenario",
+    "poster": "QmbQwrvbvtPpcCFnZLAwrixRupeTyXGghrTSWEhDt7jHAn",
     "dots": [
       {
         "title": "Noise psyops",
@@ -54,6 +56,15 @@
         "title": "Fake gun psyops",
         "src": "QmeYbJPEPTnrZB6JY5JDZwcJNr1W5JxcpU9cMtCA4VbgEq"
       }
+      
+    ]
+    
+  },
+  {
+    "title": "Operation Code name J.C: Tinder Swindler scenario",
+    "poster": "QmeZ89zTFmdKG79ycQmJNPENDMU7T2hgjQo5NUdA4SL96f",
+    "dots": [
+
       
     ]
     
