@@ -77,6 +77,13 @@
                        </span>
            </a>
         </li>
+              <li class="nav-item">
+          <a class="nav-link" href="{base}/dots">
+              <span id="dots" on:click={changeContent}  class="fw-bolder text-black">Dots    
+
+                       </span>
+           </a>
+        </li>
         <li class="nav-item vr">
           <a class="ms-3 fw-bolder nav-link" href="{base}/contact" tabindex="-1" aria-disabled="true">Contact</a>
         </li>
