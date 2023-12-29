@@ -13,18 +13,18 @@ const filebaseBase = "https://ipfs.filebase.io/ipfs";
 
 
 
-{#each dots.dots as dotsElement }
+{#each dots.dots as dotsElement, index }
 
 <div class="mt-4 accordion-item">
 
  <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{index}" aria-expanded="false" aria-controls="collapse-{index}"> {index+1} - 
         {dotsElement.title}
       </button>
     </h2>
 
 </div>
-<div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+<div id="collapse-{index}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
          	  <img src="{filebaseBase}/{dotsElement.src}" class="card-img-top rounded-0">
       </div>
