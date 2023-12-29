@@ -9,13 +9,13 @@ const filebaseBase = "https://ipfs.filebase.io/ipfs";
 </script>
 
 
-<div class="accordion" id="accordionExample">
+<div class="accordion mt-4" id="accordionExample">
 
 
 
 {#each dots.dots as dotsElement, index }
 
-<div class="mt-4 accordion-item">
+<div class="accordion-item">
 
  <h2 class="accordion-header">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{index}" aria-expanded="false" aria-controls="collapse-{index}"> {index+1} - 
