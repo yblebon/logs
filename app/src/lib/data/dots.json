@@ -38,5 +38,24 @@
       
     ]
     
+  },
+    {
+    "title": "Operation Code name J.C: Shutter Island psyops scenario",
+    "dots": [
+      {
+        "title": "Noise psyops",
+        "src": "QmVzf3tkNwup1FJm3aCDvFwe9sgAY9nqCcRjXjGKgFgjzq"
+      },
+      {
+        "title": "Voice psyops",
+        "src": "QmeYdT8mN7PTzPVoBsET2VCg1QxQuJhts3HVNXcNEAuQnT"
+      },
+      {
+        "title": "Fake gun psyops",
+        "src": "QmeYbJPEPTnrZB6JY5JDZwcJNr1W5JxcpU9cMtCA4VbgEq"
+      }
+      
+    ]
+    
   }
 ]
