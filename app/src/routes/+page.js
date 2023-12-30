@@ -2,6 +2,7 @@ import xposts from '$lib/data/x-posts.json';
 import videos from '$lib/data/videos.json';
 import articles from '$lib/data/articles.json';
 import podcasts from '$lib/data/podcasts.json';
+import dots from '$lib/data/dots.json';
 
 function sortFunction(a,b){
     let dateA = new Date(a.upload_date);
@@ -43,6 +44,14 @@ for (let i = 0; i < articles.length; i++)
     if (articles[i].upload_date != null){
         articles[i]['type'] = "article";
         dataList.push(articles[i]);
+    }
+}
+
+for (let i = 0; i < dots.length; i++) 
+{
+    if (dots[i].upload_date != null){
+        dots[i]['type'] = "dots";
+        dataList.push(dots[i]);
     }
 }
 
