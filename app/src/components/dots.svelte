@@ -9,7 +9,7 @@ const filebaseBase = "https://ipfs.filebase.io/ipfs";
 </script>
 
 
-<div class="accordion bg-dark mt-4" id="accordionExample">
+<div class="accordion bg-light mt-4" id="accordionExample">
 
 <div class="accordion-item">
 
