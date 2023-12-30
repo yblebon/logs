@@ -4,6 +4,7 @@ import XpostComponent from '../components/xpost.svelte';
 import VideoComponent from '../components/video.svelte';
 import ArticleComponent from '../components/article.svelte';
 import PodcastComponent from '../components/podcast.svelte';
+import DotsComponent from '../components/dots.svelte';
 
 export let data;
 
@@ -32,6 +33,10 @@ console.log(data)
 {:else if content.type == "article"}
 
   <ArticleComponent article={content}/>
+  
+ {:else if content.type == "dots"}
+
+  <DotsComponent dots={content}/>
 
 {:else}
 
