@@ -1,17 +1,17 @@
 <script>
+    	import { base } from '$app/paths';
 	export let video;
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
-
-
+	import XButtonComponent from './xbutton.svelte';
+	let url = "";
+	
 </script>
 
 
 <div class="card me-4 ms-4 mt-4" >
 
 <div class="card-header text-bg-danger">
-
-          <span class="me-2 badge text-lowercase text-wrap float-end">{video.title}</span>
-
+   <span class="me-2 badge text-lowercase text-wrap float-end">{video.title}</span>
 
 </div>
 
@@ -33,7 +33,16 @@
        
 
 	  <span class="me-2 text-bg-secondary  badge">{video.upload_date}</span>
+	  
+
 {/if}
+
+
+<XButtonComponent text={video.title} url="https://yblebon.github.io/videos/1" />
+
+
+
+
      </p>    
  
      
