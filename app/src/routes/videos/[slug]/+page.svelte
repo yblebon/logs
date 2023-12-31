@@ -1,7 +1,9 @@
 <script>
-	/** @type {import('./$types').PageData} */
-	export let data;
+   import VideoComponent from '../../../components/video.svelte';
+   /** @type {import('./$types').PageData} */
+   export let data;
 </script>
 
 
-<div>{@html data.video}</div>
+<VideoComponent video={data.video}/>
+
