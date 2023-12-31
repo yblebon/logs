@@ -1,18 +1,28 @@
+import videos from '$lib/data/videos.json';
+
+
 /** @type {import('./$types').PageLoad} */
 export function load({ params }) {
 	console.log(params)
+	let video = videos[params.slug];
+	
 
 		return {
-			title: 'Hello world!',
-			content: 'Welcome to our blog. Lorem ipsum dolor sit amet...'
-		};
+			video: video
+		}
 	
 }
 
 /** @type {import('./$types').EntryGenerator} */
 export function entries() {
-	return [		
-	  { slug: 'hello-world' },	
-	  { slug: 'another-blog-post' }	
-	]
+	
+	let slugList = Array.apply(null, Array(videos.length))
+    .map(function (y, i) { 
+        return {"slug": i.toString()};
+     });
+     
+     console.log(slugList);
+    
+    
+	return slugList;
 }
