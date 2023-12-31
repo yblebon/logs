@@ -2,7 +2,45 @@
    import VideoComponent from '../../../components/video.svelte';
    /** @type {import('./$types').PageData} */
    export let data;
+   const filebaseBase = "https://ipfs.filebase.io/ipfs";
+   let og = {};
+   og["title"] = data.video.title;
+   og["description"] = data.video.description;
+   og["domain"] = "yblebon.github.io";
+   og["url"] = "https://yblebon.github.io/logs/videos/1";
+   
+   if (data.video.src == "filebase") {
+        og["video"] = `${filebaseBase}/${data.video.id}`
+   } else {
+       og["video"] = data.video.src;
+   }
+   
+   if (data.video.poster != null) {
+        og["image"] = "https://ipfs.filebase.io/ipfs/QmXUbu4HRotmzLtWbc41bMtf5yFYfh4Ma7twaxu2LjUSMG";
+    }
+
+
+   
 </script>
+
+<svelte:head>
+
+  <!-- HTML Meta Tags -->
+  <title>{data.video.title}</title>
+  <meta name="description" content="">
+
+
+  <!-- Twitter Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="twitter:domain" content="{og.domain}">
+  <meta property="twitter:url" content="{og.url}">
+  <meta name="twitter:title" content="{og.title}">
+  <meta name="twitter:description" content="{og.description}">
+  <meta name="twitter:image" content="{og.image}">
+
+        
+
+</svelte:head>
 
 
 <VideoComponent video={data.video}/>
