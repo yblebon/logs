@@ -5,7 +5,7 @@
    const filebaseBase = "https://ipfs.filebase.io/ipfs";
    let og = {};
    og["title"] = data.video.title;
-   og["description"] = data.video.description;
+   og["description"] = data.video.title;
    og["domain"] = "yblebon.github.io";
    og["url"] = "https://yblebon.github.io/logs/videos/1";
    
@@ -31,12 +31,13 @@
 
 
   <!-- Twitter Meta Tags -->
-  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:card" content="summary">
   <meta property="twitter:domain" content="{og.domain}">
   <meta property="twitter:url" content="{og.url}">
   <meta name="twitter:title" content="{og.title}">
   <meta name="twitter:description" content="{og.description}">
   <meta name="twitter:image" content="{og.image}">
+  <meta name="twitter:creator" content="@YasserLebon"/>
 
         
 
