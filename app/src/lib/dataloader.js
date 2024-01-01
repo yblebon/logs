@@ -1,4 +1,4 @@
-import { get, writable } from 'svelte/store';
+import { get, writable, readonly } from 'svelte/store';
 import {load} from '$lib/dataloader.js';
 import {createHash} from '$lib/utils.js';
 
@@ -8,7 +8,7 @@ import articles from '$lib/data/articles.json';
 import podcasts from '$lib/data/podcasts.json';
 import dots from '$lib/data/dots.json';
 
-var dataStore = writable([]);
+var dataStore = null;
 
 export function sortByDate(a,b){
     let dateA = new Date(a.upload_date);
@@ -69,10 +69,10 @@ for (let i = 0; i < dots.length; i++)
     }
 }
 
-dataList = dataList.sort(sortByDate);
-  
+dataList = dataList.sort(sortByDate).reverse();
 
-dataStore.set(dataList);
+dataStore = readonly(writable(dataList))
 
 
 }
+

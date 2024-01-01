@@ -14,7 +14,7 @@ export let data;
 
 
 
-{#each data.dataList.reverse() as content }
+{#each data.dataList as content }
 
 {#if content.type == "xpost"}
 	
