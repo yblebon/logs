@@ -8,7 +8,6 @@ import DotsComponent from '../components/dots.svelte';
 
 export let data;
 
-console.log(data)
 
 
 </script>
