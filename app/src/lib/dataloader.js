@@ -73,6 +73,6 @@ dataList = dataList.sort(sortByDate).reverse();
 
 dataStore = readonly(writable(dataList))
 
-
 }
+
 
