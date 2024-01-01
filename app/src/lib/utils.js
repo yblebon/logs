@@ -7,7 +7,7 @@ export const createHash = (str) => {
             hashString += charCode;
             hashString |= hashString;
          }
-         console.log(hasHString);
+         console.log(hashString);
          return hashString;
 }
 

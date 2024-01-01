@@ -4,6 +4,8 @@ import {initStore} from '$lib/dataloader.js';
 
 initStore();
 
+console.log(2)
+
 
 
 

@@ -1,5 +1,6 @@
 import { get, writable } from 'svelte/store';
 import {load} from '$lib/dataloader.js';
+import {createHash} from '$lib/utils.js';
 
 import xposts from '$lib/data/x-posts.json';
 import videos from '$lib/data/videos.json';
@@ -38,6 +39,8 @@ for (let i = 0; i < videos.length; i++)
     if (videos[i].upload_date != null){
         videos[i]['type'] = "video";
         dataList.push(videos[i]);
+        let uid = createHash("hello/7€(&))");
+        console.log(uid);
     }
 }
 
@@ -46,6 +49,7 @@ for (let i = 0; i < podcasts.length; i++)
     if (podcasts[i].upload_date != null){
         podcasts[i]['type'] = "podcast";
         dataList.push(podcasts[i]);
+        
     }
 }
 
