@@ -56,6 +56,13 @@ for (let i = 0; i < dots.length; i++)
       dataList.push(dots[i]);
 }
 
+for (let i = 0; i < dataList.length; i++) 
+{
+er
+}
+
+
+
 dataList = dataList.sort(sortByDate).reverse();
 
 dataStore = readonly(writable(dataList))
