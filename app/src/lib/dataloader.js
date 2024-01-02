@@ -24,49 +24,36 @@ export function getData(){
 
 export function initStore() {
   
-  let dataList = [];
+let dataList = [];
 
 for (let i = 0; i < xposts.length; i++) 
 {
-    if (xposts[i].upload_date != null){
-        xposts[i]['type'] = "xpost";
-        dataList.push(xposts[i]);
-    }
+    xposts[i]['type'] = "xpost";
+    dataList.push(xposts[i]);
 }
 
-for (let i = 0; i < videos.length; i++) 
+for (let i = 0; i < videos.length; i++)
 {
-    if (videos[i].upload_date != null){
-        videos[i]['type'] = "video";
-        dataList.push(videos[i]);
-        let uid = createHash("hello/7€(&))");
-        console.log(uid);
-    }
+    videos[i]['type'] = "video";
+    dataList.push(videos[i]);
 }
 
 for (let i = 0; i < podcasts.length; i++) 
 {
-    if (podcasts[i].upload_date != null){
-        podcasts[i]['type'] = "podcast";
-        dataList.push(podcasts[i]);
-        
-    }
+    podcasts[i]['type'] = "podcast";
+    dataList.push(podcasts[i]);
 }
 
 for (let i = 0; i < articles.length; i++) 
 {
-    if (articles[i].upload_date != null){
-        articles[i]['type'] = "article";
-        dataList.push(articles[i]);
-    }
+    articles[i]['type'] = "article";
+    dataList.push(articles[i]);
 }
 
 for (let i = 0; i < dots.length; i++) 
 {
-    if (dots[i].upload_date != null){
-        dots[i]['type'] = "dots";
-        dataList.push(dots[i]);
-    }
+      dots[i]['type'] = "dots";
+      dataList.push(dots[i]);
 }
 
 dataList = dataList.sort(sortByDate).reverse();
