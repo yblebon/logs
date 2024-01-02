@@ -20,11 +20,26 @@ console.log(dots);
 </h2>
 
 <div id="collapse-title" class="accordion-collapse collapse show" data-bs-parent="#accordion">
-      <div class="accordion-body">
-         	  <img src="{filebaseBase}/{dots.poster}" class="card-img-top rounded-0">
-      </div>
+    <div class="accordion-body">
+       <img src="{filebaseBase}/{dots.poster}" class="card-img-top rounded-0">
     </div>
+    </div>
+</div>
+
+{#each dots.dots as dotsElement, index }
+
+
+<div class="accordion-item">
+
+  <h2 class="accordion-header">
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{index}" aria-expanded="false" aria-controls="collapse-{index}"> {index+1} - 
+        {dotsElement.title}
+      </button>
+    </h2>
 
 </div>
+
+
+{/each}
 
 </div>
