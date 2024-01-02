@@ -1,4 +1,4 @@
-<script>
+  <script>
 
 import XpostComponent from '../../components/xpost.svelte';
 export let data;
