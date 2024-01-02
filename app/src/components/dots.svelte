@@ -19,6 +19,12 @@ console.log(dots);
   </button>
 </h2>
 
+<div id="collapse-title" class="accordion-collapse collapse show" data-bs-parent="#accordion">
+      <div class="accordion-body">
+         	  <img src="{filebaseBase}/{dots.poster}" class="card-img-top rounded-0">
+      </div>
+    </div>
+
 </div>
 
 </div>
