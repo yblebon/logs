@@ -7,7 +7,7 @@
    og["title"] = data.video.title;
    og["description"] = data.video.title;
    og["domain"] = "yblebon.github.io";
-   og["url"] = "https://yblebon.github.io/logs/videos/1";
+   og["url"] = "https://yblebon.github.io/logs/videos/"+data.video.uid
    
    if (data.video.src == "filebase") {
         og["video"] = `${filebaseBase}/${data.video.id}`

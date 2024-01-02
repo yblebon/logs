@@ -1,10 +1,12 @@
-import videos from '$lib/data/videos.json';
+import {getData} from '$lib/dataloader.js';
 
 
 /** @type {import('./$types').PageLoad} */
 export function load({ params }) {
 	console.log(params)
-	let video = videos[params.slug];
+	
+    let data = getData();
+    let video= data.filter((el) => el["type"] == "video").find((element) => (params.slug == element.uid));
 	
 
 		return {

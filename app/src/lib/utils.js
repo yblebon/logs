@@ -7,8 +7,7 @@ export const createHash = (str) => {
             hashString += charCode;
             hashString |= hashString;
          }
-         console.log(hashString);
-         return hashString;
+         return Math.abs(parseInt(hashString));
 }
 
 export const sortDate = (a,b) => {
