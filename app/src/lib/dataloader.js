@@ -9,6 +9,7 @@ import podcasts from '$lib/data/podcasts.json';
 import dots from '$lib/data/dots.json';
 
 var dataStore = null;
+const filebaseBase = "https://ipfs.filebase.io/ipfs";
 
 export function sortByDate(a,b){
     let dateA = new Date(a.upload_date);
@@ -35,6 +36,18 @@ for (let i = 0; i < xposts.length; i++)
 for (let i = 0; i < videos.length; i++)
 {
     videos[i]['type'] = "video";
+    
+    if (videos[i]['src'] == "filebase"){
+      let id = videos[i]['id'];
+      videos[i]["url"] = filebaseBase + "/" + id;
+    }
+    else {
+      videos[i]["url"] = videos[i]["src"];
+    }
+    
+    let uid = createHash(videos[i]["url"]);
+    videos[i]["uid"] = uid;
+    
     dataList.push(videos[i]);
 }
 
@@ -58,7 +71,7 @@ for (let i = 0; i < dots.length; i++)
 
 for (let i = 0; i < dataList.length; i++) 
 {
-er
+
 }
 
 

@@ -17,11 +17,9 @@
 
 <video class="card-img-top rounded-0 video-js" controls width="100%" height="300" preload="auto" poster="fafo/IMG_0461.png">
 
-  {#if video.src == "filebase"}
-     <source src="{filebaseBase}/{video.id}" type="video/mp4">
-{:else}
-   	 <source src="{video.src}" type="video/mp4">
-{/if}
+
+   	 <source src="{video.url}" type="video/mp4">
+
 
 </video>
 
@@ -33,7 +31,14 @@
        
 
 	  <span class="me-2 text-bg-secondary  badge">{video.upload_date}</span>
+	  
+
 {/if}
+
+
+
+<a href="/videos/{video.uid}" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">link</a>
+	  	  
      </p>    
  
      

@@ -48,23 +48,5 @@
 			"type": "video/mp4",
 			"poster": "IMG_0461.png",
 			"title": "Marche, Etang Sale Les Hauts"
-		},
-		{
-			"src": "https://bafybeiek7jugunq3aornur4vhgzlzrl2n2qfsw3rn7rgpcr47eglralax4.ipfs.w3s.link/IMG_0662.mov",
-			"type": "video/mp4",
-			"poster": "IMG_0461.png",
-			"title": "Marche, Grand Anse"
-		},
-		{
-			"src": "https://ipfs.filebase.io/ipfs/QmQ8W9hdookPK4e7fCGzx84g2QhE9EPU9KiTnC22tiLTEQ",
-			"type": "video/mp4",
-			"poster": "IMG_0461.png",
-			"title": "Plage de St Leu"
-		},
-		{
-			"src": "https://ipfs.filebase.io/ipfs/QmQ8W9hdookPK4e7fCGzx84g2QhE9EPU9KiTnC22tiLTEQ",
-			"type": "video/mp4",
-			"poster": "IMG_0461.png",
-			"title": "Carrefour, St Gilles"
 		}
 	]
