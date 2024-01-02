@@ -41,7 +41,20 @@ console.log(dots);
 
 <div id="collapse-{index}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
-         	  <img src="{filebaseBase}/{dotsElement.src}" class="card-img-top rounded-0">
+      
+             {#if dots.video == "true"}
+<video class="card-img-top rounded-0 video-js" controls width="100%" height="300" preload="auto" poster="fafo/IMG_0461.png">
+
+
+   	 <source src="{filebaseBase}/{dotsElement.src}" type="video/mp4">
+
+
+</video>
+         	  
+         	 {:else}
+         	            	  <img src="{filebaseBase}/{dotsElement.src}" class="card-img-top rounded-0">
+         	  
+         	  {/if}
       </div>
     </div>
 
