@@ -48,4 +48,20 @@ console.log(dots);
 
 {/each}
 
+
+<div class="card-body ps-2 pt-2 pb-2 bg-light">
+     <p class="card-text">
+     
+ 
+       {#if dots.upload_date !== undefined}
+       
+
+	  <span class="me-2 text-bg-secondary  badge">{dots.upload_date}</span>
+{/if}
+     </p>    
+ 
+     
+       </div>
+
+
 </div>
