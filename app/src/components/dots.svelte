@@ -39,6 +39,12 @@ console.log(dots);
 
 </div>
 
+<div id="collapse-{index}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+         	  <img src="{filebaseBase}/{dotsElement.src}" class="card-img-top rounded-0">
+      </div>
+    </div>
+
 
 {/each}
 
