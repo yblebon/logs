@@ -8,14 +8,13 @@ import DotsComponent from '../components/dots.svelte';
 
 export let data;
 
-console.log(data)
 
 
 </script>
 
 
 
-{#each data.dataList.reverse() as content }
+{#each data.dataList as content }
 
 {#if content.type == "xpost"}
 	

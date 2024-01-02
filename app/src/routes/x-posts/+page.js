@@ -1,15 +1,13 @@
-import xposts from '$lib/data/x-posts.json';
-import videos from '$lib/data/videos.json';
-import articles from '$lib/data/articles.json';
-import podcasts from '$lib/data/podcasts.json';
+import {getData} from '$lib/dataloader.js';
 
 
+/** @type {import('./$types').LayoutLoad} */
 export const load = () => {
-
+  
+  let data = getData();
+  let xPosts = data.filter((el) => el["type"] == "xpost");
+  
   return {
-    xPosts: xposts,
-    videos: videos,
-    articles: articles,
-    podcasts: podcasts
+    xPosts: xPosts
   }
 }

@@ -11,11 +11,13 @@
 
 <div class="card-header text-wrap text-bg-success">
 
-     {#if xpost.tags !== null }
-       {#each xpost.tags as tag}
+     {#if xpost.tags !== undefined }
+     
+            {#each xpost.tags as tag}
           <span class="me-2 badge float-end ">{tag}</span>
 {/each}
            
+
      
      {:else}
      
