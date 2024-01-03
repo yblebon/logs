@@ -66,6 +66,9 @@ for (let i = 0; i < articles.length; i++)
 for (let i = 0; i < dots.length; i++) 
 {
       dots[i]['type'] = "dots";
+      let uid = createHash(dots[i]["poster"]);
+      dots[i]["uid"] = uid;
+      
       dataList.push(dots[i]);
 }
 

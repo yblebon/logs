@@ -1,9 +1,8 @@
 <script>
 
+import { base } from '$app/paths';
 export let dots;
 const filebaseBase = "https://ipfs.filebase.io/ipfs";
-
-console.log(dots);
 
 </script>
 
@@ -71,6 +70,11 @@ console.log(dots);
 
 	  <span class="me-2 text-bg-secondary  badge">{dots.upload_date}</span>
 {/if}
+
+<a href="{base}/dots/{dots.uid}" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">link</a>
+
+
+
      </p>    
  
      
