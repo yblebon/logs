@@ -84,6 +84,9 @@
   <blockquote class="blockquote ps-2 pt-2">
     <p>{podcast.text}</p>
   </blockquote>
+  <figcaption class="blockquote-footer ps-2">
+    <cite class="text-capitalize" title="Source Title">icanhazdadjoke.com</cite>
+  </figcaption>
 </figure>
 
 
