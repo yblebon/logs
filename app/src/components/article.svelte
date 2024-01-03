@@ -17,10 +17,9 @@
 
 <div class="card-header text-bg-dark">
 
-          <span class="me-2 badge text-lowercase text-wrap float-end">
-         
+    <span class="me-2 badge text-lowercase text-wrap float-end">
      {article.title}
-          </span>
+   </span>
           
           
 </div>          

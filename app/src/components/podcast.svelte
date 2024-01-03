@@ -1,12 +1,13 @@
 <script>
+    import { onMount } from 'svelte';
 	export let podcast;
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
 	
 	
 	let status = "stop";
-	
-	
 	let podcastInstance;
+	
+   
 	
 	function createInstance(){	 	 
 	 
@@ -74,22 +75,22 @@
 
 
 <div class="card me-4 ms-4 mt-4" >
+
 <div class="card-header text-bg-warning">
-
-
-          
-   
-
-
-
-
-          <span class="me-2 badge text-lowercase text-wrap float-end ">{podcast.title}</span>
-
-
+    <span class="me-2 badge text-lowercase text-wrap float-end ">{podcast.title}</span>
 </div>
 
+<figure>
+  <blockquote class="blockquote ps-2 pt-2">
+    <p>{podcast.text}</p>
+  </blockquote>
+  <figcaption class="blockquote-footer ps-2">
+    <cite class="text-capitalize" title="Source Title">icanhazdadjoke.com</cite>
+  </figcaption>
+</figure>
 
-   <img id="podcast-poster-img" class="img-fluid" src="https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV"/>
+
+
 
 
    <div class="card-body bg-light">
