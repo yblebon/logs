@@ -15,3 +15,14 @@ export const sortDate = (a,b) => {
     let dateB = new Date(b.upload_date);
     return dateA > dateB ? 1 : -1;  
 }; 
+
+export const getGif = async (q) => {
+    const response = await fetch(`https://g.tenor.com/v1/search?q=${q}&key=LIVDSRZULELA&limit=1&media_filter=mediumgif`)
+
+    let result = await response.json()
+    let gif = result['results'][0]['media'][0]['mediumgif']
+    if (gif != null) {
+     return gif.url;
+    }
+    
+  }

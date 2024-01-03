@@ -1,26 +1,15 @@
 <script>
+    	import { onMount } from 'svelte';
+    import {getGif} from '$lib/utils.js';
+
 	export let article;
-	import { onMount } from 'svelte';
-	
-	let poster = "https://ipfs.filebase.io/ipfs/Qmcrww6uA7cWJAenhRwXWFJQkcCNAoMhntMCkue8aitoEV";
 	
 	function readArticle(){
-	 var win = window.open(article.url, '_blank');
-  win.focus();
+	  var win = window.open(article.url, '_blank');
+      win.focus();
 	}
 	
-	    onMount(async () => { 
-    
-
-
-const response = await fetch(`https://g.tenor.com/v1/search?q=${article.gif}&key=LIVDSRZULELA&limit=1&media_filter=mediumgif`)
-
-    let result = await response.json()
-    let gif = result['results'][0]['media'][0]['mediumgif']
-    if (gif != null) {
-     poster = gif.url;
-    }
-  });
+  
 </script>
 
 
@@ -36,7 +25,14 @@ const response = await fetch(`https://g.tenor.com/v1/search?q=${article.gif}&key
           
 </div>          
 
-   <img id="podcast-poster-img" class="img-fluid rounded-0" src="{poster}"/>
+<figure>
+  <blockquote class="blockquote ps-2 pt-2">
+    <p>{article.summary}</p>
+  </blockquote>
+  <figcaption class="blockquote-footer ps-2">
+    Someone in <cite title="Source Title">{article.source}</cite>
+  </figcaption>
+</figure>
 
 
    <div class="card-body bg-light">
