@@ -30,7 +30,7 @@
     <p>{article.summary}</p>
   </blockquote>
   <figcaption class="blockquote-footer ps-2">
-    Someone in <cite title="Source Title">{article.source}</cite>
+    Someone in <cite class="text-capitalize" title="Source Title">{article.source}</cite>
   </figcaption>
 </figure>
 
