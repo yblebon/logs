@@ -2,7 +2,6 @@
 	export let podcast;
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
 	
-	console.log(podcast.src);
 	
 	let status = "stop";
 	

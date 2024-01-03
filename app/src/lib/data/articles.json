@@ -2,7 +2,8 @@
     {
       "title": "Operation Mockingbird",
       "url": "https://en.wikipedia.org/wiki/Operation_Mockingbird",
-      "summary": "",
+      "summary": "This article is about the alleged CIA program to influence the press. For the CIA wire tapping operation, see Project Mockingbird. For an overview of CIA influence on the media, see CIA influence on public opinion.",
+      "source": "wikipedia",
       "uploaded_at": "2023-12-25",
       "gif": "mockingbird"
       
@@ -10,22 +11,25 @@
      {
       "title": "Project Blue Beam",
       "url": "https://timesofindia.indiatimes.com/what-is-project-blue-beam/articleshow/3371815.cms",
-      "summary": "",
+      "summary": "Project Blue Beam is a conspiracytheory about a supposed project whose purpose is to create an artificial SecondComing, in order to control people. As per the alleged theory, the new worldorder's purpose is: 1. To abolish all Christian and traditional religions inorder to replace them with a one-world religion based on the cult of man.",
+      "source": "timesofindia",
       "uploaded_at": "2023-12-25",
       "gif": "bluebeam"
     },
          {
       "title": "Planet Saturn",
       "url": "https://en.wikipedia.org/wiki/Saturn",
-      "summary": "",
-            "uploaded_at": "2023-12-25",
+      "summary": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System, after Jupiter. It is a gas giant with an average radius of about nine-and-a-half times that of Earth.",
+      "source": "wikipedia",
+      "uploaded_at": "2023-12-25",
       "gif": "saturn"
     },
      {
       "title": "Tuskegee Syphilis Study",
       "url": "https://en.wikipedia.org/wiki/Tuskegee_Syphilis_Study",
-      "summary": "",
-            "uploaded_at": "2023-12-25",
+      "summary": "It was originally called the “Tuskegee Study of Untreated Syphilis in the Negro Male” (now referred to as the “USPHS Untreated Syphilis Study at Tuskegee”). The study initially involved 600 Black men – 399 with syphilis, 201 who did not have the disease. Participants' informed consent was not collected.",
+      "source": "wikipedia",
+      "uploaded_at": "2023-12-25",
       "gif": "tuskegee"
     }
   ]
