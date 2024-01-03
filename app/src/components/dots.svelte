@@ -11,7 +11,7 @@ console.log(dots);
 
 <div class="accordion-item">
 
-<h2 class="accordion-header">
+<h2 class="accordion-header shadow">
   <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-title" aria-expanded="true" aria-controls="collapse-title">
     <strong>
       {dots.title}
@@ -32,7 +32,7 @@ console.log(dots);
 <div class="accordion-item">
 
   <h2 class="accordion-header">
-      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{index}" aria-expanded="false" aria-controls="collapse-{index}"> {index+1} - 
+      <button class="accordion-button text-capitalize fw-light fs-6" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-{index}" aria-expanded="false" aria-controls="collapse-{index}"> {index+1} - 
         {dotsElement.title}
       </button>
     </h2>
