@@ -53,7 +53,7 @@
 
      function playPodcast(){
       
-      if (podcastInstance == null){
+      if (podcastInstance == undefined){
        createInstance();
       }
       
@@ -85,7 +85,7 @@
     <p>{podcast.text}</p>
   </blockquote>
   <figcaption class="blockquote-footer ps-2">
-    <cite class="text-capitalize" title="Source Title">icanhazdadjoke.com</cite>
+   <cite class="text-capitalize" title="Source Title">icanhazdadjoke.com</cite>
   </figcaption>
 </figure>
 

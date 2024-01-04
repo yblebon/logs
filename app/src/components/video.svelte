@@ -2,9 +2,9 @@
     import { base } from '$app/paths';
 	export let video;
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
-
-
 </script>
+
+
 
 
 <div class="card me-4 ms-4 mt-4" >
@@ -16,13 +16,28 @@
 
 </div>
 
+{#if video.src == "youtube"}
+
+<iframe id="ytplayer" type="text/html" width="auto" height="300"
+  src="{video.url}?autoplay=1&origin=http://example.com"
+  frameborder="0">
+
+</iframe>
+
+{:else}
+
+
 <video class="card-img-top rounded-0 video-js" controls width="100%" height="300" preload="auto" poster="fafo/IMG_0461.png">
 
 
    	 <source src="{video.url}" type="video/mp4">
 
 
-</video>
+ </video>
+
+{/if}
+
+
 
    <div class="card-body bg-light">
      <p class="card-text">
