@@ -15,8 +15,8 @@
        og["video"] = data.video.src;
    }
    
-   if (data.video.poster != null) {
-        og["image"] = "https://ipfs.filebase.io/ipfs/QmXUbu4HRotmzLtWbc41bMtf5yFYfh4Ma7twaxu2LjUSMG";
+   if (data.video.poster == undefined ) {
+        og["image"] = "https://ipfs.filebase.io/ipfs/QmaxYnmU94P9J785MYkm28LpnYX5vtxuSC8tRewDn4qdCW";
     }
 
 
