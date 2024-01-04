@@ -10,6 +10,7 @@ import dots from '$lib/data/dots.json';
 
 var dataStore = null;
 const filebaseBase = "https://ipfs.filebase.io/ipfs";
+const youtubeBase = "	https://www.youtube.com/embed"
 
 export function sortByDate(a,b){
     let dateA = new Date(a.upload_date);
@@ -40,6 +41,10 @@ for (let i = 0; i < videos.length; i++)
     if (videos[i]['src'] == "filebase"){
       let id = videos[i]['id'];
       videos[i]["url"] = filebaseBase + "/" + id;
+    }
+    else if (videos[i]['src'] == "youtube"){
+      let id = videos[i]['id'];
+      videos[i]["url"] = youtubeBase + "/" + id;
     }
     else {
       videos[i]["url"] = videos[i]["src"];

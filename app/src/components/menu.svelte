@@ -4,9 +4,6 @@
     
     let selected = "home";
     
-  export let logsCount = 0;
-
-	
 	function changeContent(){
 		document.getElementById(selected).classList.remove("text-decoration-underline")
 		selected = this.id;
