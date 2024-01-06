@@ -30,13 +30,13 @@ let dataList = [];
 
 for (let i = 0; i < xposts.length; i++) 
 {
-    xposts[i]['type'] = "xpost";
+    xposts[i]['section'] = "xpost";
     dataList.push(xposts[i]);
 }
 
 for (let i = 0; i < videos.length; i++)
 {
-    videos[i]['type'] = "video";
+    videos[i]['section'] = "video";
     
     if (videos[i]['src'] == "filebase"){
       let id = videos[i]['id'];
@@ -58,19 +58,22 @@ for (let i = 0; i < videos.length; i++)
 
 for (let i = 0; i < podcasts.length; i++) 
 {
-    podcasts[i]['type'] = "podcast";
+    podcasts[i]['section'] = "podcast";
+    podcasts[i]["url"] = podcasts[i]["src"];
+    let uid = createHash(podcasts[i]["url"]);
+    podcasts[i]["uid"] = uid;
     dataList.push(podcasts[i]);
 }
 
 for (let i = 0; i < articles.length; i++) 
 {
-    articles[i]['type'] = "article";
+    articles[i]['section'] = "article";
     dataList.push(articles[i]);
 }
 
 for (let i = 0; i < dots.length; i++) 
 {
-      dots[i]['type'] = "dots";
+      dots[i]['section'] = "dots";
       let uid = createHash(dots[i]["poster"]);
       dots[i]["uid"] = uid;
       

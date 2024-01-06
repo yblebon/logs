@@ -4,11 +4,12 @@ import {getData} from '$lib/dataloader.js';
 /** @type {import('./$types').PageLoad} */
 export function load({ params }) {
     let data = getData();
-    let video= data.filter((el) => el["section"] == "video").find((element) => (params.slug == element.uid));
+    let podcast= data.filter((el) => el["section"] == "podcast").find((element) => (params.slug == element.uid));
+    console.log(podcast);
 	
 
 		return {
-			video: video
+			podcast: podcast
 		}
 	
 }
@@ -17,7 +18,7 @@ export function load({ params }) {
 export function entries() {
 	
   let data = getData();
-  let slugList = data.filter((el) => el["section"] == "video").map((x) => {
+  let slugList = data.filter((el) => el["section"] == "podcast").map((x) => {
   return { "slug": x.uid.toString()};
 });
   

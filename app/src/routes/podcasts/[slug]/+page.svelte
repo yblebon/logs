@@ -1,25 +1,18 @@
 <script>
-   import VideoComponent from '../../../components/video.svelte';
+   import PodcastComponent from '../../../components/podcast.svelte';
    /** @type {import('./$types').PageData} */
    export let data;
    const filebaseBase = "https://ipfs.filebase.io/ipfs";
    let og = {};
-   og["title"] = data.video.title;
-   og["description"] = data.video.title;
+   og["title"] = data.podcast.title;
+   og["description"] = data.podcast.title;
    og["domain"] = "yblebon.github.io";
-   og["url"] = "https://yblebon.github.io/logs/videos/"+data.video.uid
+   og["url"] = "https://yblebon.github.io/logs/podcasts/"+data.podcast.uid
+   og["audio"] = data.podcast.url;
+   og["image"] = "https://ipfs.filebase.io/ipfs/QmaxYnmU94P9J785MYkm28LpnYX5vtxuSC8tRewDn4qdCW";
    
-   if (data.video.src == "filebase") {
-        og["video"] = `${filebaseBase}/${data.video.id}`
-   } else {
-       og["video"] = data.video.src;
-   }
+  
    
-   if (data.video.poster == undefined ) {
-i
-    }
-
-
    
 </script>
 
@@ -44,5 +37,4 @@ i
 </svelte:head>
 
 
-<VideoComponent video={data.video}/>
-
+<PodcastComponent podcast={data.podcast}/>
