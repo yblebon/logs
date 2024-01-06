@@ -59,6 +59,9 @@ for (let i = 0; i < videos.length; i++)
 for (let i = 0; i < podcasts.length; i++) 
 {
     podcasts[i]['type'] = "podcast";
+    podcasts[i]["url"] = podcasts[i]["src"];
+    let uid = createHash(podcasts[i]["url"]);
+    podcasts[i]["uid"] = uid;
     dataList.push(podcasts[i]);
 }
 

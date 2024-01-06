@@ -1,5 +1,6 @@
 <script>
     import { onMount } from 'svelte';
+    import { base } from '$app/paths';
 	export let podcast;
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
 	
@@ -102,6 +103,8 @@
        {#if podcast.upload_date !== undefined}
 	  <span class="me-2 badge text-bg-secondary">{podcast.upload_date}</span>
        {/if}
+       
+       <a href="{base}/podcasts/{podcast.uid}" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">link</a>
        
                         
           <button type="button" on:click={playPodcast} class="btn  float-end">
