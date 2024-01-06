@@ -68,6 +68,11 @@ for (let i = 0; i < podcasts.length; i++)
 for (let i = 0; i < articles.length; i++) 
 {
     articles[i]['section'] = "article";
+    articles[i]["url"] = articles[i]["src"];
+        
+    let uid = createHash(articles[i]["summary"]);
+    articles[i]["uid"] = uid;
+
     dataList.push(articles[i]);
 }
 

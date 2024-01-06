@@ -1,5 +1,6 @@
 <script>
     	import { onMount } from 'svelte';
+    	import { base } from '$app/paths';
     import {getGif} from '$lib/utils.js';
 
 	export let article;
@@ -38,6 +39,8 @@
    
    
      <p class="card-text">
+     
+ <a href="{base}/articles/{article.uid}" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">link</a>
 
  <button type="button" on:click={readArticle} class="btn btn-outline-secondary float-end">
 
