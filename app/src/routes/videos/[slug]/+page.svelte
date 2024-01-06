@@ -16,7 +16,7 @@
    }
    
    if (data.video.poster == undefined ) {
-i
+
     }
 
 
