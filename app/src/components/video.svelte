@@ -16,7 +16,7 @@
 
 </div>
 
-{#if video.src == "youtube"}
+{#if video.youtube == "true"}
 
 <iframe id="ytplayer" type="text/html" width="auto" height="300"
   src="{video.url}?autoplay=1&origin=http://example.com"
