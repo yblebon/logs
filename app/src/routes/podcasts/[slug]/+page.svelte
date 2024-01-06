@@ -19,7 +19,7 @@
 <svelte:head>
 
   <!-- HTML Meta Tags -->
-  <title>{data.video.title}</title>
+  <title>{data.podcast.title}</title>
   <meta name="description" content="">
 
 
