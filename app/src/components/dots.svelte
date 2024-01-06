@@ -3,7 +3,7 @@
 import { base } from '$app/paths';
 export let dots;
 const filebaseBase = "https://ipfs.filebase.io/ipfs";
-
+const youtubeBase = "https://www.youtube.com/embed";
 </script>
 
 <div class="accordion bg-light me-4 ms-4 mt-4" id="accordion">
@@ -41,20 +41,21 @@ const filebaseBase = "https://ipfs.filebase.io/ipfs";
 <div id="collapse-{index}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       
-             {#if dots.video == "true"}
+{#if dots.video == "filebase"}
+
 <video class="card-img-top rounded-0 video-js" controls width="100%" height="300" preload="auto" poster="fafo/IMG_0461.png">
-
-
-   	 <source src="{filebaseBase}/{dotsElement.src}" type="video/mp4">
-
-
+  <source src="{filebaseBase}/{dotsElement.src}" type="video/mp4">
 </video>
-         	  
-         	 {:else}
-         	            	  <img src="{filebaseBase}/{dotsElement.src}" class="card-img-top rounded-0">
-         	  
-         	  {/if}
-      </div>
+
+{:else if dots.video == "youtube"}
+             
+ <p>okk</p>
+
+{:else}
+	  <img src="{filebaseBase}/{dotsElement.src}" class="card-img-top rounded-0">
+{/if}
+
+</div>
     </div>
 
 
