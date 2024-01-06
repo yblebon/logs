@@ -5,7 +5,7 @@ import {getData} from '$lib/dataloader.js';
 export const load = () => {
   
   let data = getData();
-  let xPosts = data.filter((el) => el["type"] == "xpost");
+  let xPosts = data.filter((el) => el["section"] == "xpost");
   
   return {
     xPosts: xPosts

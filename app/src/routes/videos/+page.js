@@ -5,7 +5,7 @@ import {getData} from '$lib/dataloader.js';
 export const load = () => {
   
   let data = getData();
-  let videos = data.filter((el) => el["type"] == "video");
+  let videos = data.filter((el) => el["section"] == "video");
   
   return {
     videos: videos

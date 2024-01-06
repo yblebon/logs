@@ -16,24 +16,24 @@ export let data;
 
 {#each data.dataList as content }
 
-{#if content.type == "xpost"}
+{#if content.section == "xpost"}
 	
 	  <XpostComponent xpost={content}/>
 	  
-{:else if content.type == "video"}
+{:else if content.section == "video"}
 
   <VideoComponent video={content}/>
 	
 	
-{:else if content.type == "podcast"}
+{:else if content.section == "podcast"}
 
   <PodcastComponent podcast={content}/>
 
-{:else if content.type == "article"}
+{:else if content.section == "article"}
 
   <ArticleComponent article={content}/>
   
- {:else if content.type == "dots"}
+ {:else if content.section == "dots"}
 
   <DotsComponent dots={content}/>
 

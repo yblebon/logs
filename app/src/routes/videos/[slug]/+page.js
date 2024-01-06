@@ -4,7 +4,7 @@ import {getData} from '$lib/dataloader.js';
 /** @type {import('./$types').PageLoad} */
 export function load({ params }) {
     let data = getData();
-    let video= data.filter((el) => el["type"] == "video").find((element) => (params.slug == element.uid));
+    let video= data.filter((el) => el["section"] == "video").find((element) => (params.slug == element.uid));
 	
 
 		return {
@@ -17,7 +17,7 @@ export function load({ params }) {
 export function entries() {
 	
   let data = getData();
-  let slugList = data.filter((el) => el["type"] == "video").map((x) => {
+  let slugList = data.filter((el) => el["section"] == "video").map((x) => {
   return { "slug": x.uid.toString()};
 });
   

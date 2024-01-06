@@ -5,7 +5,7 @@ import {getData} from '$lib/dataloader.js';
 export const load = () => {
   
   let data = getData();
-  let dots = data.filter((el) => el["type"] == "dots");
+  let dots = data.filter((el) => el["section"] == "dots");
 
   return {
     dots: dots
