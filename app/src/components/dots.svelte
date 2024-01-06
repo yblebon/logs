@@ -3,7 +3,7 @@
 import { base } from '$app/paths';
 export let dots;
 const filebaseBase = "https://ipfs.filebase.io/ipfs";
-
+const youtubeBase = "https://www.youtube.com/embed";
 </script>
 
 <div class="accordion bg-light me-4 ms-4 mt-4" id="accordion">
@@ -49,6 +49,14 @@ const filebaseBase = "https://ipfs.filebase.io/ipfs";
 
 
 </video>
+
+             {:else if dots.youtube == "true"}
+             
+ <iframe id="ytplayer" type="text/html" width="auto" height="300"
+  src="{youtubeBase}/{dotsElement.src}}?autoplay=1&origin=http://example.com"
+  frameborder="0">
+
+</iframe>
          	  
          	 {:else}
          	            	  <img src="{filebaseBase}/{dotsElement.src}" class="card-img-top rounded-0">
