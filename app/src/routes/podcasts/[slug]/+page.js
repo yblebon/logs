@@ -5,6 +5,7 @@ import {getData} from '$lib/dataloader.js';
 export function load({ params }) {
     let data = getData();
     let podcast= data.filter((el) => el["section"] == "podcast").find((element) => (params.slug == element.uid));
+    console.log(podcast);
 	
 
 		return {

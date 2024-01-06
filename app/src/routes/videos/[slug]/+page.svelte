@@ -16,7 +16,7 @@
    }
    
    if (data.video.poster == undefined ) {
-        og["image"] = "https://ipfs.filebase.io/ipfs/QmaxYnmU94P9J785MYkm28LpnYX5vtxuSC8tRewDn4qdCW";
+i
     }
 
 

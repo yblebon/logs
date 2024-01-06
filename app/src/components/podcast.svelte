@@ -3,6 +3,7 @@
     import { base } from '$app/paths';
 	export let podcast;
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
+	console.log(podcast);
 	
 	
 	let status = "stop";
