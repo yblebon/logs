@@ -49,7 +49,11 @@ const youtubeBase = "https://www.youtube.com/embed";
 
 {:else if dotsElement.video == "youtube"}
              
- <p>okk</p>
+ <iframe id="ytplayer" type="text/html" width="auto" height="300"
+  src="{youtubeBase}/{dotsElement.src}?autoplay=1&origin=http://example.com"
+  frameborder="0">
+
+</iframe>
 
 {:else}
 	  <img src="{filebaseBase}/{dotsElement.src}" class="card-img-top rounded-0">
