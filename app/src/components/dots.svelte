@@ -41,15 +41,19 @@ const youtubeBase = "https://www.youtube.com/embed";
 <div id="collapse-{index}" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
       <div class="accordion-body">
       
-{#if dots.video == "filebase"}
+{#if dotsElement.video == "filebase"}
 
 <video class="card-img-top rounded-0 video-js" controls width="100%" height="300" preload="auto" poster="fafo/IMG_0461.png">
   <source src="{filebaseBase}/{dotsElement.src}" type="video/mp4">
 </video>
 
-{:else if dots.video == "youtube"}
+{:else if dotsElement.video == "youtube"}
              
- <p>okk</p>
+ <iframe id="ytplayer" type="text/html" width="auto" height="300"
+  src="{youtubeBase}/{dotsElement.src}?autoplay=1&origin=http://example.com"
+  frameborder="0">
+
+</iframe>
 
 {:else}
 	  <img src="{filebaseBase}/{dotsElement.src}" class="card-img-top rounded-0">
