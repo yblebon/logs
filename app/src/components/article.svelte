@@ -13,9 +13,7 @@
   
 </script>
 
-
-<div class="card me-4 ms-4 mt-4">
-
+<div class="card me-4 ms-4 mt-4" style="max-width: 540px;">
 <div class="card-header text-bg-dark">
 
     <span class="me-2 badge text-lowercase text-wrap float-end">
@@ -23,22 +21,23 @@
    </span>
           
           
-</div>          
+</div>  
 
-<figure>
-  <blockquote class="blockquote ps-2 pt-2">
-    <p>{article.summary}</p>
-  </blockquote>
-  <figcaption class="blockquote-footer ps-2">
-    Someone in <cite class="text-capitalize" title="Source Title">{article.source}</cite>
-  </figcaption>
-</figure>
-
-
-   <div class="card-body bg-light">
-   
-   
-     <p class="card-text">
+  <div class="row g-0">
+  
+   {#if  article.poster !== undefined }
+    <div class="col-md-4">
+      <img src="{article.poster}" class="img-fluid rounded-start" alt="...">
+    </div>
+    {/if}
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title"> {article.title}</h5>
+        <p class="card-text">{article.summary}
+        <small class="text-body-secondary text-capitalize">someone @ {article.source}</small>
+        </p>
+        <p class="card-text">
+        
      
  <a href="{base}/articles/{article.uid}" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">link</a>
 
@@ -54,8 +53,12 @@
 
 
 </button>
-     </p>    
- 
-   </div>
-
+    
+        
+        
+        </p>
+      </div>
+    </div>
+  </div>
 </div>
+
