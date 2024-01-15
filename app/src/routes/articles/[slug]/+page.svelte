@@ -8,7 +8,11 @@
    og["description"] = data.article.title;
    og["domain"] = "yblebon.github.io";
    og["url"] = "https://yblebon.github.io/logs/articles/"+data.article.uid;
-   og["image"] = "https://yblebon.github.io/logs/articles/"+data.article.poster
+   
+   if (data.article.poster !== undefined){
+        og["image"] = data.article.poster;
+   }
+
    
 
 

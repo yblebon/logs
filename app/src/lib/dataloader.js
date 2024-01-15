@@ -69,7 +69,7 @@ for (let i = 0; i < articles.length; i++)
 {
     articles[i]['section'] = "article";
         
-    let uid = createHash(articles[i]["summary"]);
+    let uid = createHash(articles[i]["url"]);
     articles[i]["uid"] = uid;
 
     dataList.push(articles[i]);
