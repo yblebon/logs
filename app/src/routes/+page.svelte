@@ -5,6 +5,7 @@ import VideoComponent from '../components/video.svelte';
 import ArticleComponent from '../components/article.svelte';
 import PodcastComponent from '../components/podcast.svelte';
 import DotsComponent from '../components/dots.svelte';
+import ImageComponent from '../components/image.svelte';
 
 export let data;
 
@@ -36,6 +37,10 @@ export let data;
  {:else if content.section == "dots"}
 
   <DotsComponent dots={content}/>
+  
+ {:else if content.section == "image"}
+
+  <ImageComponent image={content}/>
 
 {:else}
 
