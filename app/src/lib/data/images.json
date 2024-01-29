@@ -6,5 +6,13 @@
     "tags": ["bratwurst", "hamburg", "StrandPauli"],
     "event_date": "2024-01-27",
     "upload_date": ""
+  },
+    {
+    "src": "filebase",
+    "id": "QmRcxXAFtnZY5gkTKYYy9acScqcQYmNarC8GfJykKX8uMk",
+    "title": "hamburg fishmarkt, hamburg",
+    "tags": ["fishmarkt", "hamburg"], 
+    "event_date": "2024-01-27",
+    "upload_date": ""
   }
 ]
