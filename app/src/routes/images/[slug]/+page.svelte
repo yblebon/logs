@@ -34,4 +34,4 @@
 </svelte:head>
 
 
-<VideoComponent video={data.video}/>
+<ImageComponent image={data.image}/>
