@@ -6,6 +6,7 @@ import xposts from '$lib/data/x-posts.json';
 import videos from '$lib/data/videos.json';
 import articles from '$lib/data/articles.json';
 import podcasts from '$lib/data/podcasts.json';
+import images from '$lib/data/images.json';
 import dots from '$lib/data/dots.json';
 
 var dataStore = null;
@@ -54,6 +55,25 @@ for (let i = 0; i < videos.length; i++)
     videos[i]["uid"] = uid;
     
     dataList.push(videos[i]);
+}
+
+
+for (let i = 0; i < images.length; i++)
+{
+    images[i]['section'] = "image";
+    
+    if (images[i]['src'] == "filebase"){
+      let id = images[i]['id'];
+      images[i]["url"] = filebaseBase + "/" + id;
+    }
+    else {
+      images[i]["url"] = videos[i]["src"];
+    }
+    
+    let uid = createHash(images[i]["url"]);
+    images[i]["uid"] = uid;
+    
+    dataList.push(images[i]);
 }
 
 for (let i = 0; i < podcasts.length; i++) 
