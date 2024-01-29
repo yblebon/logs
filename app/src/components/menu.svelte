@@ -46,6 +46,13 @@
             </span>
            </a>
         </li>
+                <li class="nav-item">
+          <a class="nav-link" href="{base}/images">
+              <span id="images" on:click={changeContent}  class="fw-bolder text-black">Images
+
+              </span>
+           </a>
+        </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/x-posts">
               <span id="x-posts" on:click={changeContent}  class="fw-bolder text-black">X-Posts
