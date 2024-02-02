@@ -8,8 +8,11 @@ import articles from '$lib/data/articles.json';
 import podcasts from '$lib/data/podcasts.json';
 import images from '$lib/data/images.json';
 import dots from '$lib/data/dots.json';
+import authConfig from '$lib/data/auth_config.json';
 
 var dataStore = null;
+var authStore = null;
+
 const filebaseBase = "https://ipfs.filebase.io/ipfs";
 const youtubeBase = "	https://www.youtube.com/embed"
 
@@ -117,4 +120,12 @@ dataStore = readonly(writable(dataList))
 
 }
 
+
+export async function configureAuthStore (){
+  
+
+
+
+  
+}
 

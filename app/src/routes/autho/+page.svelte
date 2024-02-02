@@ -1,3 +1,11 @@
+
+	
+	
+<script>
+
+
+</script>
+
 <div class="mb-3">
   <label for="imageTitle" class="form-label">Title</label>
   <input type="text" class="form-control" id="imageTitle" placeholder="image title">
