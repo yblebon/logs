@@ -20,7 +20,7 @@
 
   <!-- HTML Meta Tags -->
   <title>{data.podcast.title}</title>
-  <meta name="description" content="">
+  <meta name="description" content="{data.podcast.title}">
 
 
   <!-- Twitter Meta Tags -->

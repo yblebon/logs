@@ -17,7 +17,7 @@
 
   <!-- HTML Meta Tags -->
   <title>{data.image.title}</title>
-  <meta name="description" content="">
+  <meta name="description" content="{data.image.title}">
 
 
   <!-- Twitter Meta Tags -->

@@ -22,7 +22,7 @@
 
   <!-- HTML Meta Tags -->
   <title>{data.dots.title}</title>
-  <meta name="description" content="">
+  <meta name="description" content="{data.dots.title}">
 
 
   <!-- Twitter Meta Tags -->
