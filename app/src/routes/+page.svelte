@@ -17,7 +17,7 @@ export let data;
 
   <!-- HTML Meta Tags -->
   <title>Yasser B. Lebon Logs</title>
-  <meta name="description" content="Yasser B. Lebon Logs">
+  <meta name="description" content="Yasser B. Lebon Logs personal blog, vlog, journal and containing rrecords of events">
 
 </svelte:head>
 
