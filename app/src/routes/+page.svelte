@@ -13,6 +13,15 @@ export let data;
 
 </script>
 
+<svelte:head>
+
+  <!-- HTML Meta Tags -->
+  <title>Yasser B. Lebon Logs</title>
+  <meta name="description" content="Yasser B. Lebon Logs personal blog, vlog, journal and containing rrecords of events">
+
+</svelte:head>
+
+
 
 
 {#each data.dataList as content }
