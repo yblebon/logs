@@ -8,6 +8,7 @@ import articles from '$lib/data/articles.json';
 import podcasts from '$lib/data/podcasts.json';
 import images from '$lib/data/images.json';
 import dots from '$lib/data/dots.json';
+import projects from '$lib/data/projects.json';
 
 var dataStore = null;
 const filebaseBase = "https://ipfs.filebase.io/ipfs";
@@ -93,6 +94,16 @@ for (let i = 0; i < articles.length; i++)
     articles[i]["uid"] = uid;
 
     dataList.push(articles[i]);
+}
+
+for (let i = 0; i < projects.length; i++) 
+{
+    projects[i]['section'] = "project";
+        
+    let uid = createHash(projects[i]["url"]);
+    projects[i]["uid"] = uid;
+
+    dataList.push(projects[i]);
 }
 
 for (let i = 0; i < dots.length; i++) 
