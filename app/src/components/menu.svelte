@@ -88,6 +88,14 @@
                        </span>
            </a>
         </li>
+        
+         <li class="nav-item">
+          <a class="nav-link" href="{base}/projects">
+              <span id="projects" on:click={changeContent}  class="fw-bolder text-black">Projects    
+
+                       </span>
+           </a>
+        </li>
                       <li class="nav-item">
           <a class="nav-link" href="{base}/sources">
               <span id="sources" on:click={changeContent}  class="fw-bolder text-black">Sources    
