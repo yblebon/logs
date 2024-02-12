@@ -18,6 +18,9 @@
 
 
    <div class="card-body bg-light">
+           <p class="card-text">{project.description}
+
+        </p>
      <p class="card-text">
      
  
