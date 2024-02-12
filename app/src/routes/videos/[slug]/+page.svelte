@@ -27,7 +27,7 @@
 
   <!-- HTML Meta Tags -->
   <title>{data.video.title}</title>
-  <meta name="description" content="">
+  <meta name="description" content="{data.video.title}">
 
 
   <!-- Twitter Meta Tags -->
