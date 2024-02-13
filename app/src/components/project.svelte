@@ -7,7 +7,7 @@
 
 
 
-<div class="card me-4 ms-4 mt-4" >
+<div class="card mx-auto mt-4" style="max-width: 540px;" >
 
 <div class="card-header text-bg-danger">
 
