@@ -6,7 +6,7 @@ const filebaseBase = "https://ipfs.filebase.io/ipfs";
 const youtubeBase = "https://www.youtube.com/embed";
 </script>
 
-<div class="accordion bg-light mx-auto mt-4" style="max-width: 540px;" id="accordion">
+<div class="accordion border-light bg-light mx-auto mt-4" style="max-width: 540px;" id="accordion">
 
 <div class="accordion-item">
 

@@ -76,7 +76,7 @@
 </script>
 
 
-<div class="card mx-auto mt-4" style="max-width: 540px;" >
+<div class="card mx-auto border-warning mt-4" style="max-width: 540px;" >
 
 <div class="card-header text-bg-warning">
     <span class="me-2 badge text-lowercase text-wrap float-end ">{podcast.title}</span>
