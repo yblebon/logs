@@ -8,7 +8,7 @@
 
 </script>
 
-<div class="card mx-auto mt-4" style="max-width: 540px;" >
+<div class="card mx-auto border-info mt-4" style="max-width: 540px;" >
 
 <div class="card-header text-wrap text-bg-info">
 
