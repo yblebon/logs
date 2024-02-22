@@ -1,5 +1,6 @@
 <script>
 	export let xpost;
+	import { base } from '$app/paths';
 	const filebaseBase = "https://ipfs.filebase.io/ipfs";
 	
 	const tags = ["primary", "secondary", "success", "danger", "warning", "info", "light"];
@@ -38,6 +39,8 @@
 
        {#if xpost.upload_date !== undefined}
 	  <span class="me-2 badge text-bg-secondary">{xpost.upload_date}</span>
+	  
+	  <a href="{base}/x-posts/{xpost.uid}" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">link</a>
 {/if}
      </p>    
  
