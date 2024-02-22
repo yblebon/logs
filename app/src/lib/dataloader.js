@@ -33,6 +33,19 @@ let dataList = [];
 for (let i = 0; i < xposts.length; i++) 
 {
     xposts[i]['section'] = "xpost";
+    
+        if (xposts[i]['src'] == "filebase"){
+      let id = xposts[i]['id'];
+      xposts[i]["url"] = filebaseBase + "/" + id;
+    }
+    else {
+      xposts[i]["url"] = xposts[i]["src"];
+    }
+    
+    let uid = createHash(xposts[i]["url"]);
+    xposts[i]["uid"] = uid;
+    
+    
     dataList.push(xposts[i]);
 }
 
