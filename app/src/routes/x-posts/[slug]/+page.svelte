@@ -8,6 +8,7 @@
    og["description"] = data.xpost.title;
    og["domain"] = "yblebon.github.io";
    og["url"] = "https://yblebon.github.io/logs/xposts/"+data.xpost.uid;
+   og["image"] = data.xpost.url;
    
    if (data.xpost.poster !== undefined){
         og["image"] = data.xpost.poster;
