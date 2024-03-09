@@ -8,5 +8,7 @@ Konnichiwa
 Nihao
 Buongiorno
 Hei
+Shalom
+Marhaba
 </h2>
 
