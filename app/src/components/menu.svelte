@@ -96,6 +96,14 @@
                        </span>
            </a>
         </li>
+        
+         <li class="nav-item">
+          <a class="nav-link" href="{base}/reviews">
+              <span id="reviews" on:click={changeContent}  class="fw-bolder text-black">Reviews    
+
+                       </span>
+           </a>
+        </li>
                       <li class="nav-item">
           <a class="nav-link" href="{base}/sources">
               <span id="sources" on:click={changeContent}  class="fw-bolder text-black">Sources    
