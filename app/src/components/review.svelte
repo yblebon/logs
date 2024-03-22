@@ -34,6 +34,20 @@
         </p>
         <p class="card-text">
 <a href="{base}/reviews/{review.uid}" class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover">link</a>
+
+ {#if  review.url !== undefined }
+ 
+  
+  <a href="{review.url}" class="btn btn-outline-secondary float-end">
+   <span>
+<i class="gg-readme"></i>
+</span>
+  
+  </a>
+ 
+
+       {/if}
+       
         </p>
       </div>
       
