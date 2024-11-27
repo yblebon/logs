@@ -1,7 +1,7 @@
 [
   {
     "src": "https://download.samplelib.com/mp3/sample-c.mp3",
-    "type":  "audio/mp3",
+    "type": "audio/mp3",
     "text": "L’expression est connue au sens figuré pour désigner la bisexualité. On attribue ce sens au fait que les marins partaient longtemps en mer et les bateaux ne comptaient que des hommes. Ces derniers passaient donc de l’homosexualité en mer à hétérosexualité en revenant à terre. »",
     "poster": "IMG_0461.png",
     "title": "A voile et à vapeur",
@@ -9,7 +9,7 @@
   },
   {
     "src": "https://download.samplelib.com/mp3/sample-b.mp3",
-    "type":  "audio/mp3",
+    "type": "audio/mp3",
     "text": "Avant d'acheter la salle de pool pour des peanuts, il a mangé de la misère, même s'il parle à peine le français (J.-J. Richard, Centre-ville, 1973, p.9 ds Richesses Québec 1982, p.1754).",
     "poster": "IMG_0461.png",
     "title": "Pour des peanuts.",
@@ -17,80 +17,80 @@
   },
   {
     "src": "https://download.samplelib.com/mp3/sample-a.mp3",
-    "type":  "audio/mp3",
+    "type": "audio/mp3",
     "text": "Quelqu’un de médiocre peut impressionner des gens moins valeureux que lui. ",
     "poster": "IMG_0461.png",
     "title": "Expression Française: Au royaume des aveugles, les borgnes sont rois"
   },
-     {
-        "src": "https://download.samplelib.com/mp3/sample-9s.mp3",
-        "type":  "audio/mp3",
-        "text": "I just read a book about Stockholm syndrome. It was pretty bad at first, but by the end I liked it.",
-        "poster": "IMG_0461.png",
-        "title": "test mp3"
-      },
-       {
-        "src": "https://ipfs.filebase.io/ipfs/Qmc3hVRL28n4Qo6B3cWs82mWtdHToy1B2ewG3PerVWrz29",
-        "type": "audio/m4a",
-        "text": "How can you tell a vampire has a cold? They start coffin.",
-        "poster": "IMG_0461.png",
-        "title": "Avenue de Grand Bretagne, early malagasy guests, Toulouse",
-              "upload_date": "2023-12-28"
-      },
-        {
-        "src": "https://ipfs.filebase.io/ipfs/QmfY8Wferg7xjH9tHBusknsQK9ARi62mry6QqyJMPcmBwM",
-        "type": "audio/m4a",
-        "text": "I couldn't figure out how the seat belt worked. Then it just clicked",
-        "poster": "IMG_0461.png",
-        "title": "Basilique st sernin, Toulouse",
-              "upload_date": "2023-12-13"
-      },
-        {
-        "src": "https://ipfs.filebase.io/ipfs/QmW2ynAhZxaUetmCfd1XxTPEbosj5pYmxjCWby62xTugYo",
-        "type": "audio/m4a",
-        "text": "What are the strongest days of the week? Saturday and Sunday...the rest are weekdays.",
-        "poster": "IMG_0461.png",
-        "title": "Promenade du balzac, Toulouse",
-              "upload_date": "2023-12-13"
-      },
-      {
-        "src": "https://ipfs.filebase.io/ipfs/QmaebmMj3hcpzVzwDwXiP7Wzfd9EV2gqF5v8hBqgRxzLdX",
-        "text": "What do you call a pig with three eyes? Piiig",
-        "type": "audio/m4a",
-        "poster": "IMG_0461.png",
-        "title": "Beast guest, Noordwijk",
-              "upload_date": "2023-11-14"
-      },
-    {
-        "src": "https://ipfs.filebase.io/ipfs/QmaSpKYYiUEijpY2xNt5idMd5RAWsEz3bahm84g82TR8h8",
-        "type": "audio/m4a",
-        "text": "What is this movie about? It is about 2 hours long.",
-        "poster": "IMG_0461.png",
-        "title": "Night out, Amsterdam",
-                      "upload_date": "2023-10-13"
-      },
-    {
-        "src": "https://ipfs.filebase.io/ipfs/QmSJMAHdbZKqMkXnPaiPV4x7ETq64xyF8wLHiyMnrLeyL1",
-        "type": "audio/m4a",
-        "text": "Why did the Clydesdale give the pony a glass of water? Because he was a little horse!",
-        "poster": "IMG_0461.png",
-        "title": "Night out, Rembrandtplein",
-              "upload_date": "2023-12-10"
-      },
-          {
-        "src": "https://ipfs.filebase.io/ipfs/Qma6FD9RNNqri8DN6jDgqokofzfCbzbk9DdwZmutgcqEyZ",
-        "type": "audio/m4a",
-        "text": "The first time I got a universal remote control I thought to myself 'This changes everything'",
-        "poster": "IMG_0461.png",
-        "title": "Place du pont neuf, Paris",
-              "upload_date": "2023-10-04"
-      },
-        {
-        "src": "https://ipfs.filebase.io/ipfs/QmTXYrroVeVmBVPbXJLZzyMTfyD7jBJPTR1uYip4gfpXnk",
-        "type": "audio/m4a",
-        "text": "What is the tallest building in the world? The library – it’s got the most stories!",
-        "poster": "IMG_0461.png",
-        "title": "Port de plaisance, St Gilles, Reunion",
-              "upload_date": "2023-09-28"
-      }
-    ]
+  {
+    "src": "https://download.samplelib.com/mp3/sample-9s.mp3",
+    "type": "audio/mp3",
+    "text": "I just read a book about Stockholm syndrome. It was pretty bad at first, but by the end I liked it.",
+    "poster": "IMG_0461.png",
+    "title": "test mp3"
+  },
+  {
+    "src": "https://ipfs.filebase.io/ipfs/Qmc3hVRL28n4Qo6B3cWs82mWtdHToy1B2ewG3PerVWrz29",
+    "type": "audio/m4a",
+    "text": "How can you tell a vampire has a cold? They start coffin.",
+    "poster": "IMG_0461.png",
+    "title": "Avenue de Grand Bretagne, early malagasy guests, Toulouse",
+    "upload_date": "2023-12-28"
+  },
+  {
+    "src": "https://ipfs.filebase.io/ipfs/QmfY8Wferg7xjH9tHBusknsQK9ARi62mry6QqyJMPcmBwM",
+    "type": "audio/m4a",
+    "text": "I couldn't figure out how the seat belt worked. Then it just clicked",
+    "poster": "IMG_0461.png",
+    "title": "Basilique st sernin, Toulouse",
+    "upload_date": "2023-12-13"
+  },
+  {
+    "src": "https://ipfs.filebase.io/ipfs/QmW2ynAhZxaUetmCfd1XxTPEbosj5pYmxjCWby62xTugYo",
+    "type": "audio/m4a",
+    "text": "What are the strongest days of the week? Saturday and Sunday...the rest are weekdays.",
+    "poster": "IMG_0461.png",
+    "title": "Promenade du balzac, Toulouse",
+    "upload_date": "2023-12-13"
+  },
+  {
+    "src": "https://ipfs.filebase.io/ipfs/QmaebmMj3hcpzVzwDwXiP7Wzfd9EV2gqF5v8hBqgRxzLdX",
+    "text": "What do you call a pig with three eyes? Piiig",
+    "type": "audio/m4a",
+    "poster": "IMG_0461.png",
+    "title": "Beast guest, Noordwijk",
+    "upload_date": "2023-11-14"
+  },
+  {
+    "src": "https://ipfs.filebase.io/ipfs/QmaSpKYYiUEijpY2xNt5idMd5RAWsEz3bahm84g82TR8h8",
+    "type": "audio/m4a",
+    "text": "What is this movie about? It is about 2 hours long.",
+    "poster": "IMG_0461.png",
+    "title": "Night out, Amsterdam",
+    "upload_date": "2023-10-13"
+  },
+  {
+    "src": "https://ipfs.filebase.io/ipfs/QmSJMAHdbZKqMkXnPaiPV4x7ETq64xyF8wLHiyMnrLeyL1",
+    "type": "audio/m4a",
+    "text": "Why did the Clydesdale give the pony a glass of water? Because he was a little horse!",
+    "poster": "IMG_0461.png",
+    "title": "Night out, Rembrandtplein",
+    "upload_date": "2023-12-10"
+  },
+  {
+    "src": "https://ipfs.filebase.io/ipfs/Qma6FD9RNNqri8DN6jDgqokofzfCbzbk9DdwZmutgcqEyZ",
+    "type": "audio/m4a",
+    "text": "The first time I got a universal remote control I thought to myself 'This changes everything'",
+    "poster": "IMG_0461.png",
+    "title": "Place du pont neuf, Paris",
+    "upload_date": "2023-10-04"
+  },
+  {
+    "src": "https://ipfs.filebase.io/ipfs/QmTXYrroVeVmBVPbXJLZzyMTfyD7jBJPTR1uYip4gfpXnk",
+    "type": "audio/m4a",
+    "text": "What is the tallest building in the world? The library – it’s got the most stories!",
+    "poster": "IMG_0461.png",
+    "title": "Port de plaisance, St Gilles, Reunion",
+    "upload_date": "2023-09-28"
+  }
+]
