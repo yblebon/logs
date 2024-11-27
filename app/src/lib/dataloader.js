@@ -95,8 +95,10 @@ for (let i = 0; i < podcasts.length; i++)
 {
     podcasts[i]['section'] = "podcast";
     podcasts[i]["url"] = podcasts[i]["src"];
-    let uid = createHash(podcasts[i]["url"]);
-    podcasts[i]["uid"] = uid;
+    if (!podcasts[i].hasOwnProperty('uid')) {
+      let uid = createHash(podcasts[i]["url"]);
+      podcasts[i]["uid"] = uid;
+    }
     dataList.push(podcasts[i]);
 }
 
