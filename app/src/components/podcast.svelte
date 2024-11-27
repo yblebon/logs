@@ -76,6 +76,10 @@
     </figcaption>
   </figure>
 
+  {#if podcast.image !== undefined}
+    <img src={podcast.image} class="card-img-top" />
+  {/if}
+
   <div class="card-body bg-light">
     <p class="card-text">
       {#if podcast.upload_date !== undefined}

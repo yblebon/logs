@@ -23,6 +23,8 @@
     {:else}{/if}
   </div>
 
+  <img src={image.url} class="card-img-top" />
+
   <div class="card-body bg-light">
     <p class="card-text">
       {#if image.event_date !== undefined}
