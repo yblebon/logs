@@ -1,4 +1,12 @@
-[
+[{
+  "src": "https://download.samplelib.com/mp3/sample-i.mp3",
+  "type": "audio/mp3",
+  "text": "L'interdiction de la propagande LGBT+ à l'école a été votée, à une très large majorité, par le Parlement bulgare, mercredi 7 août",
+  "poster": "IMG_0461.png",
+  "title": "LGBT+ Trotinette",
+  "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmfFNSytHj5wCCQA93XVhXDfYUhH2uvhoyuKNFNhvx7JTq",
+  "uid": "123418"
+},
   {
     "src": "https://download.samplelib.com/mp3/sample-h.mp3",
     "type": "audio/mp3",
