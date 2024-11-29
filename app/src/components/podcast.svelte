@@ -69,11 +69,13 @@
     <blockquote class="blockquote ps-2 pt-2">
       <p>{podcast.text}</p>
     </blockquote>
+    {#if podcast.hasOwnProperty("source")}
     <figcaption class="blockquote-footer ps-2">
       <cite class="text-capitalize" title="Source Title"
-        >icanhazdadjoke.com</cite
+        >{podcast.source}</cite
       >
     </figcaption>
+    {/if}
   </figure>
 
   {#if podcast.image !== undefined}
