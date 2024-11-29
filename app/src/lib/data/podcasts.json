@@ -1,5 +1,16 @@
 [
   {
+    "src": "https://download.samplelib.com/mp3/sample-q.mp3",
+    "type": "audio/mp3",
+    "text": "'Le foie est une viande comestible qui fait partie des abats. Bien qu'il soit recommandé de la consommer cuite pour éviter la toxocarose, certaines cuisines offrent des mets à base de foie cru. Le foie des animaux d'élevage est un produit de consommation courante depuis l'Antiquité.'",
+    "poster": "IMG_0461.png",
+    "title": "Le foie de poulet",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmWc7L2JQP9H1vt4dTZMUfNM51ryenE5dwh5cE6gQQkpQv",
+    "uid": "123426",
+    "source": "26g pour 100g selon USDA",
+    "link": ""
+  },
+  {
     "src": "https://download.samplelib.com/mp3/sample-p.mp3",
     "type": "audio/mp3",
     "text": "'La race d’oies landaises a été introduite à Madagascar en vue de la production de foie gras. Les performances d’élevage sont analogues à celles observées sous climat tempéré.'",
