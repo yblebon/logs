@@ -70,11 +70,11 @@
       <p>{podcast.text}</p>
     </blockquote>
     {#if podcast.hasOwnProperty("source")}
-    <figcaption class="blockquote-footer ps-2">
-      <cite class="text-capitalize" title="Source Title"
-        >{podcast.source}</cite
-      >
-    </figcaption>
+      <figcaption class="blockquote-footer ps-2">
+        <cite class="text-capitalize" title="Source Title"
+          >{podcast.source}</cite
+        >
+      </figcaption>
     {/if}
   </figure>
 
@@ -83,6 +83,18 @@
   {/if}
 
   <div class="card-body bg-light">
+    {#if podcast.hasOwnProperty("youtube")}
+      <iframe
+        id="ytplayer"
+        type="text/html"
+        width="auto"
+        height="300"
+        src="{podcast.youtube}?autoplay=1&origin=http://example.com"
+        frameborder="0"
+      >
+      </iframe>
+    {/if}
+
     <p class="card-text">
       {#if podcast.upload_date !== undefined}
         <span class="me-2 badge text-bg-secondary">{podcast.upload_date}</span>
