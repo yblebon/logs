@@ -1,5 +1,14 @@
 [
   {
+    "src": "https://download.samplelib.com/mp3/sample-l.mp3",
+    "type": "audio/mp3",
+    "text": "'Theron was born in Benoni, in Transvaal Province (Gauteng Province since 1994) of South Africa on 7 August 1975. One of the world's highest-paid actresses.Theron came to international prominence in the 1990s by playing the leading lady in the Hollywood films The Devil's Advocate (1997)' Wikipedia",
+    "poster": "IMG_0461.png",
+    "title": "On les tient sans à boire et à manger",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmdKsLkiDawxzJhyr6GBmGSUC26jLpDom2EQ14PtCJgB5c",
+    "uid": "123421"
+  },
+  {
     "src": "https://download.samplelib.com/mp3/sample-k.mp3",
     "type": "audio/mp3",
     "text": "'To tell the truth, I been pretty used to what open-minded people do In 2014, I went to Africa, baby, you was my passenger My eyes and ears for all the years the neighborhood had baffled us Of course I had to wrap it up, I didn't fully trust you' Kendrick",
@@ -13,7 +22,7 @@
     "type": "audio/mp3",
     "text": "'Autour d'chez toi les keufs mettent des bandes jaunes (bandes jaunes)' 'Sur le rain-té à midi, je baisais la juge mon alibi.' 'Dr. Jay Varma, who managed New York City's Covid response, confessed to attending sex parties during the pandemic while publicly'",
     "poster": "IMG_0461.png",
-    "title": "Panic Attack",
+    "title": "'Comme si j'allumais la flamme olympique'",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmWu9JMaNhwWxTkwWCoLX9azEtBUAupue2AZfBSuCxtCrV",
     "uid": "123419"
   },
