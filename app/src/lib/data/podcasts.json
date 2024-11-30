@@ -27,7 +27,8 @@
     "poster": "IMG_0461.png",
     "title": "The beauty of Mathematics",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmTok5VAcG2Yt31xHN7RzJYdrQVPB1mchbHxmvuuqoWw9g",
-    "uid": "123429"
+    "uid": "123429",
+    "code": "https://gist.github.com/yblebon/cb9224da2e02a2316c1425abaffcf59d.js"
   },
   {
     "src": "https://download.samplelib.com/mp3/sample-s.mp3",
@@ -81,7 +82,8 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmbMWtARh22os55EzbBwEoNSo663GtPHLPRFZkth4FTC8g",
     "uid": "123424",
     "source": "Squabble Up, Kendrick",
-    "link": ""
+    "link": "",
+    "code": "https://gist.github.com/yblebon/f9323996669867c8c5e511c4157e7a20.js"
   },
   {
     "src": "https://download.samplelib.com/mp3/sample-n.mp3",
