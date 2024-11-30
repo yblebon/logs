@@ -95,6 +95,10 @@
       </iframe>
     {/if}
 
+    {#if podcast.hasOwnProperty("code")}
+      <script src="{podcast.code}"></script>
+    {/if}
+
     <p class="card-text">
       {#if podcast.upload_date !== undefined}
         <span class="me-2 badge text-bg-secondary">{podcast.upload_date}</span>

@@ -1,12 +1,24 @@
 [
   {
+  "src": "https://download.samplelib.com/mp3/sample-u.mp3",
+  "type": "audio/mp3",
+  "text": "'Canada has one of the highest rates of euthanasia in the world, with 4.1% of deaths aided by doctors, but moves to make it more accessible are being questioned'",
+  "poster": "IMG_0461.png",
+  "title": "Many left few came back",
+  "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmPxUSHfrFxTG7h5iWZhxm3wC9oHBrbrQVfyyNZibjBe4c",
+  "uid": "123431",
+  "source": "theguardian.com",
+  "code": "https://gist.github.com/yblebon/03b5454462462b52d042c48e1726155c.js"
+  },
+  {
     "src": "https://download.samplelib.com/mp3/sample-t.mp3",
     "type": "audio/mp3",
     "text": "'Georges St-Pierre est en Afrique et il y a plein de belles photos sur son InstagramIl a ainsi notamment mis les pieds au Rwanda, au Kenya et en Tanzanie (quoique, dans ce cas précis, il s’agit seulement d’un seul pied...nous y reviendrons...) Revoyons donc les différentes étapes du voyage de GSP au sein de Berceau de l'Humanité.'",
     "poster": "IMG_0461.png",
     "title": "The beauty of Africa",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmPBQ2ukUGLc6zPx8JNvN38ku24RrpFkb3bqHxZY6GXuLH",
-    "uid": "123430"
+    "uid": "123430",
+    "code": "https://gist.github.com/yblebon/dfc86454cf0800bf9338d914af867857.js"
   },
   {
     "src": "https://download.samplelib.com/mp3/sample-s.mp3",
