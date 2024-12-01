@@ -1,5 +1,16 @@
 [
   {
+    "src": "https://download.samplelib.com/mp3/sample-v.mp3",
+    "type": "audio/mp3",
+    "text": "Dutch police arrested a homeless man on Saturday over a knife assault in a busy shopping street in The Hague in which three teenagers were wounded. The 35-year-old suspect was detained in the center of the city a day after the stabbing caused panic as shoppers hunted Black Friday bargains.",
+    "poster": "IMG_0461.png",
+    "title": "Psysops: The Gaijin",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmNPTc3AVvuxnKUZhVDiqSiBdHYk8u9449oy8Ho1JiGfuh",
+    "uid": "123432",
+    "source": "47 Ronin & Times Of Israel",
+    "code": "https://gist.github.com/yblebon/03b5454462462b52d042c48e1726155c.js"
+    },
+  {
   "src": "https://download.samplelib.com/mp3/sample-u.mp3",
   "type": "audio/mp3",
   "text": "'Canada has one of the highest rates of euthanasia in the world, with 4.1% of deaths aided by doctors, but moves to make it more accessible are being questioned'",
