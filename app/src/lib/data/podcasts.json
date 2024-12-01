@@ -2,6 +2,17 @@
   {
     "src": "https://download.samplelib.com/mp3/sample-v.mp3",
     "type": "audio/mp3",
+    "text": "The German man known as 'Black Forest Rambo' admitted stealing weapons from four police officers last summer as his trial got underway Friday. The man gained infamy after hiding out in the Black Forest for five days.",
+    "poster": "IMG_0461.png",
+    "title": "Psysops: C'est un soldat",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmPNdam1dmxHRuN9R3AUu4eXJLNEhB1tDFMvydnp4U2TB7",
+    "uid": "123433",
+    "source": "Warriors & dw.com",
+    "code": "https://gist.github.com/yblebon/03b5454462462b52d042c48e1726155c.js"
+  },
+  {
+    "src": "https://download.samplelib.com/mp3/sample-v.mp3",
+    "type": "audio/mp3",
     "text": "Dutch police arrested a homeless man on Saturday over a knife assault in a busy shopping street in The Hague in which three teenagers were wounded. The 35-year-old suspect was detained in the center of the city a day after the stabbing caused panic as shoppers hunted Black Friday bargains.",
     "poster": "IMG_0461.png",
     "title": "Psysops: The Gaijin",
