@@ -110,6 +110,13 @@
         >link</a
       >
 
+      {#if podcast.hasOwnProperty("tags") }
+        {#each podcast.tags as tag}
+          <span class="me-2 badge float-end">{tag}</span>
+        {/each}
+      {/if}
+
+
       <button type="button" on:click={playPodcast} class="btn float-end">
         {#if status == "stop"}
           <span>
