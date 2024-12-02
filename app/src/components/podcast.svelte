@@ -112,7 +112,7 @@
 
       {#if podcast.hasOwnProperty("tags") }
         {#each podcast.tags as tag}
-          <span class="me-2 badge badge-light float-end">{tag}</span>
+          <span class="me-2 badge badge-dark float-end">{tag}</span>
         {/each}
       {/if}
 
