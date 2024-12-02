@@ -67,7 +67,7 @@
 
   <figure>
     <blockquote class="blockquote ps-2 pt-2">
-      <p>{podcast.text}</p>
+      <h6>{podcast.text}</h6>
     </blockquote>
     {#if podcast.hasOwnProperty("source")}
       <figcaption class="blockquote-footer ps-2">
@@ -96,7 +96,7 @@
     {/if}
 
     {#if podcast.hasOwnProperty("code")}
-      <script src="{podcast.code}"></script>
+      <script src={podcast.code}></script>
     {/if}
 
     <p class="card-text">
