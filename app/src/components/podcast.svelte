@@ -99,7 +99,7 @@
       <script src={podcast.code}></script>
     {/if}
 
-    <p class="card-text">
+    <p class="card-text text-bg-success">
       {#if podcast.upload_date !== undefined}
         <span class="me-2 badge text-bg-secondary">{podcast.upload_date}</span>
       {/if}
@@ -116,18 +116,6 @@
         {/each}
       {/if}
 
-
-      <button type="button" on:click={playPodcast} class="btn float-end">
-        {#if status == "stop"}
-          <span>
-            <i class="gg-play-button-o"></i>
-          </span>
-        {:else if status == "playing"}
-          <span>
-            <i class="gg-play-stop-o"></i>
-          </span>
-        {/if}
-      </button>
     </p>
   </div>
 </div>
