@@ -100,8 +100,8 @@
     {/if}
 
     <p class="card-text">
-      {#if podcast.upload_date !== undefined}
-        <span class="me-2 badge text-bg-secondary">{podcast.upload_date}</span>
+      {#if podcast.hasOwnProperty("upload_date") }
+        <span class="me-2 badge text-bg-secondary float-start">{podcast.upload_date}</span>
       {/if}
 
       <a
