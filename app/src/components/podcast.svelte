@@ -67,7 +67,7 @@
 
   <figure>
     <blockquote class="blockquote ps-2 pt-2">
-      <p>{podcast.text}</p>
+      <p class="fs-6">{podcast.text}</p>
     </blockquote>
     {#if podcast.hasOwnProperty("source")}
       <figcaption class="blockquote-footer ps-2">
