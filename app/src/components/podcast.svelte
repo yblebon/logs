@@ -66,7 +66,7 @@
         {/each}
       {/if}
 
-    <span class="me-2 badge text-lowercase text-wrap float-end"
+    <span class="me-2 fw-bolder fs-6 text-lowercase text-wrap float-end"
       >{podcast.title}</span
     >
   </div>
