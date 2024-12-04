@@ -1,10 +1,22 @@
 [
   {
+    "src": "https://download.samplelib.com/mp3/sample-ai.mp3",
+    "type": "audio/mp3",
+    "text": "Mais la sinophilie comme la sinophobie est un serpent de mer. Il y a en France une fraction conservatrice qui reste au fond d’elle-même fascinée par l’ordre fachisant des régimes russe et chinois. De même qu’il existe une fascination ancienne de certaines obédiences de l’extrême-gauche pour la Chine en ce qu’elle apparaît comme la dernière Mecque du communisme international.",
+    "poster": "IMG_0461.png",
+    "title": "Eldorado Chinois. 'Naive!'",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmaDK5qP7xsPy5SmdWv8MgPZuisux8tE6ZaJ6bSzqSyry8",
+    "uid": "123447",
+    "source": "iris-france.org",
+    "tags": [],
+    "code": "https://gist.github.com/yblebon/0f60905d4976ed62bd4f8da1b31730b3.js"
+  },
+  {
     "src": "https://download.samplelib.com/mp3/sample-ah.mp3",
     "type": "audio/mp3",
     "text": "Un message subliminal est un stimulus incorporé dans un objet, conçu pour être perçu au-dessous du niveau de conscience. Des techniques subliminales ont été utilisées dans la publicité ou la propagande. Le but et l'efficacité de ces techniques sont sujets à débat.",
     "poster": "IMG_0461.png",
-    "title": "'Naissance d'une pieuvre. Naive!'",
+    "title": "Naissance d'une pieuvre: 'Naive!'",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXpVvXeCpNXLNaR29caySp1st82DyNTN3jZetRXJyiTUa",
     "uid": "123446",
     "source": "",
