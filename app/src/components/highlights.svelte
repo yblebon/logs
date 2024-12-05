@@ -22,7 +22,7 @@
       <img src="{highlight.image}" class="img-fluid rounded-start" alt="...">
     </div>
     <div class="col-md-8">
-      <div class="card-body">
+      <div class="card-body ms-2">
         <p class="card-text">{highlight.text}</p>
         <p class="card-text"><small class="text-muted">   <a
         href="{base}/podcasts/{highlight.uid}"
