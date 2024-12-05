@@ -23,9 +23,12 @@
     </div>
     <div class="col-md-8">
       <div class="card-body">
-        <h5 class="card-title">{highlight.title}</h5>
         <p class="card-text">{highlight.text}</p>
-        <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        <p class="card-text"><small class="text-muted">   <a
+        href="{base}/podcasts/{highlight.uid}"
+        class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+        >link</a
+      ></small></p>
       </div>
     </div>
   </div>
