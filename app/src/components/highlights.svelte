@@ -3,6 +3,8 @@
   export let highlights;
 </script>
 
+//class="card mx-auto border-warning mt-4" style="max-width: 540px;"
+
 <div class="accordion" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
