@@ -5,17 +5,6 @@ import HighlightsComponent from '../../components/highlights.svelte';
 
 export let data;
 
-var i = 0, len = data.podcasts.length;
-let highlights = [];
-
-while (i < len) {
-    let p = data.podcasts[i];
-    if (p.hasOwnProperty("highlight") && p["highlight"]==true) {
-        highlights.push(p);
-    }
-    i++;
-}
-
 </script>
 
 <svelte:head>
@@ -26,7 +15,7 @@ while (i < len) {
 
 </svelte:head>
 
-<HighlightsComponent highlights={highlights}/>
+<HighlightsComponent highlights={data.highlights}/>
 
 {#each data.podcasts as podcast}
   <PodcastComponent podcast={podcast}/>

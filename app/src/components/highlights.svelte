@@ -1,6 +1,7 @@
 <script>
   import { base } from "$app/paths";
   export let highlights;
+  console.log(highlights);
 </script>
 
 <div class="accordion mx-auto mt-4" style="max-width: 540px;" id="accordionPanelsStayOpenExample">
