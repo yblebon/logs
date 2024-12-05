@@ -1,5 +1,18 @@
 [
   {
+    "src": "https://download.samplelib.com/mp3/sample-aq.mp3",
+    "type": "audio/mp3",
+    "text": "The break-up of the Soviet Union and the radical proposals of Maastricht have between them conspired to awaken ethnic and regional identities across Europe. Bosnians, Slovenes, Ukrainians, Georgians, Walloons, Flemings, Basques, Bavarians - the tribes of Europe are flexing their muscles and making the headlines in ways that no one could have predicted at the start of the decade. Who are these peoples, what are their histories, their languages, their religions, why are they and many others - reasserting their ancient identities and what does it mean for the future of Europe? This book attempts to answer these questions by trying to understand this powerful and perplexing continent from the outside.",
+    "poster": "IMG_0461.png",
+    "title": "'je m'en fiche'",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmSenNVFvaxXkYQWsfjFd21bofwxusgzs6VBfoAPw54XYn",
+    "uid": "123455",
+    "source": "The Essential Handbook to Europe's Tribes, Fernandez-Armesto",
+    "tags": [],
+    "highlight": false,
+    "code": "https://gist.github.com/yblebon/0be8c050cb98e946952bc98bd9c88f43.js"
+  },
+  {
     "src": "https://download.samplelib.com/mp3/sample-ap.mp3",
     "type": "audio/mp3",
     "text": "Hard times create strong men, strong men create good times, good times create weak men, and weak men create hard times",
