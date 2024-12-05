@@ -1,5 +1,18 @@
 [
   {
+    "src": "https://download.samplelib.com/mp3/sample-am.mp3",
+    "type": "audio/mp3",
+    "text": "Self description",
+    "poster": "IMG_0461.png",
+    "title": "My name is Y.B Lebon",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmTNk6mWCbK1guc5VdgHggVhJMaHvvtmHZ8heKKbsjw24v",
+    "uid": "123450",
+    "source": "",
+    "tags": [],
+    "highlight": true,
+    "code": "https://gist.github.com/yblebon/9b8395cffa8873bdf1c7fbb702a3c17d.js"
+  },
+  {
     "src": "https://download.samplelib.com/mp3/sample-al.mp3",
     "type": "audio/mp3",
     "text": "Mon nom est Personne (Il mio nome è Nessuno) est un western spaghetti italo-franco-allemand réalisé par Tonino Valerii, sorti en 1973.",
@@ -9,7 +22,7 @@
     "uid": "123450",
     "source": "Instagram",
     "tags": ["nobody"],
-    "highlight": true,
+    "highlight": false,
     "code": "https://gist.github.com/yblebon/9b8395cffa8873bdf1c7fbb702a3c17d.js"
   },
   {
