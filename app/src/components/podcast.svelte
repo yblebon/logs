@@ -58,7 +58,7 @@
   }
 </script>
 
-<div class="card mx-auto border-danger mt-4" style="max-width: 540px;">
+<div class="card mx-auto border-dark mt-4" style="max-width: 540px;">
   <div class="card-header text-bg-dark">
       {#if podcast.hasOwnProperty("tags") }
         {#each podcast.tags as tag}

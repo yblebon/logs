@@ -46,52 +46,12 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{base}/images">
-            <span
-              id="images"
-              on:click={changeContent}
-              class="fw-bolder text-black"
-              >Images
-            </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{base}/x-posts">
-            <span
-              id="x-posts"
-              on:click={changeContent}
-              class="fw-bolder text-black"
-              >X-Posts
-            </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{base}/videos">
-            <span
-              id="videos"
-              on:click={changeContent}
-              class="fw-bolder text-black"
-              >Videos
-            </span>
-          </a>
-        </li>
-        <li class="nav-item">
           <a class="nav-link" href="{base}/podcasts">
             <span
               id="podcasts"
               on:click={changeContent}
               class="fw-bolder text-black"
-              >Podcasts
-            </span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="{base}/articles">
-            <span
-              id="articles"
-              on:click={changeContent}
-              class="fw-bolder text-black"
-              >Articles
+              >Cards
             </span>
           </a>
         </li>
@@ -106,27 +66,6 @@
           </a>
         </li>
 
-        <li class="nav-item">
-          <a class="nav-link" href="{base}/projects">
-            <span
-              id="projects"
-              on:click={changeContent}
-              class="fw-bolder text-black"
-              >Projects
-            </span>
-          </a>
-        </li>
-
-        <li class="nav-item">
-          <a class="nav-link" href="{base}/reviews">
-            <span
-              id="reviews"
-              on:click={changeContent}
-              class="fw-bolder text-black"
-              >Reviews
-            </span>
-          </a>
-        </li>
         <li class="nav-item">
           <a class="nav-link" href="{base}/sources">
             <span
