@@ -3,9 +3,7 @@
   export let highlights;
 </script>
 
-//class="card mx-auto border-warning mt-4" style="max-width: 540px;"
-
-<div class="accordion" id="accordionPanelsStayOpenExample">
+<div class="accordion mx-auto mt-4" style="max-width: 540px;" id="accordionPanelsStayOpenExample">
   <div class="accordion-item">
     <h2 class="accordion-header" id="panelsStayOpen-headingOne">
       <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
