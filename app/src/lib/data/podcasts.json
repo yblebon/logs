@@ -22,7 +22,7 @@
     "uid": "123450",
     "source": "Instagram",
     "tags": ["nobody"],
-    "highlight": false,
+    "highlight": true,
     "code": "https://gist.github.com/yblebon/9b8395cffa8873bdf1c7fbb702a3c17d.js"
   },
   {
