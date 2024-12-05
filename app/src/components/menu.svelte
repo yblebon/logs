@@ -20,7 +20,8 @@
     <a class="navbar-brand fs-2" href="#">
       <strong> Log </strong>
 
-      <small class="text-body-secondary"> Y.B Lebon</small>
+      <small class="text-body-warning"> Y.B </small>
+      <small class="text-body-danger"> Lebon</small>
     </a>
     <button
       class="navbar-toggler"
