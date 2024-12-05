@@ -1,6 +1,7 @@
 <script>
   import { base } from "$app/paths";
   export let highlights;
+  console.log("------------------------");
   console.log(highlights);
 </script>
 
