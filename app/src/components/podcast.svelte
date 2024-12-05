@@ -90,15 +90,9 @@
 
   <div class="card-body bg-light">
     {#if podcast.hasOwnProperty("youtube")}
-      <iframe
-        id="ytplayer"
-        type="text/html"
-        width="auto"
-        height="300"
-        src="{podcast.youtube}?autoplay=1&origin=http://example.com"
-        frameborder="0"
-      >
-      </iframe>
+      <div class="ratio ratio-16x9">
+        <iframe src="{podcast.youtube}" title="YouTube video" allowfullscreen></iframe>
+      </div>
     {/if}
 
     {#if podcast.hasOwnProperty("code")}

@@ -2,6 +2,19 @@
   {
     "src": "https://download.samplelib.com/mp3/sample-ao.mp3",
     "type": "audio/mp3",
+    "text": "Test video",
+    "poster": "IMG_0461.png",
+    "title": "title",
+    "video": "https://www.youtube.com/embed/zpOULjyy-n8?rel=0",
+    "uid": "123454",
+    "source": "",
+    "tags": [],
+    "highlight": false,
+    "code": "https://gist.github.com/yblebon/36b2885dea33923ad2e7ad24b9c7e664.js"
+  },
+  {
+    "src": "https://download.samplelib.com/mp3/sample-ao.mp3",
+    "type": "audio/mp3",
     "text": "Absuing Prosecutorial Discretion. Intentionally Providing False Evidence. Failing to Disclose Evidence. Impropertly Using the media. Using improper arguments. Choosing Jury members in a discriotionnay manner.",
     "poster": "IMG_0461.png",
     "title": "L'affaire Omar Raddad et le meurtre de Ghislaine Marchal",
