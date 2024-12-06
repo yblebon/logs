@@ -1,4 +1,16 @@
-[
+[{
+  "src": "https://download.samplelib.com/mp3/sample-au.mp3",
+  "type": "audio/mp3",
+  "text": "Les socialistes sont les seuls membres du Nouveau Front populaire à avoir été invité ce vendredi au lendemain de l'allocution d'Emmanuel Macron",
+  "poster": "IMG_0461.png",
+  "title": "Le bois bandé est un produit naturel connu pour ses vertus aphrodisiaques",
+  "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmSotj7ysivKFDtT323ziuXNWPitd1tZBTbf3n8DWe2sZ6",
+  "uid": "123460",
+  "source": "liberation.fr",
+  "tags": [],
+  "highlight": false,
+  "code": "https://gist.github.com/yblebon/a45a9cc63b38240b1d0d12b630e5b2e9.js"
+},
   {
     "src": "https://download.samplelib.com/mp3/sample-at.mp3",
     "type": "audio/mp3",
