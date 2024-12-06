@@ -1,5 +1,18 @@
 [
   {
+    "src": "https://download.samplelib.com/mp3/sample-as.mp3",
+    "type": "audio/mp3",
+    "text": "Deux ans après la fin de l’opération Barkhane, qui avait cristallisé les critiques, le Tchad et le Sénégal ont demandé le retrait des troupes françaises sur leur sol.",
+    "poster": "IMG_0461.png",
+    "title": "'Mais France-Afrique, Chine-Afrique, on a clairement perdu'",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmPEBfJtMssGnQALC9RULLuS6kBtrsHxgUbDLiAggKo1Gh",
+    "uid": "123457",
+    "source": "lefigaro.fr",
+    "tags": ["actualite", "afrique"],
+    "highlight": false,
+    "code": "https://gist.github.com/yblebon/07f8c40e18fe341a914a0f7d25ec79b3.js"
+  },
+  {
     "src": "https://download.samplelib.com/mp3/sample-aq.mp3",
     "type": "audio/mp3",
     "text": "Le corps des matrones est intouchable, voire sacré, et comme celui des citoyens protégés par la loi, celui des femmes prostituées même libres et ingénues comme celui des hommes libres et ingénus prostitués, acteurs ou gladiateurs, ne l’est pas.",
@@ -13,7 +26,7 @@
     "code": "https://gist.github.com/yblebon/a083cbdf56debbcea807d82b9fbe734e.js"
   },
   {
-    "src": "https://download.samplelib.com/mp3/sample-aq.mp3",
+    "src": "https://download.samplelib.com/mp3/sample-ar.mp3",
     "type": "audio/mp3",
     "text": "The break-up of the Soviet Union and the radical proposals of Maastricht have between them conspired to awaken ethnic and regional identities across Europe. Bosnians, Slovenes, Ukrainians, Georgians, Walloons, Flemings, Basques, Bavarians - the tribes of Europe are flexing their muscles and making the headlines in ways that no one could have predicted at the start of the decade. Who are these peoples, what are their histories, their languages, their religions, why are they and many others - reasserting their ancient identities and what does it mean for the future of Europe? This book attempts to answer these questions by trying to understand this powerful and perplexing continent from the outside.",
     "poster": "IMG_0461.png",
