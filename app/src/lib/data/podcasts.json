@@ -1,4 +1,18 @@
-[{
+[
+  {
+    "src": "https://download.samplelib.com/mp3/sample-av.mp3",
+    "type": "audio/mp3",
+    "text": "Jeff Yass, le super-donateur américain ultra-riche et ultra à droite PRO-TRUMP Amériques. Le milliardaire Jeff Yass est devenu le plus important donateur à titre individuel de la campagne présidentielle américaine de 2024. De son soutien boursier au réseau social de Donald Trump à son lobbying pro-TikTok, ce boursicoteur sait protéger ses intérêts financiers et idéologiques.",
+    "poster": "IMG_0461.png",
+    "title": "Billionaire Jeff Yass sold 61% of Susquehanna's stake in Palantir",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmR64kibha4EZQnztJgP2xedm8Sv5rXennWpSQ32QMiqTS",
+    "uid": "123460",
+    "source": "france24.com",
+    "tags": [],
+    "highlight": false,
+    "code": "https://gist.github.com/yblebon/77b98add23e7ccb235c3bb31b9175368.js"
+  },
+  {
   "src": "https://download.samplelib.com/mp3/sample-au.mp3",
   "type": "audio/mp3",
   "text": "Les socialistes sont les seuls membres du Nouveau Front populaire à avoir été invité ce vendredi au lendemain de l'allocution d'Emmanuel Macron",
