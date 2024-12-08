@@ -1,4 +1,17 @@
-[    
+[ 
+  {
+    "src": "https://download.samplelib.com/mp3/sample-ax.mp3",
+    "type": "audio/mp3",
+    "text": "Tout le monde se précipite. Hors d'atteinte du singe en rut. Sauf une vieille décrépite. Et un jeune juge en bois brut. Voyant que toutes se dérobent. Le quadrumane accéléra. Son dandinement vers les robes. De la vieille et du magistrat!. Gare au gorille!",
+    "poster": "IMG_0461.png",
+    "title": "psyops: the death of slim shady",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmReiUfAyXjSLM5iRt4CbP9SaGipcbqaGGvNWh1xiLKGcS",
+    "uid": "123464",
+    "source": "Le Gorille, Brassens",
+    "tags": ["psyops", "crazy"],
+    "highlight": false,
+    "code": "https://gist.github.com/yblebon/5e956a65aeb814c92588ffbb815dd02f.js"
+  },  
   {
     "src": "https://download.samplelib.com/mp3/sample-aw.mp3",
     "type": "audio/mp3",
