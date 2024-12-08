@@ -1,4 +1,18 @@
-[    {
+[    
+  {
+    "src": "https://download.samplelib.com/mp3/sample-aw.mp3",
+    "type": "audio/mp3",
+    "text": "The humiliations, the terrorizing, the hunger, the pain, the tension, the nervousness and the sleep deprivation lasted for some time until one day they did all these things to me but with more intensity and for longer periods of time before they brought me back to the big box.",
+    "poster": "IMG_0461.png",
+    "title": "psyops: the death of slim shady",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmYbBmTJUtNj9XDADfiBHdXMU1HGcQxuCDgun1a5mWKGfN",
+    "uid": "123463",
+    "source": "theguardian.com",
+    "tags": ["psyops", "crazy"],
+    "highlight": false,
+    "code": "https://gist.github.com/yblebon/5e956a65aeb814c92588ffbb815dd02f.js"
+  },  
+{
   "src": "https://download.samplelib.com/mp3/sample-ax.mp3",
   "type": "audio/mp3",
   "text": "Fucking the shoplifters. A kleptomaniac gets punished for shoplifting. She doesn't mind the way she has to pay for her misdeeds. A shoplifter is taught a lesson by store security.",
