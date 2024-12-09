@@ -1,5 +1,18 @@
 [ 
   {
+    "src": "https://download.samplelib.com/mp3/sample-ad.mp3",
+    "type": "audio/mp3",
+    "text": "Member of Hungary's anti-LGBTQ government resigns after fleeing alleged gay sex party. The married official and at least 20 other men reportedly attended the Brussels 'orgy' despite the city's coronavirus restriction",
+    "poster": "IMG_0461.png",
+    "title": "Circus Live",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmRuHHXnNDGpGHwwuX5HP675KAQHJ7X8deghVK3R31Kpki",
+    "uid": "123470",
+    "source": "nbcnews.com",
+    "tags": ["psyops"],
+    "highlight": false,
+    "code": "https://gist.github.com/yblebon/f932aa4ecabb08ebfc69a2a0759ee79c.js"
+  },  
+  {
     "src": "https://download.samplelib.com/mp3/sample-ac.mp3",
     "type": "audio/mp3",
     "text": "Si tu dis souvent qu't'as pas d'problème avec l'alcool, c'est qu't'en as un (simple) ",
