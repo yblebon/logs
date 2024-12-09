@@ -1,4 +1,18 @@
-[ {
+[ 
+  {
+    "src": "https://download.samplelib.com/mp3/sample-ab.mp3",
+    "type": "audio/mp3",
+    "text": "La confiance des Français envers les médias diminue, selon le baromètre de La Croix publié ce mercredi. Ils sont 57% à estimer qu’il faut se méfier de ce que disent les médias sur les grands sujets d’actualité. Mais la méfiance est encore plus grande envers les réseaux sociaux et les influenceurs.",
+    "poster": "IMG_0461.png",
+    "title": "L'aigle ne chasse pas les mouches",
+    "youtube": "https://www.youtube.com/embed/2XmlmSkzIDQ?rel=0",
+    "uid": "123468",
+    "source": "https://www.radiofrance.fr",
+    "tags": [],
+    "highlight": false,
+    "code": "https://gist.github.com/yblebon/d23021ff8929cbc5893b2554e14a4154.js"
+  },  
+{
   "src": "https://download.samplelib.com/mp3/sample-ba.mp3",
   "type": "audio/mp3",
   "text": "Femme dérangée, femme débauchée : un stéréotype persistant. Projeté dans le cadre d’un cycle «Female Trouble», à Neuchâtel, le film «Let’s Scare Jessica to Death» brode sur l’image bien connue de la femme au foyer hysté",
