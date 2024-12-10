@@ -66,19 +66,17 @@
             </span>
           </a>
         </li>
-        <li class="nav-item vr">
-          <a
-            class="ms-3 fw-bolder nav-link"
-            href="{base}/contact"
-            tabindex="-1"
-            aria-disabled="true">Contact</a
-          >
-        </li>
       </ul>
       <form class="d-flex" role="search">
         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
+      <a
+      class="ms-3 fw-bolder nav-link float-end"
+      href="{base}/contact"
+      tabindex="-1"
+      aria-disabled="true">Contact</a
+    >
 
     </div>
   </div>
