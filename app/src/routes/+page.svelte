@@ -1,10 +1,6 @@
 <script>
-  import XpostComponent from "../components/xpost.svelte";
-  import VideoComponent from "../components/video.svelte";
-  import ArticleComponent from "../components/article.svelte";
   import PodcastComponent from "../components/podcast.svelte";
-  import DotsComponent from "../components/dots.svelte";
-  import ImageComponent from "../components/image.svelte";
+  import HighlightsComponent from '../components/highlights.svelte';
 
   export let data;
 </script>
@@ -17,6 +13,8 @@
     content="Yasser B. Lebon Logs personal blog, vlog, journal and containing rrecords of events"
   />
 </svelte:head>
+
+<HighlightsComponent highlights={data.highlights}/>
 
 {#each data.dataList as content}
   {#if content.section == "podcast"}
