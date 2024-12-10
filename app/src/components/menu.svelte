@@ -57,17 +57,6 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{base}/dots">
-            <span
-              id="dots"
-              on:click={changeContent}
-              class="fw-bolder text-black"
-              >Dots
-            </span>
-          </a>
-        </li>
-
-        <li class="nav-item">
           <a class="nav-link" href="{base}/sources">
             <span
               id="sources"
