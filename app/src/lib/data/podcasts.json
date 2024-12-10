@@ -1,4 +1,18 @@
-[{
+[
+  {
+    "src": "https://download.samplelib.com/mp3/sample-ae.mp3",
+    "type": "audio/mp3",
+    "text": "Maman, pourquoi t'as pas d'voiture? Maman, tu peux m'acheter des Nike? Maman, tu m'emmènes chez l'coiffeur? Maman, tu peux m'acheter un bike? Oh non, pas encore ces yaourts, regarde, maman, comment j'suis fort. Laisse-moi, je vais porter les courses, je suis musclé comme Musclor",
+    "poster": "IMG_0461.png",
+    "title": "psyops: j'pete les plombs",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXXD2oi4ovQQLMNA994yEziSDsETSNQKypg4fxzZ8QHcB",
+    "uid": "123477",
+    "source": "terre promise, disiz",
+    "tags": ["psyops", "circus", "song"],
+    "highlight": false,
+    "code": "https://gist.github.com/yblebon/460e6e77b5c6fb73661452b12c1f52bf.js"
+  },
+  {
   "src": "https://download.samplelib.com/mp3/sample-ad.mp3",
   "type": "audio/mp3",
   "text": "Un juge de la Cour du Québec affirme que les Canadiens disposent du droit inhérent et fondamental, garanti par la Charte, de présenter un doigt d’honneur à un voisin malcommode.",
