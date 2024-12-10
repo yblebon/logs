@@ -5,7 +5,7 @@ export function load() {
 
   let data = getData();
 
-  let highlights = data.filter((p) => p["highlight"] == true);
+  const highlights = data.filter((p) => p["highlight"] == true).reverse();
   
   return {
     dataList: data,
