@@ -1,7 +1,6 @@
 <script>
 
 import PodcastComponent from '../../components/podcast.svelte';
-import HighlightsComponent from '../../components/highlights.svelte';
 
 export let data;
 
@@ -14,8 +13,6 @@ export let data;
   <meta name="description" content="Yasser B. Lebon podcast records">
 
 </svelte:head>
-
-<HighlightsComponent highlights={data.highlights}/>
 
 {#each data.podcasts as podcast}
   <PodcastComponent podcast={podcast}/>
