@@ -52,7 +52,7 @@
         {/if}
   
         <a
-          href="{base}/podcasts/{card.uid}"
+          href="{base}/cards/{card.uid}"
           class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
           >link</a
         >
