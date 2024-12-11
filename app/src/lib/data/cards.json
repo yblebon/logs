@@ -1,4 +1,16 @@
-[
+[{
+  "src": "https://download.samplelib.com/mp3/sample-af.mp3",
+  "type": "audio/mp3",
+  "text": "Rejoignez Grenoble INP - UGA et bénéficiez d'environnements scientifique et naturel exceptionnels. Étudiant·es, enseignant·es et personnels trouvent dans nos 8 écoles d'ingénierie et de management et nos 38 laboratoires le cadre idéal pour s’épanouir.",
+  "poster": "IMG_0461.png",
+  "title": "psyops: echirolles, grenoble",
+  "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmbmHMi7aTAZneW9E5u6JnpETAtZWaescfrajTy1D7AxNn",
+  "uid": "123478",
+  "source": "Jimmy, Booba  & https://www.grenoble-inp.fr/",
+  "tags": ["psyops", "circus", "song"],
+  "highlight": false,
+  "code": "https://gist.github.com/yblebon/ab28e658256d1bc268922fa982cf850b.js"
+},
     {
       "src": "https://download.samplelib.com/mp3/sample-ae.mp3",
       "type": "audio/mp3",
