@@ -10,6 +10,7 @@ import images from '$lib/data/images.json';
 import dots from '$lib/data/dots.json';
 import projects from '$lib/data/projects.json';
 import reviews from '$lib/data/reviews.json';
+import cards from '$lib/data/cards.json';
 
 var dataStore = null;
 const filebaseBase = "https://ipfs.filebase.io/ipfs";
@@ -96,6 +97,16 @@ export function initStore() {
       podcasts[i]["uid"] = uid;
     }
     dataList.push(podcasts[i]);
+  }
+
+  for (let i = 0; i < cards.length; i++) {
+    cards[i]['section'] = "podcast";
+    cards[i]["url"] = cards[i]["src"];
+    if (!cards[i].hasOwnProperty('uid')) {
+      let uid = createHash(cards[i]["url"]);
+      cards[i]["uid"] = uid;
+    }
+    dataList.push(cards[i]);
   }
 
   for (let i = 0; i < articles.length; i++) {
