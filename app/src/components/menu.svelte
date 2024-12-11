@@ -47,9 +47,9 @@
           </a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="{base}/podcasts">
+          <a class="nav-link" href="{base}/cards">
             <span
-              id="podcasts"
+              id="cards"
               on:click={changeContent}
               class="fw-bolder text-black"
               >Cards
