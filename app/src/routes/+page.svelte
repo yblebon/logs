@@ -1,5 +1,5 @@
 <script>
-  import PodcastComponent from "../components/podcast.svelte";
+  import CardComponent from "../components/card.svelte";
   import HighlightsComponent from '../components/highlights.svelte';
 
   export let data;
@@ -17,7 +17,7 @@
 <HighlightsComponent highlights={data.highlights}/>
 
 {#each data.dataList as content}
-  {#if content.section == "podcast"}
-    <PodcastComponent podcast={content} />
+  {#if content.section == "card"}
+    <CardComponent card={content} />
   {/if}
 {/each}
