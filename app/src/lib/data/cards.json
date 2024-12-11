@@ -1,5 +1,19 @@
 [
   {
+    "src": "https://download.samplelib.com/mp3/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text":"Murex has been the leading provider of cross-asset trading, risk management and processing solutions for the financial industry since its creation in 1986. In 1985, Jeff Yass and his friends brought $250,000 to the racetrack in duffel bags. It was a super bet jackpot from Yass’s gambling syndicate that netted them $600,000 in a single day",
+    "poster":"IMG_0461.png",
+    "title":"1987: Entre gris clair et gris foncé",
+    "image":"https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmdfWZ4hzcn8T2J5Mg2AXZDE7od39H54X2tNuPn3LUqzeo",
+    "source":"https://www.forbes.com/",
+    "tags":[
+      "culture"
+   ],
+   "highlight":false,
+   "code":"https://gist.github.com/yblebon/8b70d45eb55106615b5798f2264853c3.js"
+  },
+  {
     "src": "https://download.samplelib.com/mp3/sample-af.mp3",
     "type": "audio/mp3",
     "text": "Rejoignez Grenoble INP - UGA et bénéficiez d'environnements scientifique et naturel exceptionnels. Étudiant·es, enseignant·es et personnels trouvent dans nos 8 écoles d'ingénierie et de management et nos 38 laboratoires le cadre idéal pour s’épanouir.",
