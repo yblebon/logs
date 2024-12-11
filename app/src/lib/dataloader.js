@@ -100,7 +100,7 @@ export function initStore() {
   }
 
   for (let i = 0; i < cards.length; i++) {
-    cards[i]['section'] = "podcast";
+    cards[i]['section'] = "card";
     cards[i]["url"] = cards[i]["src"];
     if (!cards[i].hasOwnProperty('uid')) {
       let uid = createHash(cards[i]["url"]);

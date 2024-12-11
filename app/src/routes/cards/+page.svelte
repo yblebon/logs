@@ -9,7 +9,7 @@
     <svelte:head>
     
       <!-- HTML Meta Tags -->
-      <title>Yasser B. Lebon Podcasts</title>
+      <title>Yasser B. Lebon Cards</title>
       <meta name="description" content="Yasser B. Lebon card records">
     
     </svelte:head>
