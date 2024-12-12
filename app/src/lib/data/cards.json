@@ -1,5 +1,22 @@
 [
   {
+    "src": "https://download.samplelib.com/mp6/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "Un océan de pensées, Caroline je t'ai offert un building de tendresse. J'ai eu une peur bleue, je suis poursuivi par l'armée rouge. Pour toi j'ai pris des billets verts, il a fallu qu'je bouge.Pyromane de ton cœur, canadair de tes frayeurs. Je t'ai offert une symphonie de couleurs",
+    "poster": "IMG_0461.png",
+    "title": "psyops: 'Elle est partie, maso. Avec un vieux macho'",
+    "youtube": "https://www.youtube.com/embed/Uz8MyEqw-pk?si=20XaD1dJEVn9AJ1m",
+    "source": "Caroline, Mc Solaar",
+    "tags": [
+      "song",
+      "culture",
+      "psyops"
+    ],
+    "highlight": false,
+    "uid": "123481",
+    "code": "https://gist.github.com/yblebon/0ebdbcb4f9ac3a946621267ff29f75dd.js"
+  },
+  {
     "src": "https://download.samplelib.com/mp5/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "La premiere de la classe avec les derniers de la classe premiers en chant et en sport.  As a result of his unpleasant experiences with traditional schools, the visionary has become an advocate for homeschooling, demonstrating the transformative potential of this educational approach.",
