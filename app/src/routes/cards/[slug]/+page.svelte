@@ -9,7 +9,7 @@
     og["domain"] = "yblebon.github.io";
     og["url"] = "https://yblebon.github.io/logs/cards/"+data.card.uid
     og["audio"] = data.card.url;
-    og["image"] = "https://ipfs.filebase.io/ipfs/QmaxYnmU94P9J785MYkm28LpnYX5vtxuSC8tRewDn4qdCW";
+    og["image"] = "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmbVEjZFcYkYRCoAdLbPrAfwsixXdGWtwyuWsmkKDJsQLw";
     
    
     
