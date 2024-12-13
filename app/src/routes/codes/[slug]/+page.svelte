@@ -2,14 +2,26 @@
     import CardComponent from '../../../components/card.svelte';
     /** @type {import('./$types').PageData} */
     export let data;
-    const filebaseBase = "https://ipfs.filebase.io/ipfs";
     let og = {};
-    og["title"] = data.card.title;
-    og["description"] = data.card.description;
+    
+    // code title 
+    if (data.card.hasOwnProperty("code_title")) {
+      og["title"] = data.card.code_title;
+    } else {
+      og["title"] = data.card.title;
+    }
+
+    // code description 
+    if (data.card.hasOwnProperty("code_description")) {
+      og["description"] = data.card.code_description;
+    } else {
+      og["description"] = data.card.text;
+    }
+    
     og["domain"] = "yblebon.github.io";
     og["url"] = "https://yblebon.github.io/logs/cards/"+data.card.uid
     og["audio"] = data.card.url;
-    og["image"] = "https://ipfs.filebase.io/ipfs/QmaxYnmU94P9J785MYkm28LpnYX5vtxuSC8tRewDn4qdCW";
+    og["image"] = "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXcAkP4SGBjtipv1d8gDoKR4oKNstZt1EC7cX5PTpmWkD";
     
    
     
@@ -18,22 +30,15 @@
  
  <svelte:head>
  
-   <!-- HTML Meta Tags -->
-   <title>{data.card.title}</title>
-   <meta name="description" content="{data.card.title}">
- 
- 
-   <!-- Twitter Meta Tags -->
-   <meta name="twitter:card" content="summary">
-   <meta property="twitter:domain" content="{og.domain}">
-   <meta property="twitter:url" content="{og.url}">
-   <meta name="twitter:title" content="{og.title}">
-   <meta name="twitter:description" content="{og.description}">
-   <meta name="twitter:image" content="{og.image}">
-   <meta name="twitter:creator" content="@YasserLebon"/>
- 
-         
- 
+  <!-- HTML Meta Tags -->
+  <title>{data.card.title}</title>
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:creator" content="@YasserLebon" />
+  <meta property="og:url" content="{og.url}" />
+  <meta property="og:title" content="{og.title}" />
+  <meta property="og:description" content="{og.description}" />
+  <meta property="og:image" content="{og.image}" />
+
  </svelte:head>
  
  
