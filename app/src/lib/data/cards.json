@@ -380,7 +380,8 @@
       "circus"
     ],
     "highlight": false,
-    "code": "https://gist.github.com/yblebon/a45a9cc63b38240b1d0d12b630e5b2e9.js"
+    "code": "https://gist.github.com/yblebon/a45a9cc63b38240b1d0d12b630e5b2e9.js",
+    "code_title": "Circus: A Process & Socket Manager"
   },
   {
     "src": "https://download.samplelib.com/mp3/sample-at.mp3",

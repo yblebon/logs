@@ -1,5 +1,5 @@
 <script>
-    import CardComponent from '../../../components/card.svelte';
+    import CodeComponent from '../../../components/code.svelte';
     /** @type {import('./$types').PageData} */
     export let data;
     let og = {};
@@ -42,4 +42,4 @@
  </svelte:head>
  
  
- <CardComponent card={data.card}/>
+ <CodeComponent card={data.card}/>
