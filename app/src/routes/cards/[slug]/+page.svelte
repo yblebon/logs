@@ -7,7 +7,7 @@
     og["description"] = data.card.text;
     og["domain"] = "yblebon.github.io";
     og["url"] = "https://yblebon.github.io/logs/cards/"+data.card.uid
-    og["image"] = "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmbVEjZFcYkYRCoAdLbPrAfwsixXdGWtwyuWsmkKDJsQLw";
+    og["image"] = "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmQCcGKUCYm56duhMvUS2S9CKfFmLi2bcFTWYmRDw2FLvC";
  </script>
  
  <svelte:head>

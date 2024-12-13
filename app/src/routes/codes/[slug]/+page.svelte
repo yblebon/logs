@@ -21,7 +21,7 @@
     og["domain"] = "yblebon.github.io";
     og["url"] = "https://yblebon.github.io/logs/cards/"+data.card.uid
     og["audio"] = data.card.url;
-    og["image"] = "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXcAkP4SGBjtipv1d8gDoKR4oKNstZt1EC7cX5PTpmWkD";
+    og["image"] = "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmdeUdbq7B5mbnvYbXTGxrpB52P7PSEMPXv2yTXV9nkbr6";
     
    
     
