@@ -1,28 +1,22 @@
 <script>
     import CardComponent from '../../../components/card.svelte';
     /** @type {import('./$types').PageData} */
-    export let data;
-    const filebaseBase = "https://ipfs.filebase.io/ipfs";
+    export let data;;
     let og = {};
     og["title"] = data.card.title;
-    og["description"] = data.card.title;
+    og["description"] = data.card.text;
     og["domain"] = "yblebon.github.io";
     og["url"] = "https://yblebon.github.io/logs/cards/"+data.card.uid
-    og["audio"] = data.card.url;
     og["image"] = "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmbVEjZFcYkYRCoAdLbPrAfwsixXdGWtwyuWsmkKDJsQLw";
-    
-   
-    
-    
  </script>
  
  <svelte:head>
  
    <!-- HTML Meta Tags -->
    <title>{data.card.title}</title>
-   <meta name="description" content="{data.card.title}">
+   <meta name="description" content="{data.card.text}">
  
- 
+
    <!-- Twitter Meta Tags -->
    <meta name="twitter:card" content="summary">
    <meta property="twitter:domain" content="{og.domain}">
