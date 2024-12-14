@@ -1,20 +1,32 @@
-[{
-  "src": "https://download.samplelib.com/mp9/sample-xx.mp3",
-  "type": "audio/mp3",
-  "text": "En géométrie euclidienne, un cercle est une courbe plane fermée constituée de points situés à égale distance d'un point nommé centre. Cette distance est appelée rayon du cercle.",
-  "poster": "IMG_0461.png",
-  "title": "psyops: 'C'est à 5 min à pieds de tel endroit'",
-  "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmfVvJhe3w9JA4H5zfQSi8rXtWSLfiKxcKNt4Gyc2gsTyw",
-  "source": "Wikipedia",
-  "tags": [
-    "psyops",
-    "math"
-  ],
-  "highlight": false,
-  "uid": "123484",
-  "code_title": "calculate circle area and perimeter in python",
-  "code": "https://gist.github.com/yblebon/351090eb37fe6b04cad1c6a5f03069b1.js"
-},
+[
+  {
+    "src": "https://download.samplelib.com/mp10/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "Douanes sous haute surveillance S07 : A l'aéroport de Sydney, les douaniers fouillent les bagages d'un homme qui rentre chez lui en Australie, après être allé voir sa famille au Nigéria.",
+    "poster": "IMG_0461.png",
+    "title": "psyops: 'Kangaroos are just deer who went to prison'",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/Qmf1HA3neRc9JytErbmkEmop6HtsPgwGovVo5j2wiA91MM",
+    "source": "CSTAR",
+    "tags": ["toxic", "song", "psyops"],
+    "highlight": false,
+    "uid": "123485",
+    "code_title": "Template pattern: an object imposes a structure but takes pluggable components",
+    "code": "https://gist.github.com/yblebon/061fe9d1442ce9e4d79cbf1eb1ec1c25.js"
+  },
+  {
+    "src": "https://download.samplelib.com/mp9/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "En géométrie euclidienne, un cercle est une courbe plane fermée constituée de points situés à égale distance d'un point nommé centre. Cette distance est appelée rayon du cercle.",
+    "poster": "IMG_0461.png",
+    "title": "psyops: 'C'est à 5 min à pieds de tel endroit'",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmfVvJhe3w9JA4H5zfQSi8rXtWSLfiKxcKNt4Gyc2gsTyw",
+    "source": "Wikipedia",
+    "tags": ["psyops", "math"],
+    "highlight": false,
+    "uid": "123484",
+    "code_title": "calculate circle area and perimeter in python",
+    "code": "https://gist.github.com/yblebon/351090eb37fe6b04cad1c6a5f03069b1.js"
+  },
   {
     "src": "https://download.samplelib.com/mp8/sample-xx.mp3",
     "type": "audio/mp3",
@@ -23,10 +35,7 @@
     "title": "psyops: 'I kept one hundred institutions paid', Kendrick",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmWtecjLoM52BqkZLkvapMJ68KFFvKWXfb5boe7pH3djRC",
     "source": "",
-    "tags": [
-      "psyops",
-      "song"
-    ],
+    "tags": ["psyops", "song"],
     "highlight": false,
     "uid": "123483",
     "code": "https://gist.github.com/yblebon/5dc7a75d181e7134ab29ac20acc7d3dd.js"
@@ -39,10 +48,7 @@
     "title": "Theories of Atonement: Scapegoat Theory",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXYQBNvxiaPZaJZ2SWNbxxo3Cn9Q2ebJhNkaTPP68m8b1",
     "source": "https://www.sdmorrison.org",
-    "tags": [
-      "psyops",
-      "Fanaticism"
-    ],
+    "tags": ["psyops", "Fanaticism"],
     "highlight": false,
     "uid": "123482",
     "code": "https://gist.github.com/yblebon/7d2e7b4df7507fbe26f4da43ff822093.js"
@@ -55,10 +61,7 @@
     "title": "psyops: 'Elle est partie, maso. Avec un vieux macho'",
     "youtube": "https://www.youtube.com/embed/Uz8MyEqw-pk?si=20XaD1dJEVn9AJ1m",
     "source": "Caroline, Mc Solaar",
-    "tags": [
-      "song",
-      "psyops"
-    ],
+    "tags": ["song", "psyops"],
     "highlight": false,
     "uid": "123481",
     "code": "https://gist.github.com/yblebon/0ebdbcb4f9ac3a946621267ff29f75dd.js"
@@ -71,11 +74,7 @@
     "title": "'Les derniers seront les premiers'",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmcSMxJNDsnSfidUcaTPHoE2GHFfEDsM6A9Zmz3Wma8Qsq",
     "source": "https://insights.lifemanagementsciencelabs.com",
-    "tags": [
-      "song",
-      "culture",
-      "movie"
-    ],
+    "tags": ["song", "culture", "movie"],
     "highlight": false,
     "uid": "123480",
     "code": "https://gist.github.com/yblebon/bdecce01babd5c5b946da80abd356d1e.js"
@@ -88,9 +87,7 @@
     "title": "1987: Entre gris clair et gris foncé",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmdfWZ4hzcn8T2J5Mg2AXZDE7od39H54X2tNuPn3LUqzeo",
     "source": "https://www.forbes.com/",
-    "tags": [
-      "culture"
-    ],
+    "tags": ["culture"],
     "highlight": false,
     "uid": "123479",
     "code": "https://gist.github.com/yblebon/8b70d45eb55106615b5798f2264853c3.js"
@@ -104,11 +101,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmbmHMi7aTAZneW9E5u6JnpETAtZWaescfrajTy1D7AxNn",
     "uid": "123478",
     "source": "Jimmy, Booba  & https://www.grenoble-inp.fr/",
-    "tags": [
-      "psyops",
-      "circus",
-      "song"
-    ],
+    "tags": ["psyops", "circus", "song"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/ab28e658256d1bc268922fa982cf850b.js"
   },
@@ -121,11 +114,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXXD2oi4ovQQLMNA994yEziSDsETSNQKypg4fxzZ8QHcB",
     "uid": "123477",
     "source": "terre promise, disiz",
-    "tags": [
-      "psyops",
-      "circus",
-      "song"
-    ],
+    "tags": ["psyops", "circus", "song"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/460e6e77b5c6fb73661452b12c1f52bf.js"
   },
@@ -151,10 +140,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmUj72QDLpkBrSUFKD87kVrYesVC1Q1D9Qp82NF4yCofDA",
     "uid": "123475",
     "source": "Appartenir, J.J Goldman",
-    "tags": [
-      "tv",
-      "voice"
-    ],
+    "tags": ["tv", "voice"],
     "highlight": true,
     "code": "https://gist.github.com/yblebon/3b4d4dff1fbca797a5ab102f63abfa19.js"
   },
@@ -167,10 +153,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmZuSw7qUHxXFtXV5d3w8kH6sdPnW4CTkCSTS4M2gPDfVq",
     "uid": "123474",
     "source": "www.courrierinternational.com",
-    "tags": [
-      "culture",
-      "cinema"
-    ],
+    "tags": ["culture", "cinema"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/5c37f6d143dfd38dc3b806e423a0a862.js"
   },
@@ -183,11 +166,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmdSWRho3LQiRXMfNFJ3s5t1TzEoUWV7n1S75qrmqeCUXi",
     "uid": "123473",
     "source": "https://www.reuters.com",
-    "tags": [
-      "song",
-      "news",
-      "india"
-    ],
+    "tags": ["song", "news", "india"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/590c306ff4422721b1501d3f0462e67f.js"
   },
@@ -200,9 +179,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmNPXJa5ta8GUvDG6UWmmk9RRi2BJTub8A6y5RRchbHCLx",
     "uid": "123472",
     "source": "waiting for love, avicii & Ma mère, pute et soumise, xstory-fr.com",
-    "tags": [
-      "psyops"
-    ],
+    "tags": ["psyops"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/436c5a997836b2cf6572f31dee54aa35.js"
   },
@@ -215,9 +192,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmecnD6jm4iSnHguCptvwimDr1iThD59YodjhTfKHfFhZ6",
     "uid": "123471",
     "source": "Doc Gyneco",
-    "tags": [
-      "psyops"
-    ],
+    "tags": ["psyops"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/137782cc12d51448291d130818994e6f.js"
   },
@@ -230,9 +205,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmRuHHXnNDGpGHwwuX5HP675KAQHJ7X8deghVK3R31Kpki",
     "uid": "123470",
     "source": "nbcnews.com",
-    "tags": [
-      "psyops"
-    ],
+    "tags": ["psyops"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/f932aa4ecabb08ebfc69a2a0759ee79c.js"
   },
@@ -245,9 +218,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmaK4vCLzf1z9tNXpz6xXxGY7bWygXWtjLDMuvg2dpAP2L",
     "uid": "123469",
     "source": "Basique, Orelsan",
-    "tags": [
-      "psyops"
-    ],
+    "tags": ["psyops"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/be3fecdf17d737d3025a23590b724887.js"
   },
@@ -273,9 +244,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmYDVJHuQXrNDxBpC8CnNujfwxYY2FHStHHTLPqcMKg3LB",
     "uid": "123467",
     "source": "Let’s Scare Jessica to Death, Les 400 culs, liberation.fr",
-    "tags": [
-      "movie"
-    ],
+    "tags": ["movie"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/a97406ed82a29f254bf37139cc757a29.js"
   },
@@ -301,10 +270,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmbhpCCxLseHKjifmrX6q8RYKsduq3nRKVv4yYwRQfAhCc",
     "uid": "123465",
     "source": "Changes, 2pac & https://www.myjewishlearning.com",
-    "tags": [
-      "gasy",
-      "song"
-    ],
+    "tags": ["gasy", "song"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/a7d7da2380070808c171c6b2fee329d2.js"
   },
@@ -317,9 +283,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmReiUfAyXjSLM5iRt4CbP9SaGipcbqaGGvNWh1xiLKGcS",
     "uid": "123464",
     "source": "TV off, Kendrick & Le Gorille, Brassens",
-    "tags": [
-      "psyops"
-    ],
+    "tags": ["psyops"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/fc1f1ea97d007fb15cebd068ee87efd7.js"
   },
@@ -332,10 +296,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmYbBmTJUtNj9XDADfiBHdXMU1HGcQxuCDgun1a5mWKGfN",
     "uid": "123463",
     "source": "theguardian.com",
-    "tags": [
-      "psyops",
-      "crazy"
-    ],
+    "tags": ["psyops", "crazy"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/5e956a65aeb814c92588ffbb815dd02f.js"
   },
@@ -348,9 +309,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmcDH4dnivFn9QjGYLF9uFfQoC4NkZUUExun6Emspge5Pw",
     "uid": "123462",
     "source": "",
-    "tags": [
-      "dom securite"
-    ],
+    "tags": ["dom securite"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/5d8ec91cc9286a60bc53269bfac98cf8.js"
   },
@@ -363,10 +322,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmPB4QN4wyLxmQbwmLpbboQLLJScE2MhwnmyciLvBVRhP4",
     "uid": "123461",
     "source": "Siffler sur la colline, Joe Dassin",
-    "tags": [
-      "ile reunion",
-      "vox dei"
-    ],
+    "tags": ["ile reunion", "vox dei"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/ec963b68022811f51dcbceebd3085a08.js"
   },
@@ -379,10 +335,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmR64kibha4EZQnztJgP2xedm8Sv5rXennWpSQ32QMiqTS",
     "uid": "123460",
     "source": "france24.com",
-    "tags": [
-      "finance",
-      "actualite"
-    ],
+    "tags": ["finance", "actualite"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/77b98add23e7ccb235c3bb31b9175368.js"
   },
@@ -408,9 +361,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmWjAUsTD21i8wR7NZPWd45m1TiiL2bCvpRbjDmSahBYMu",
     "uid": "123459",
     "source": "Les jeux du cirque, instrument de pouvoir dans la Rome, par Jean-Paul Thuillier",
-    "tags": [
-      "circus"
-    ],
+    "tags": ["circus"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/a45a9cc63b38240b1d0d12b630e5b2e9.js",
     "code_title": "Circus: A Process & Socket Manager"
@@ -424,11 +375,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmdvpHwJA78SHaomNRWJ3MhotaLGYjbYCgdJFc2z8e668b",
     "uid": "123458",
     "source": "wikipedia.org",
-    "tags": [
-      "tournus",
-      "beer",
-      "culture"
-    ],
+    "tags": ["tournus", "beer", "culture"],
     "highlight": false,
     "upload_date": "2024-11-16",
     "code": "https://gist.github.com/yblebon/b15328f8367e8cc17a1499b669f1e057.js"
@@ -442,10 +389,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmerJJJaSr3aBCQ4P4BN3z9Dn2Csm2HZq9qXroE5N4j2d5",
     "uid": "123457",
     "source": "lefigaro.fr",
-    "tags": [
-      "actualite",
-      "afrique"
-    ],
+    "tags": ["actualite", "afrique"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/07f8c40e18fe341a914a0f7d25ec79b3.js"
   },
@@ -458,10 +402,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmPEBfJtMssGnQALC9RULLuS6kBtrsHxgUbDLiAggKo1Gh",
     "uid": "123456",
     "source": "La matrone, la louve et le soldat : pourquoi des prostitué(e)s « ingénues » à Rome ?, Florence Dupont",
-    "tags": [
-      "book",
-      "roman empire"
-    ],
+    "tags": ["book", "roman empire"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/a083cbdf56debbcea807d82b9fbe734e.js"
   },
@@ -474,10 +415,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmSenNVFvaxXkYQWsfjFd21bofwxusgzs6VBfoAPw54XYn",
     "uid": "123455",
     "source": "The Essential Handbook to Europe's Tribes, Fernandez-Armesto",
-    "tags": [
-      "book",
-      "geopolitics"
-    ],
+    "tags": ["book", "geopolitics"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/0be8c050cb98e946952bc98bd9c88f43.js"
   },
@@ -503,10 +441,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmVfioksKmfQZ4vPdHRyQiu7uxFjC9FZKP8x7tTSFaqRcE",
     "uid": "123453",
     "source": "https://vistacriminallaw.com/prosecutorial-misconduct/",
-    "tags": [
-      "movie",
-      "law"
-    ],
+    "tags": ["movie", "law"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/36b2885dea33923ad2e7ad24b9c7e664.js"
   },
@@ -519,10 +454,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmbJZK8GrmtmWrR8u7ZuGsx2sNase4GTFg718wsLnY36vt",
     "uid": "123452",
     "source": "Assassinat de dirigeants étrangers par les Etats-Unis, Etienne Dubuis",
-    "tags": [
-      "livre",
-      "actualites"
-    ],
+    "tags": ["livre", "actualites"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/2be152bcdc7ed1e4ea946c3f46695739.js"
   },
@@ -548,9 +480,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmQGbGhNt2cycK96m3g9vdPq6EGCcd5g9DVsrZtWb52F46",
     "uid": "123450",
     "source": "Instagram",
-    "tags": [
-      "nobody"
-    ],
+    "tags": ["nobody"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/9b8395cffa8873bdf1c7fbb702a3c17d.js"
   },
@@ -647,9 +577,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/Qme897LRxgeuqcw3NrWYSiy1we6xy2EQPm2vAMsH9HdnyH",
     "uid": "123441",
     "source": "git-scm.com",
-    "tags": [
-      "Move Lang"
-    ],
+    "tags": ["Move Lang"],
     "code": "https://gist.github.com/yblebon/a3f2c97a83f8b3ab12369a9ce90267ac.js"
   },
   {
@@ -661,10 +589,7 @@
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmZY2fPeM2NwG82k9EqQtTtwoHxbzQ7PLonQRQtZX2YfiK",
     "uid": "123440",
     "source": "g2.com",
-    "tags": [
-      "hr",
-      "dj"
-    ],
+    "tags": ["hr", "dj"],
     "code": "https://gist.github.com/yblebon/b78ff2e9f32734d170e8483cde7e90da.js"
   },
   {
