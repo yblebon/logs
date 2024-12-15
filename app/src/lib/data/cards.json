@@ -1,5 +1,19 @@
 [
   {
+    "src": "https://download.samplelib.com/mp13/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "Elon Musk met la pression sur NVIDIA pour obtenir ses puces IA... au point de mettre l'entreprise en difficulté. Sa firme xAI a ainsi construit en quelques mois un supercalculateur monstrueux dans le Tennessee, baptisé Colossus, et intégrant 100 000 puces H100.",
+    "poster": "IMG_0461.png",
+    "title": "psyops: 'tsy ampy boulon zigny ay'",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmTQn4avSsGu49z5ddehg3L4ZxdrThvue3yVYiB5xo8S85",
+    "source": "",
+    "tags": ["song", "git", "force"],
+    "highlight": false,
+    "uid": "123488",
+    "code_title": "git: force a commit push",
+    "code": "https://gist.github.com/yblebon/bdb0ea2c5b070a246981e1cea925787e.js"
+  },
+  {
     "src": "https://download.samplelib.com/mp12/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "Comme sur beaucoup de jeux videos, des données du jeu peuvent être modifiées volontairement pour obtenir des effets etranges comme les 'bugs volontaires' sur Mario 64.",
