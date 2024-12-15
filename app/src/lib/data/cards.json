@@ -71,6 +71,7 @@
     "highlight": false,
     "uid": "123483",
     "code_tags": ["python", "bs4"],
+    "code_title": "extracting html data with beautifulsoup",
     "code": "https://gist.github.com/yblebon/5dc7a75d181e7134ab29ac20acc7d3dd.js"
   },
   {
