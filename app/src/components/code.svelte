@@ -6,8 +6,8 @@
   
   <div class="card mx-auto border-dark mt-4" style="max-width: 540px;">
     <div class="card-header text-bg-dark">
-        {#if card.hasOwnProperty("tags") }
-          {#each card.tags as tag}
+        {#if card.hasOwnProperty("code_tags") }
+          {#each card.code_tags as tag}
             <span class="me-2 badge text-bg-secondary float-start">{tag}</span>
           {/each}
         {/if}

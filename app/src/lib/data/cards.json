@@ -11,6 +11,7 @@
     "highlight": false,
     "uid": "123488",
     "code_title": "git: force a commit push",
+    "code_tags": ["git", "git push"],
     "code": "https://gist.github.com/yblebon/bdb0ea2c5b070a246981e1cea925787e.js"
   },
   {
@@ -25,6 +26,7 @@
     "highlight": false,
     "uid": "123487",
     "code_title": "git: revert an existing commit",
+    "code_tags": ["git", "git revert"],
     "code": "https://gist.github.com/yblebon/180038b4f35cdddb8141e7a66ea71f6f.js"
   },
   {
@@ -38,6 +40,7 @@
     "tags": ["toxic", "song", "psyops"],
     "highlight": false,
     "uid": "123485",
+    "code_tags": ["sfw", "template pattern"],
     "code_title": "Template pattern: an object imposes a structure but takes pluggable components",
     "code": "https://gist.github.com/yblebon/061fe9d1442ce9e4d79cbf1eb1ec1c25.js"
   },
@@ -52,6 +55,7 @@
     "tags": ["psyops", "math"],
     "highlight": false,
     "uid": "123484",
+    "code_tags": ["python", "math"],
     "code_title": "calculate circle area and perimeter in python",
     "code": "https://gist.github.com/yblebon/351090eb37fe6b04cad1c6a5f03069b1.js"
   },
@@ -66,6 +70,7 @@
     "tags": ["psyops", "song"],
     "highlight": false,
     "uid": "123483",
+    "code_tags": ["python", "bs4"],
     "code": "https://gist.github.com/yblebon/5dc7a75d181e7134ab29ac20acc7d3dd.js"
   },
   {
