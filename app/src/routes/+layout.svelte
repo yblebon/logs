@@ -7,7 +7,7 @@
 <script>
     import MenuComponent from '../components/menu.svelte'
     let tag = "";  
-    function handleChange(inputTag) {  
+    function handleSubmit(inputTag) {  
         console.log(inputTag);
     }  
 	
@@ -20,7 +20,7 @@
 
 </style>
 
-<MenuComponent onChange={handleChange}/>
+<MenuComponent onSubmit={handleSubmit}/>
 
 <div class=" container-sm">
 

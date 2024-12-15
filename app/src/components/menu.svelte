@@ -2,7 +2,7 @@
   import { base } from "$app/paths";
 
   let selected = "home";
-  export let onChange;
+  export let onSubmit;
 
   function changeContent() {
     document
@@ -68,8 +68,8 @@
           </a>
         </li>
       </ul>
-      <form class="d-flex" role="search">
-        <input on:input={(e) => onChange(e.target.value)}  class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+      <form class="d-flex" role="search" onsubmit="onSubmit(this.search.value);return false">
+        <input class="form-control me-2" name="search" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success" type="submit">Search</button>
       </form>
       <a
