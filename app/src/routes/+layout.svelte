@@ -6,7 +6,10 @@
 
 <script>
     import MenuComponent from '../components/menu.svelte'
-    
+    let tag = "";  
+    function handleChange(inputTag) {  
+        console.log(inputTag);
+    }  
 	
     
 </script>
@@ -17,7 +20,7 @@
 
 </style>
 
-<MenuComponent />
+<MenuComponent onChange={handleChange}/>
 
 <div class=" container-sm">
 
