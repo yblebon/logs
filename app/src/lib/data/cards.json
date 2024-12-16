@@ -845,9 +845,13 @@
   {
     "src": "https://download.samplelib.com/mp3/sample-j.mp3",
     "type": "audio/mp3",
-    "text": "'Autour d'chez toi les keufs mettent des bandes jaunes (bandes jaunes)' 'Sur le rain-té à midi, je baisais la juge mon alibi.' 'Dr. Jay Varma, who managed New York City's Covid response, confessed to attending sex parties during the pandemic while publicly'",
+    "text": "Autour d'chez toi les keufs mettent des bandes jaunes (bandes jaunes). Sur le rain-té à midi, je baisais la juge mon alibi.",
     "poster": "IMG_0461.png",
-    "title": "'Panic attack'",
+    "title": "psyops: panic attack",
+    "tags": ["psyops", "song"],
+    "code_title": "inverse matrix in python",
+    "source": "la mort leur va si bien, Booba",
+    "code_tags": ["python", "matrix"],
     "code": "https://gist.github.com/yblebon/09638a01771b97b28bdea6e6b352ae9c.js",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmQztSbrR6Qvv8TnLiyn7WJwRBHpQAUoo1tQqEkmnqHGdV",
     "uid": "123419"
