@@ -837,6 +837,7 @@
     "type": "audio/mp3",
     "text": "On les tient avec la faim, on les tient avec l'eau",
     "poster": "IMG_0461.png",
+    "tags": ["song", "tactic"],
     "code": "https://gist.github.com/yblebon/3aa25ab2684c90b2e00a41c5f3fb0a6b.js",
     "code_title": "python docstring",
     "code_tags": ["python", "docstring"],
