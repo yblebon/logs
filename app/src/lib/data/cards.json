@@ -835,10 +835,12 @@
   {
     "src": "https://download.samplelib.com/mp3/sample-k.mp3",
     "type": "audio/mp3",
-    "text": "'To tell the truth, I been pretty used to what open-minded people do In 2014, I went to Africa, baby, you was my passenger My eyes and ears for all the years the neighborhood had baffled us Of course I had to wrap it up, I didn't fully trust you' Kendrick",
+    "text": "On les tient avec la faim, on les tient avec l'eau",
     "poster": "IMG_0461.png",
     "code": "https://gist.github.com/yblebon/3aa25ab2684c90b2e00a41c5f3fb0a6b.js",
-    "title": "On les tient sans à boire et à manger",
+    "code_title": "python docstring",
+    "code_tags": ["python", "docstring"],
+    "title": "Sunshine, Dog Gyneco",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmRf2aTbfVK9YDd4cGVWvk5vvABT6AjjdMUe8RSLueSwSf",
     "uid": "123420"
   },
