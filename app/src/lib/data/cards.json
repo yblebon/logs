@@ -1,5 +1,17 @@
 [
   {
+    "src": "https://download.samplelib.com/mp14/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "C'est ainsi que naît Booba IA, une rencontre inattendue entre le rappeur emblématique Booba et le monde de l'IA, incarnée par ce chatbot créé par Yiaho. Booba ...",
+    "poster": "IMG_0461.png",
+    "title": "t'a pas de cerveau. pour toi c'est mort ni queue ni tete.",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmZyC3auwowq1nHzjhhMecQK13f2QaWuaWf7AdzFmNSFLm",
+    "source": "GP, Booba",
+    "tags": ["song", "psyops"],
+    "highlight": false,
+    "uid": "123489"
+  },
+  {
     "src": "https://download.samplelib.com/mp13/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "Elon Musk met la pression sur NVIDIA pour obtenir ses puces IA... au point de mettre l'entreprise en difficulté. Sa firme xAI a ainsi construit en quelques mois un supercalculateur monstrueux dans le Tennessee, baptisé Colossus, et intégrant 100 000 puces H100.",
