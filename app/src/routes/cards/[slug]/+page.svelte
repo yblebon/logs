@@ -18,7 +18,7 @@
  
 
    <!-- Twitter Meta Tags -->
-   <meta name="twitter:card" content="summary">
+   <meta name="twitter:card" content="summary_large_image">
    <meta property="twitter:domain" content="{og.domain}">
    <meta property="twitter:url" content="{og.url}">
    <meta name="twitter:title" content="{og.title}">
