@@ -697,10 +697,13 @@
     "type": "audio/mp3",
     "text": "The German man known as 'Black Forest Rambo' admitted stealing weapons from four police officers last summer as his trial got underway Friday. The man gained infamy after hiding out in the Black Forest for five days.",
     "poster": "IMG_0461.png",
-    "title": "Psysops: C'est un soldat",
+    "title": "psysops: he is an warrior",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmRTGjqc8ZQQ6nivqcsA7DgXuY55Z7Dk9DaK1i5bzuswCV",
     "uid": "123433",
     "source": "Warriors & dw.com",
+    "code_title": "branching in Rust",
+    "tags": ["psyops", "warrior"],
+    "code_tags": ["rust", "branching"],
     "code": "https://gist.github.com/yblebon/d1576278c24c5df67e70c50aeec31f28.js"
   },
   {
