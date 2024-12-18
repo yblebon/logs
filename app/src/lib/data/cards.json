@@ -2,13 +2,16 @@
   {
     "src": "https://download.samplelib.com/mp22/sample-xx.mp3",
     "type": "audio/mp3",
-    "text": "The British Cemetery (Cemitério dos Ingleses) in the Portuguese capital of Lisbon was established in the early 18th century. It is located in the Estrela district of the city and surrounds the Anglican St George's Church. The first marked grave is dated 1724. The Cemetery contains graves of early British Protestant residents and long-established British families in Portugal as well as British visitors to Lisbon. There are also 31 Commonwealth War Graves.",
-    "title": "pschological warfare is real",
-    "source": "wikipedia.org",
-    "tags": ["culture", "benny hill", "psyops"],
+    "text": "Salut, c'est encore moi. Salut, comment tu vas. Le temps m'a paru très long. Loin de la maison, j'ai pensé à toi. J'ai un peu trop navigué. Et je me sens fatigué. Fais-moi un bon café.J'ai une histoire à te raconter",
+    "title": "L’Arabica est la variété de caféier la plus répandue au monde",
+    "source": "Salut, Joe Dassin",
+    "tags": ["psyops", "café"],
     "highlight": false,
-    "uid": "123496",
-    "youtube": "https://www.youtube.com/embed/dMAYQaR5Ng0"
+    "uid": "123497",
+    "code_title": "unix: adding user as a sudoer",
+    "code": "https://gist.github.com/yblebon/fa5d34ef9aef2d58ff2e778a756e1823.js",
+    "code_tags": ["unix", "sudo"],
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmZ5XMs4qnLUHb5rmuzwSMjvJoHnXzbXk9mQCTZctdRRpA"
   },
   {
     "src": "https://download.samplelib.com/mp21/sample-xx.mp3",
