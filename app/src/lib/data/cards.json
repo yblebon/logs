@@ -1,4 +1,18 @@
 [
+{
+    "src": "https://download.samplelib.com/mp23/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "J'ai le téléphone du Diable, prends son numéro. Appelle le en PCV, envoie-lui des textos. Vexe-le, lance des psaumes en argotMets ton doigt en l'air et crie 'va fon culo'. On dit qu'il est évasif, mi-démon, mi-nazi",
+    "title": "psyops: gare Paris-Austerlitz, l'ensemble de nos lignes de nuit",
+    "source": "Impact avec le diable, Mc Solaar",
+    "tags": ["psyops", "song"],
+    "highlight": false,
+    "uid": "123498",
+    "code_title": "rust: walk directory and search a specific file",
+    "code": "https://gist.github.com/yblebon/2ca4233518d4e1b09aef3c8d08f185e1.js",
+    "code_tags": ["rust", "walkdir"],
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmX8kdo1FMrxseFL33PA7Bujwhx1p1XoSzNZ16PJ8sHTaw"
+  },
   {
     "src": "https://download.samplelib.com/mp22/sample-xx.mp3",
     "type": "audio/mp3",
