@@ -5,7 +5,7 @@
     const filebaseBase = "https://ipfs.filebase.io/ipfs";
   </script>
   
-  <div class="card shadow-sm mx-auto rounded-3 border-dark mt-4" style="max-width: 540px;">
+  <div class="card shadow-sm mx-auto rounded-3 border-dark mt-4 h-100" style="max-width: 540px;">
     <div class="card-header text-bg-dark">
       
      <div>
@@ -19,11 +19,11 @@
      <figure>
       {#if card.hasOwnProperty("tags") }
           {#each card.tags as tag}
-            <span class="mx-2 mt-2 badge bg-info text-dark float-start">{tag}</span>
+            <span class="mx-2 mt-0 badge bg-info text-dark float-start">{tag}</span>
           {/each}
         {/if}
 
-      <blockquote class="blockquote ps-2 pt-2">
+      <blockquote class="blockquote ps-2 pt-0">
         <p class="fs-6">{card.text}</p>
       </blockquote>
       {#if card.hasOwnProperty("source")}
