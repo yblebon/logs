@@ -18,7 +18,7 @@
     <figure>
       {#if card.hasOwnProperty("tags") }
           {#each card.tags as tag}
-            <span class="mx-2 mt-2 badge text-bg-secondary float-start">{tag}</span>
+            <span class="mx-2 mt-2 badge bg-info text-dark float-start">{tag}</span>
           {/each}
         {/if}
 
