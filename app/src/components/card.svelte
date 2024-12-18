@@ -5,7 +5,7 @@
     const filebaseBase = "https://ipfs.filebase.io/ipfs";
   </script>
   
-  <div class="card mx-auto border-dark mt-4" style="max-width: 540px;">
+  <div class="card shadow-sm mx-auto rounded-3 border-dark mt-4" style="max-width: 540px;">
     <div class="card-header text-bg-dark">
       
      <div>
@@ -15,7 +15,8 @@
      </div>
     </div>
   
-    <figure>
+    <div class="card-body">
+     <figure>
       {#if card.hasOwnProperty("tags") }
           {#each card.tags as tag}
             <span class="mx-2 mt-2 badge bg-info text-dark float-start">{tag}</span>
@@ -32,13 +33,12 @@
           >
         </figcaption>
       {/if}
-    </figure>
+     </figure>
   
     {#if card.image !== undefined}
       <img src={card.image} class="card-img-top" />
     {/if}
   
-    <div class="card-body bg-light">
       {#if card.hasOwnProperty("youtube")}
         <div class="ratio ratio-16x9">
           <iframe src="{card.youtube}" title="YouTube video" allowfullscreen></iframe>
@@ -48,8 +48,8 @@
       {#if card.hasOwnProperty("code")}
         <script src={card.code}></script>
       {/if}
-  
-      <p class="card-text">
+     </div>  
+      <div class="card-footer">
         {#if card.hasOwnProperty("upload_date") }
           <span class="me-2 badge text-bg-secondary float-start">{card.upload_date}</span>
         {/if}
@@ -60,7 +60,6 @@
           >link</a
         >
   
-      </p>
-    </div>
+      </div>
   </div>
   
