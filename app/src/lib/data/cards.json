@@ -1,5 +1,19 @@
 [
 {
+    "src": "https://download.samplelib.com/mp29/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "German defense minister accused of plagiarism. Rape of the Sabine Women: it is said that the Sabines and other tribes launched an invasion of Rome. The Trojan War: Arbiter of goddesses, abductor of Helen, and skilled archer, Paris of Troy ignited the most famous war in Greek mythology",
+    "title": "psyops: Mais quand on a vu l'indienne on a dit : quel cadeau !",
+    "source": "Au Pays de Gandhi, Solaar",
+    "tags": ["psyops", "song", "culture"],
+    "highlight": false,
+    "uid": "123504",
+    "code_title": "rust: command line arguments",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmUy7ydL5McxBHK5KGaGhNW8C6hRn5ZKAA8v49FfDN5Btd",
+    "code": "https://gist.github.com/yblebon/6ae76048c05f8407ec7c5c8e5d916787.js",
+    "code_tags": ["rust", "command line"]
+  },
+{
     "src": "https://download.samplelib.com/mp28/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "No, this ain't no disguise, I'm blowin' dope to the sky, huh. Con Air, let it fly, tt. Say hi to my alibi (Haha). Just another ghetto lullaby",
