@@ -1,5 +1,19 @@
 [
 {
+    "src": "https://download.samplelib.com/mp26/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "L'association d'images symboliques à des mots est à l'origine de la propagande de masse. Mais, si l'intention de manipulation et de mensonge y prédomine, son efficacité supposée dépendrait grandement du système politique dans lequel elle se développe. En avril 1917, le président Wilson décida que les Etats-Unis allaient entrer en guerre. Seulement, l'armée de métier étant trop peu importante, le gouvernement dut recruter des soldats parmi les civils.",
+    "title": "Les memes: la manipulation par l'image",
+    "source": "www.scienceshumaines.com",
+    "tags": ["psyops", "clip", "culture"],
+    "highlight": false,
+    "uid": "123501",
+    "youtube": "https://www.youtube.com/embed/QuHuJk3yNBA?si=jzPai0f9STv-obow",
+    "code_title": "rust: create a binary release",
+    "code": "https://gist.github.com/yblebon/4a297612a0fa4c295716e80a8f336344.js",
+    "code_tags": ["rust", "release"]
+  },
+{
     "src": "https://download.samplelib.com/mp25/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "Engie, un géant français du gaz en accusation au Mexique après une série d’explosions.Deux morts donc, et une série de questions : comment expliquer cette explosion ? La compagnie française Engie, chargée du réseau local de gaz depuis vingt-cinq ans, aurait-elle une quelconque responsabilité dans cette affaire?",
