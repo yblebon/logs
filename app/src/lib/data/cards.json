@@ -1,5 +1,20 @@
 [
 {
+    "src": "https://download.samplelib.com/mp28/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "No, this ain't no disguise, I'm blowin' dope to the sky, huh. Con Air, let it fly, tt. Say hi to my alibi (Haha). Just another ghetto lullaby",
+    "title": "psyops: j'dois faire la file indienne alors pour moi c'est vexant",
+    "source": "Shangri-La, Snoop & Au Pays de Gandhi, Solaar",
+    "tags": ["psyops", "song", "snoop"],
+    "highlight": false,
+    "uid": "123503",
+    "code_title": "rust: create a rust module",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/Qmbw3THy6ihqCmYrSueUbLM3AhaZwW9Nk5h4CZD7uaQsdo",
+    "code": "https://gist.github.com/yblebon/022178dde2ad67b9999f0cb7523b0d07.js",
+    "code_tags": ["rust", "module"]
+  },
+
+{
     "src": "https://download.samplelib.com/mp27/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "All I ever wanted was a black Grand National. Few solid niggas left, but it's not enough. Few bitches that'll really step, but it's not enough. Who you with? Couple sergeants and lieutenants for the get-back. Send him to the moon, that's just how I feel, yellin",
