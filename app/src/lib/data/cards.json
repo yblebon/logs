@@ -1,5 +1,16 @@
 [
 {
+    "src": "https://download.samplelib.com/mp33/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "'The album is pretty good but the world changed on you and nobody gives a shit. It is all about network first' communiste jusqu'a la chatte",
+    "title": "psyops: nobody gives a shit",
+    "source": "the world changed on me, Fat Joe",
+    "tags": ["psyops", "songs"],
+    "highlight": false,
+    "uid": "123509",
+    "image":"https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmPeZzv6krw94cGNnScWNaFsizc1Yf6a3bBvox58Mvqik7" 
+  },
+{
     "src": "https://download.samplelib.com/mp32/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "From 1953-1964, the U.S. government conducted behavioral modification research on people in which they tested, among other things, the utility of hypnosis and LSD for clandestine purposes. (CBS Network, 1984; CIA, 1977; Select Committee on Intelligence and Committee on Human Resources, 1977).",
