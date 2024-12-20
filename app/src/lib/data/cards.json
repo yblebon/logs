@@ -1,5 +1,33 @@
 [
 {
+    "src": "https://download.samplelib.com/mp32/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "From 1953-1964, the U.S. government conducted behavioral modification research on people in which they tested, among other things, the utility of hypnosis and LSD for clandestine purposes. (CBS Network, 1984; CIA, 1977; Select Committee on Intelligence and Committee on Human Resources, 1977).",
+    "title": "psyops: c'est dans ta tete",
+    "source": "psychologytoday.com",
+    "tags": ["psyops", "culture"],
+    "highlight": false,
+    "uid": "123508",
+    "image":"https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmWMq4asmL7bvFj5ipXH5kUPXMx3S6d3rayVrU9qniPEdh", 
+    "code_title": "rust: threads concurency",
+    "code": "https://gist.github.com/yblebon/c2be6227ba6eeee211c50b48d27747d5.js",
+    "code_tags": ["rust", "threads"]
+  },
+{
+    "src": "https://download.samplelib.com/mp32/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "From 1953-1964, the U.S. government conducted behavioral modification research on people in which they tested, among other things, the utility of hypnosis and LSD for clandestine purposes.",
+    "title": "psyops: c'est dans ta tete",
+    "source": "psychologytoday.com",
+    "tags": ["psyops", "culture"],
+    "highlight": false,
+    "uid": "123508",
+    "image":"https://www.youtube.com/embed/smsiGETScR0?si=4vm4ejrTAZA3RXAg", 
+    "code_title": "rust: create module file",
+    "code": "https://gist.github.com/yblebon/7bbb6c609933e6ca38da8d35c4e3a4f0.js",
+    "code_tags": ["rust", "module file"]
+  },
+{
     "src": "https://download.samplelib.com/mp31/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "It is time that we let the world know: Phanatics production",
