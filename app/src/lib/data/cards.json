@@ -1,5 +1,19 @@
 [
 {
+    "src": "https://download.samplelib.com/mp31/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "It is time that we let the world know: Phanatics production",
+    "title": "psyops: the agenda for the dick",
+    "source": "My dick, Avalon",
+    "tags": ["psyops", "song", "culture"],
+    "highlight": false,
+    "uid": "123506",
+    "youtube":"https://www.youtube.com/embed/smsiGETScR0?si=4vm4ejrTAZA3RXAg", 
+    "code_title": "rust: create module file",
+    "code": "https://gist.github.com/yblebon/7bbb6c609933e6ca38da8d35c4e3a4f0.js",
+    "code_tags": ["rust", "module file"]
+  },
+{
     "src": "https://download.samplelib.com/mp30/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "Elle est sortie initialement en 1986 dans l'album Entre el cielo y el suelo (édition Espagne) mais connaît d'autres versions en plusieurs langues dont le français, dans l'album Descanso dominical, et de nombreuses reprises",
