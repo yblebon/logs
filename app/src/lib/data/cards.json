@@ -2,6 +2,17 @@
 {
     "src": "https://download.samplelib.com/mp34/sample-xx.mp3",
     "type": "audio/mp3",
+    "text": "Filmons string toi et moi. Mon poto me dit que t'es cheum, mais j'suis alcoolisé",
+    "title": "Mini Birki",
+    "source": "dre",
+    "tags": ["dre", "netflix"],
+    "highlight": false,
+    "uid": "123511",
+    "youtube":"https://www.youtube.com/embed/JUPLv48_exc?si=ND-qlg7dmuXOP5Qi"
+  },
+{
+    "src": "https://download.samplelib.com/mp34/sample-xx.mp3",
+    "type": "audio/mp3",
     "text": "Je ne suis jamais à la Page. sista still speaks english?Ye ah",
     "title": "psyops: 'I lost my Iphone'",
     "source": "red light district tourist",
