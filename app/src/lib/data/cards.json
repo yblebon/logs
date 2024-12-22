@@ -1,5 +1,16 @@
 [
 {
+    "src": "https://download.samplelib.com/mp39/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "BIC est un groupe français fondé le 25 octobre 1945 par Marcel Bich. Connu pour ses stylos, il commercialise également d'autres articles de papeterie, des rasoirs, des briquets, ainsi que du matériel sportif. BIC est contrôlé par son premier actionnaire, la famille Bich (44,8 %). Son siège se situe à Clichy. En 2021 encore, il s'agit du stylo le plus vendu dans le monde.",
+    "title": "Pour l'atelier d'ecriture",
+    "source": "wikipedia.org",
+    "tags": ["culture", "bic"],
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmckzCunZ5MMNrAgtpj3DiwQrS8Ghk3ZBitCeB8zjh4Yfs",
+    "highlight": false,
+    "uid": "123518"
+  },
+{
     "src": "https://download.samplelib.com/mp38/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "La tutelle et la curatelle sont deux mesures judiciaires permettant de protéger une personne et son patrimoine. Les démarches pour effectuer une demande de tutelle ou de curatelle sont très similaires mais leurs effets sont différents.",
