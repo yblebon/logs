@@ -1,5 +1,19 @@
 [
 {
+    "src": "https://download.samplelib.com/mp35/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "Kaaris et Booba devaient s’affronter fin novembre dans un combat de MMA en Suisse. Si Kaaris veut abandonner cette idée, Booba ne semble pas vraiment d’accord pour mettre fin à leur rivalite",
+    "title": "This is not a propaganda",
+    "source": "TV",
+    "tags": ["song", "culture", "suisse"],
+    "highlight": false,
+    "uid": "123512",
+    "code_tags": ["github", "ai", "copilot", "file"],
+    "code_title": "Github Copilot testing",
+    "code": "https://gist.github.com/yblebon/78055041d51722169eb708eb626814b5.js",
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmW13aqtXiXhiGkdUF1WTuhfN7TBdcHN2DQR6VkukLeH8e"
+  },
+{
     "src": "https://download.samplelib.com/mp34/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "Filmons string toi et moi. Mon poto me dit que t'es cheum, mais j'suis alcoolisé",
