@@ -1,5 +1,16 @@
 [
 {
+    "src": "https://download.samplelib.com/mp43/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "JSL et l'empereur du porno",
+    "title": "psyops: avec l'ami Jojo et avec l'ami Pierre",
+    "source": "Les bourgeois, Jacques Brel",
+    "tags": ["culture", "song"],
+    "youtube": "https://www.youtube.com/embed/y-ewGIghpyo?si=hY8uKSISUhffrSll",
+    "highlight": false,
+    "uid": "123522"
+  },
+{
     "src": "https://download.samplelib.com/mp42/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "I'm a boss ass bitch, bitch, bitch, bitch, bitch, bitch, bitch. I'm a boss ass bitch, bitch, bitch, bitch, bitch, bitch, bitch",
@@ -8,7 +19,10 @@
     "tags": ["culture", "song"],
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmPyKyKCXGiMY9M3Gq349zbG28F7JdkciwAG52VTgXphjy",
     "highlight": false,
-    "uid": "123521"
+    "uid": "123521",
+    "code": "https://gist.github.com/yblebon/b424c88b8206258008013e9f32810cfb.js",
+    "code_title": "rust: threading in rust, moving static variables",
+    "code_tags": ["rust", "static", "threading"]
   },
 {
     "src": "https://download.samplelib.com/mp41/sample-xx.mp3",
