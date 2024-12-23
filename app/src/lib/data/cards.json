@@ -1,5 +1,16 @@
 [
 {
+    "src": "https://download.samplelib.com/mp40/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "La veille de Noël, Bart, Ladj, Thai, Yasmine et Eve quittent une soirée qui a mal tournée. Eve, très allumeuse, les invite chez elle. Mais lorsque la jeunesse des villes se retrouve dans les griffes de Joseph, l'étrange gardien de sa maison de campagne, la rencontre bascule dans le conte sanglant.",
+    "title": "L'imagination c'est surement pas le spectateur",
+    "source": "Adventures of a lifetime, Coldplay & Sheitan, Kim Chapiron",
+    "tags": ["song", "movie"],
+    "youtube": "https://www.youtube.com/embed/QtXby3twMmI?si=oO84GtR9T5ZaO27J",
+    "highlight": false,
+    "uid": "123519"
+  },
+{
     "src": "https://download.samplelib.com/mp39/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "BIC est un groupe français fondé le 25 octobre 1945 par Marcel Bich. Connu pour ses stylos, il commercialise également d'autres articles de papeterie, des rasoirs, des briquets, ainsi que du matériel sportif. BIC est contrôlé par son premier actionnaire, la famille Bich (44,8 %). Son siège se situe à Clichy. En 2021 encore, il s'agit du stylo le plus vendu dans le monde.",
