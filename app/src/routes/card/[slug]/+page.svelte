@@ -7,8 +7,11 @@
     og["description"] = data.card.text;
     og["domain"] = "yblebon.github.io";
     og["card"] = "summary";
-    og["url"] = "https://yblebon.github.io/logs/cards/"+data.card.uid
+    og["url"] = "https://yblebon.github.io/logs/cards/"+data.card.uid;
     og["image"] = "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmQCcGKUCYm56duhMvUS2S9CKfFmLi2bcFTWYmRDw2FLvC";
+    if (data.card.hasOwnProperty("image_og")) {
+	og["image_og"] = data.card.image;
+    }
  </script>
  
  <svelte:head>
