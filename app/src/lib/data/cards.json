@@ -1,14 +1,25 @@
 [
 {
-    "src": "https://download.samplelib.com/mp45/sample-xx.mp3",
+    "src": "https://download.samplelib.com/mp46/sample-xx.mp3",
     "type": "audio/mp3",
-    "text": " Le nombre d'heures d'utilisation par jour x nombre de jours x puissance (watt)/1000. Le prix du kWh de gaz naturel en 2024 est de 0,1414 € TTC pour le tarif Base (cuisson)",
+    "text": "Le nombre d'heures d'utilisation par jour x nombre de jours x puissance (watt)/1000. Le prix du kWh de gaz naturel en 2024 est de 0,1414 € TTC pour le tarif Base (cuisson)",
     "title": "probleme de CM2: consommation de gazinière, à vos calculatrices!",
     "source": "lesfurets.com",
     "tags": ["culture", "math"],
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmPywYr8Qgv2q4WJ8thBS5SGE5tLkazp15Je1mXHr2UqE6",
     "highlight": false,
     "uid": "123525"
+  },
+{
+    "src": "https://download.samplelib.com/mp45/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "A partir du 1er janvier 2025, les treize enseignes Auchan du groupe Schiever, dont celle d'Avallon, prendront le nom de Super U. Après 27 ans aux cotés d'Auchan le PDG de Schiever a décidé de rejoindre la coopérative Système U. Il s'en explique dans cette interview donnée à France Bleu Auxerre.",
+    "title": "le malheur des uns fait le bonheur des autres",
+    "source": "francebleu.fr",
+    "tags": ["auchan"],
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmQd2qRgjat4FzvzaL1annhYc1zZxUKMByNcVmfMJdrLQr",
+    "highlight": false,
+    "uid": "123524"
   },
 {
     "src": "https://download.samplelib.com/mp44/sample-xx.mp3",
