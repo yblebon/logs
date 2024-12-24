@@ -55,7 +55,7 @@
         {/if}
   
         <a
-          href="{base}/cards/{card.uid}"
+          href="{base}/card/{card.uid}"
           class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
           >link</a
         >
