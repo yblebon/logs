@@ -2,6 +2,17 @@
 {
     "src": "https://download.samplelib.com/mp49/sample-xx.mp3",
     "type": "audio/mp3",
+    "text": "'Quand Emmanuel Macron dit qu'il ne dort que 4h par nuit, c'est bien vu, ça fait conquérant, ça fait dynamique!', ironise sur RMC.fr la psychiatre Céline Martinot, spécialiste du sommeil. Qui déconseille grandement ce rythme de repos nocturne.",
+    "title": "psyops: Musk typically sleeps about six hours per night, often between 3AM - 9AM.",
+    "source": "bfmtv.com",
+    "tags": ["adhd"],
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmcH8RPFYceiWGJQwRXufDTgoSFchZUEfnPA6NGzwHzQH3",
+    "highlight": false,
+    "uid": "123528"
+  },
+{
+    "src": "https://download.samplelib.com/mp49/sample-xx.mp3",
+    "type": "audio/mp3",
     "text": "Wow, quelle audace derrière ton clavier. Des fois j'repense à ceux qui m'clashaient, j'veux dire j'me demande où ils sont passés (San). T'es comme l'intro des clips, j't'ai zappé",
     "title": "Shaman dit qu'j'ai mille pattes, le dos dur comme un petit scarabée",
     "source": "chansons francaises",
