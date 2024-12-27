@@ -8,7 +8,10 @@
     "tags": ["song"],
     "youtube": "https://www.youtube.com/embed/2l5utgkg4Rs?si=RHCZoTyYx514YQnQ",
     "highlight": false,
-    "uid": "123536"
+    "uid": "123536",
+    "code": "https://gist.github.com/yblebon/56125575dfa6464b05beb8a125d71717.js",
+    "code_title": "Elixir installation",
+    "code_tags": ["elixir", "programming"]
   },
 {
     "src": "https://download.samplelib.com/mp53/sample-xx.mp3",
