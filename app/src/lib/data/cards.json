@@ -1,5 +1,16 @@
 [
 {
+    "src": "https://download.samplelib.com/mp54/sample-xx.mp3",
+    "type": "audio/mp3",
+    "text": "Acte avec tact capte ma voix. J'accentue l'adjectif pour que celle-ci, cette fois-ci, t'estomaque. J'ai comme tout le monde plusieurs personnages en moi. La première DON XERÈ, la deuxième DELAVEGA. Stop stop stop",
+    "title": "psyops: je me soigne, la musique est ma thérapie",
+    "source": "hiphopaloorap, Mc Solaar & TV off, Kendrick",
+    "tags": ["song"],
+    "youtube": "https://www.youtube.com/embed/2l5utgkg4Rs?si=RHCZoTyYx514YQnQ",
+    "highlight": false,
+    "uid": "123536"
+  },
+{
     "src": "https://download.samplelib.com/mp53/sample-xx.mp3",
     "type": "audio/mp3",
     "text": "Je rappe depuis le ciel et les étoiles entre elles ne parlent que de elles. La Terre ne parle que de haine. Elle ferait changer un homme, il ne serait plus jamais le même", 
