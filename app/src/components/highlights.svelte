@@ -25,7 +25,7 @@
       <div class="card-body ms-2">
         <p class="card-text">{highlight.text}</p>
         <p class="card-text"><small class="text-muted">   <a
-        href="{base}/podcasts/{highlight.uid}"
+        href="{base}/card/{highlight.uid}"
         class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
         >link</a
       ></small></p>
