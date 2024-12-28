@@ -2,6 +2,17 @@
 {
     "src": "https://download.samplelib.com/mp57/sample-xx.mp3",
     "type": "audio/mp3",
+    "text": "Jérôme Kerviel, né le 11 janvier 1977 à Pont-l'Abbé (Finistère), est un ancien opérateur de marché français, salarié de la Société générale entre 2000 et 2008.",
+    "title": "psyops: market manipulation & tax evasion",
+    "source": "wikipedia",
+    "tags": ["finance"],
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmUaY6UgAJbMsoHTDv5dmMYvtZsMZmFSJwXB2gQmATQYnn",
+    "highlight": false,
+    "uid": "123543"
+  },
+{
+    "src": "https://download.samplelib.com/mp57/sample-xx.mp3",
+    "type": "audio/mp3",
     "text": "Alors, ma toute belle, On a tout de meme fini par se faire epingler hein. On se retrouve toujours, je suis le Pere Noël et toutes ces petites contraventions, c'est pour vous et j'ai encore des tas des surprises",
     "title": "psyops: la Gendarmerie de marie",
     "source": "La Gendarmerie se marie, Louis de funes",
