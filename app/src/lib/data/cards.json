@@ -2,6 +2,17 @@
 {
     "src": "https://download.samplelib.com/mp60/sample-xx.mp3",
     "type": "audio/mp3",
+    "text": "« Certaines mères de terroristes ne veulent pas d’histoire et craignent la violence de leurs fils »ENTRETIEN. Déni, reniement, voire complicité... La psychologue spécialiste de la radicalisation Patricia Cotti analyse les liens entre des femmes et leurs fils terroristes.",
+    "title": "psyops: le fils terroriste violent",
+    "source": "lepoint.fr",
+    "tags": ["culture"],
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmNaa5by4RLQbwgwRufvqyHpzLeze87rEf3BsZj54mKPiY",
+    "highlight": false,
+    "uid": "123548"
+  },
+{
+    "src": "https://download.samplelib.com/mp60/sample-xx.mp3",
+    "type": "audio/mp3",
     "text": "Adolf Hitler n’a pas toujours eu pour projet la « destruction des Juifs d’Europe ». Quand il parvient au pouvoir en 1933, il cherche plutôt à les isoler, puis à les expulser d’Allemagne ; les dignitaires nazis envisagent par exemple de les déporter à Madagascar, en Pologne ou en Sibérie. C’est la guerre qui fait émerger la « solution finale » et donne naissance aux camps d’extermination",
     "title": "psyops: la mort ou cheche",
     "source": "monde-diplomatique.fr",
