@@ -35,6 +35,10 @@ export function getPageSize() {
   return 10;
 };
 
+export function getTags() {
+  return  ["psyops", "song", "culture", "health", "math", "finance", "movie", "clip", "software", "news"];
+}
+
 export function initStore() {
 
   let dataList = [];
@@ -150,11 +154,6 @@ export function initStore() {
 
     dataList.push(dots[i]);
   }
-
-  for (let i = 0; i < dataList.length; i++) {
-
-  }
-
 
 
   dataList = dataList.sort(sortByDate).reverse();

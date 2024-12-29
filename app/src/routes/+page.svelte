@@ -1,7 +1,8 @@
 <script>
-  import {getData, getPageSize, getCardsTotal} from '$lib/dataloader.js';
+  import {getData, getPageSize, getCardsTotal, getTags} from '$lib/dataloader.js';
   import CardComponent from "../components/card.svelte";
   import CardNavComponent from '../components/card_nav.svelte';
+  import TagsComponent from '../components/tags.svelte';
   import HighlightsComponent from '../components/highlights.svelte';
 
   export let data;
@@ -16,6 +17,7 @@
   />
 </svelte:head>
 
+<TagsComponent tags={getTags()} />
 <CardNavComponent size={Math.ceil(getCardsTotal()/getPageSize())} />
 
 <HighlightsComponent highlights={data.highlights}/>
