@@ -1,6 +1,7 @@
 <script>
-
+    import { base } from "$app/paths";
     import CardComponent from '../../../components/card.svelte';
+    import CardNavComponent from '../../../components/card_nav.svelte';
     
     export let data;
     
@@ -14,6 +15,8 @@
     
     </svelte:head>
     
+    <CardNavComponent size=7 />
+
     {#each data.cards as card}
       <CardComponent card={card}/>
     {/each}
