@@ -3,10 +3,10 @@ import {getData, getPageSize} from '$lib/dataloader.js';
 /** @type {import('./$types').LayoutLoad} */
 export function load() {
 
-  let data = getData();
   let pageSize = getPageSize();
+  let data = getData().slice(0, pageSize);
 
-  const highlights = data.filter((p) => p["highlight"] == true).slice(0, pageSize).reverse();
+  const highlights = data.filter((p) => p["highlight"] == true).reverse();
 
   return {
     dataList: data,
