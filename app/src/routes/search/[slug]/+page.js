@@ -3,10 +3,15 @@ import {getData, getPageSize} from '$lib/dataloader.js';
 
 /** @type {import('./$types').PageLoad} */
 export function load({ params }) {
-  
+
   let data = getData();
   let pageSize = getPageSize();
-  let cards = data.filter((el) => el["section"] == "card").slice((params.slug-1) * pageSize, (params.slug) * pageSize);
+  let cards = [];
+  if (params.slug.startsWith("page_")) { 
+     const pageNumber = params.slug.split("_")[1];  
+     cards = data.filter((el) => el["section"] == "card").slice((pageNumber-1) * pageSize, (pageNumber) * pageSize);
+  }
+
   let highlights = data.filter((p) => p["highlight"] == true);
 
   return {
@@ -26,7 +31,7 @@ export function entries() {
   }
 
   let slugList = slugEntries.map((x) => {
-  	return { "slug": x.toString()};
+  	return { "slug": "page_"+x.toString()};
   });
   return slugList;
 }

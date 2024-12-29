@@ -9,7 +9,7 @@
      <nav aria-label="Page navigation example">
   <ul class="pagination pagination-sm d-flex align-content-start flex-wrap">
     {#each {length: size} as _, search_id}
-        <li class="page-item"><a class="page-link" href="{base}/search/{search_id + 1}">{search_id+1}</a></li>
+        <li class="page-item"><a class="page-link" href="{base}/search/page_{search_id + 1}">{search_id+1}</a></li>
     {/each}
   </ul>
 </nav>
