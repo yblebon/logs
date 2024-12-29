@@ -27,6 +27,10 @@ export function getData() {
   return get(dataStore);
 };
 
+export function getCardsTotal() {
+  return get(dataStore).length;
+};
+
 export function getPageSize() {
   return 10;
 };
