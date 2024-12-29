@@ -4,7 +4,7 @@ import {getData, getPageSize} from '$lib/dataloader.js';
 export function load() {
 
   let pageSize = getPageSize();
-  let data = getData().slice(0, pageSize);
+  let data = getData();
 
   const highlights = data.filter((p) => p["highlight"] == true).reverse();
 
