@@ -1,14 +1,11 @@
 [
 {
-    "src": "https://download.samplelib.com/mp61/sample-xx.mp3",
-    "type": "audio/mp3",
     "text": "- sorties antisemites - bagarre et accusation d'agressions sexuelles par les choins choins - pervers",
     "title": "psyops: Les bourgeois, Jacques Brel",
     "source": "lepoint.fr",
     "tags": ["culture", "chanson"],
-    "highlight": true,
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmdnxQmUp4eopKYDV3Xdwfa7LnHjYEsGihjUP3WfxgT1Kp",
-    "highlight": false,
+    "highlight": true,
     "uid": "123549"
   },
 {

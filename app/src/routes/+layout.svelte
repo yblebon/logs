@@ -20,7 +20,7 @@
 
 </style>
 
-<MenuComponent onSubmit={handleSubmit}/>
+ <MenuComponent onSubmit={handleSubmit}/>
 
 <div class=" container-sm">
 
