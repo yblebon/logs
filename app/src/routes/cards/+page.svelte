@@ -1,10 +1,10 @@
 <script>
+    import {getData, getPageSize} from '$lib/dataloader.js';
     import { base } from "$app/paths";
     import CardComponent from '../../components/card.svelte';
     import CardNavComponent from '../../components/card_nav.svelte';
     
     export let data;
-    let size = 20;
 
     </script>
     
@@ -16,7 +16,7 @@
     
 </svelte:head>
     
-    <CardNavComponent size={Math.ceil(data.cards.length/size)} />
+    <CardNavComponent size={Math.ceil(data.cards.length/getPageSize())} />
 
     {#each data.cards as card}
       <CardComponent card={card}/>

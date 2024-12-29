@@ -27,6 +27,9 @@ export function getData() {
   return get(dataStore);
 };
 
+export function getPageSize() {
+  return 10;
+};
 
 export function initStore() {
 

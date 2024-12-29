@@ -1,11 +1,12 @@
-import {getData} from '$lib/dataloader.js';
+import {getData, getPageSize} from '$lib/dataloader.js';
 
 
 /** @type {import('./$types').PageLoad} */
 export function load({ params }) {
   
   let data = getData();
-  let cards = data.filter((el) => el["section"] == "card").slice((params.slug-1) * 10, (params.slug) * 10);
+  let pageSize = getPageSize();
+  let cards = data.filter((el) => el["section"] == "card").slice((params.slug-1) * pageSize, (params.slug) * pageSize);
   let highlights = data.filter((p) => p["highlight"] == true);
 
   return {
@@ -17,9 +18,10 @@ export function load({ params }) {
 /** @type {import('./$types').EntryGenerator} */
 export function entries() {
   let data = getData();
+  let pageSize = getPageSize();
   let size = data.filter((el) => el["section"] == "card").length;
   let slugEntries = [];
-  for (var i = 1; i <= Math.ceil(size/10); i++) {
+  for (var i = 1; i <= Math.ceil(size/pageSize); i++) {
      slugEntries.push(i);
   }
 
