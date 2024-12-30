@@ -1025,13 +1025,13 @@
   {
     "src": "https://download.samplelib.com/mp3/sample-ac.mp3",
     "type": "audio/mp3",
-    "text": "Si tu dis souvent qu't'as pas d'problème avec l'alcool, c'est qu't'en as un (simple) ",
+    "text": "Si tu dis souvent qu't'as pas d'problème avec l'alcool, c'est qu't'en as un (simple)",
     "poster": "IMG_0461.png",
     "title": "psyops: alcool",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmaK4vCLzf1z9tNXpz6xXxGY7bWygXWtjLDMuvg2dpAP2L",
     "uid": "123469",
     "source": "Basique, Orelsan",
-    "tags": ["psyops"],
+    "tags": ["psyops", "alcohol"],
     "highlight": false,
     "code": "https://gist.github.com/yblebon/be3fecdf17d737d3025a23590b724887.js"
   },
