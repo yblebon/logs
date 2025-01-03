@@ -1,15 +1,25 @@
 <script>
     import { onMount } from "svelte";
     import { base } from "$app/paths";
+    import './../styles/main.css';
     export let card;
     const filebaseBase = "https://ipfs.filebase.io/ipfs";
   </script>
+
+<style>
+ .quicksand-400 {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+
+</style>
   
   <div class="card shadow-sm mx-auto rounded-3 border-dark mt-4 h-100" style="max-width: 540px;">
     <div class="card-header text-bg-dark">
       
      <div>
-      <span class="me-2 fw-bolder fs-6 text-lowercase text-wrap float-start"
+      <span class="quicksand-400 me-2 fw-bolder fs-6 text-lowercase text-wrap float-start"
         >{card.title}</span
       >
      </div>
