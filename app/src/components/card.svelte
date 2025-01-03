@@ -12,14 +12,21 @@
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+ }
 
+.quicksand-700 {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+ }
 </style>
   
   <div class="card shadow-sm mx-auto rounded-3 border-dark mt-4 h-100" style="max-width: 540px;">
     <div class="card-header text-bg-dark">
       
      <div>
-      <span class="quicksand-400 me-2 fw-bolder fs-6 text-lowercase text-wrap float-start"
+      <span class="quicksand-700 me-2 fw-bolder fs-6 text-lowercase text-wrap float-start"
         >{card.title}</span
       >
      </div>
@@ -34,7 +41,7 @@
         {/if}
 
       <blockquote class="blockquote ps-2 pt-0">
-        <p class="fs-6">{card.text}</p>
+        <p class="quicksand-400 fs-6">{card.text}</p>
       </blockquote>
       {#if card.hasOwnProperty("source")}
         <figcaption class="blockquote-footer ps-2">
