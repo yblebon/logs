@@ -52,7 +52,8 @@ var execute = function(input_file, output_file, title, cb) {
 
 function processCardImage(card, output_dir) {
   console.log(path.basename(card.image));
-  const output_file = path.join(output_dir, path.basename(card.image)) + ".webp";
+  console.log(card.uid);
+  const output_file = path.join(output_dir, card.uid.toString() + ".webp");
   fs.stat(output_file, (err, stats) => {
      if (err) {
         if (card.hasOwnProperty("og_image_auto") && card.og_image_auto) {

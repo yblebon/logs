@@ -5,7 +5,7 @@
     "source": "Disiz",
     "tags": ["culture", "song"],
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXogVVDAgxDX1KKB1P1XttsCAx3TA7efh69vawGzqyDNP",
-    "og_image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXogVVDAgxDX1KKB1P1XttsCAx3TA7efh69vawGzqyDNP",
+    "og_image": "./assets/QmXogVVDAgxDX1KKB1P1XttsCAx3TA7efh69vawGzqyDNP.webp",
     "og_image_auto": true,
     "highlight": false,
     "uid": "123572"
@@ -1893,6 +1893,7 @@
     "text": "Quelqu’un de médiocre peut impressionner des gens moins valeureux que lui. ",
     "poster": "IMG_0461.png",
     "title": "Expression Française: Au royaume des aveugles, les borgnes sont rois",
-    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXmEvqPAyXy61zhCGNnzWZ7DoXaGnuNGWaxFf49sSFX7c"
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXmEvqPAyXy61zhCGNnzWZ7DoXaGnuNGWaxFf49sSFX7c",
+    "uid": "123406"
   }
 ]
