@@ -1,14 +1,9 @@
 const fs = require('fs')
 const path = require('path')
 const https = require('https')
-
 const { spawn } = require('node:child_process')
 const { mkdtemp } = require ('node:fs/promises')
-
-if (process.argv.length === 3) {
-  console.error('Expecting at least two arguments: the file path argument and the output directory');
-  process.exit(1);
-}
+const { readdir } = require('node:fs/promises')
 
 var download = function(url, dest, cb) {
   var file = fs.createWriteStream(dest);
@@ -20,7 +15,7 @@ var download = function(url, dest, cb) {
   });
 }
 
-var execute = function(input_file, output_file, title, cb) {
+var labelImage = function(input_file, output_file, title, cb) {
      const cmd = spawn('magick',
 	[input_file,
 	'-pointsize', '30',
@@ -44,6 +39,24 @@ var execute = function(input_file, output_file, title, cb) {
      });
 }
 
+var imageToWebp = function(input_file, output_file, size, cb) {
+     const cmdList = [input_file, '-resize', size, '-format', 'webp', output_file + ".webp"]
+     const cmd = spawn('magick', cmdList);
+
+     // magick delation.png -resize 1024x1024 -format webp  delation.web
+     console.log(`command: ${cmdList}`);
+     cmd.stdout.on('data', (data) => {
+        console.log(`stdout: ${data}`);
+     });
+     cmd.stderr.on('data', (data) => {
+       console.error(`stderr: ${data}`);
+     });
+     cmd.on('close', (code) => {
+       console.log(`child process exited with code ${code}`);
+     });
+}
+
+
 
 
 function processCardImage(card, output_dir) {
@@ -64,7 +77,22 @@ function processCardImage(card, output_dir) {
    });
 }
 
-fs.readFile(process.argv[2], function(err, data) { 
+function convertImages(input_dir, output_dir) {
+    fs.readdir(input_dir, {recursive:true}, function(err, data) {
+       data.forEach(function(file){
+         if ([".jpg", ".png", ".jpeg", ".avif"].indexOf(path.extname(file)) != -1 ) {
+            console.log(path.extname(file));
+            let input_file = path.join(input_dir, file);
+            let output_file = path.join(output_dir, path.basename(file, path.extname(file)));
+            imageToWebp(input_file, output_file, "1024x1024");
+         }
+       })
+       
+    });  
+}
+
+var createLabels = function(jsonFile, cb){
+  fs.readFile(jsonFile, function(err, data) { 
     if (err) throw err; 
     const cards = JSON.parse(data); 
     cards.forEach(function(card){
@@ -72,4 +100,14 @@ fs.readFile(process.argv[2], function(err, data) {
            processCardImage(card, process.argv[3]);
        }
     })
-}); 
+  })
+}
+
+if (process.argv.length < 3) {
+  console.error('usage: resize <input_dir> <output_dir>');
+  process.exit(1);
+}
+
+if (process.argv[2] === "convert") {
+   convertImages(process.argv[3], process.argv[4]);
+}
