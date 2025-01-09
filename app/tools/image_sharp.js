@@ -33,19 +33,15 @@ var execute = function(input_file, output_file, title, cb) {
 	'-append',
 	output_file]
      );
-
-        cmd.stdout.on('data', (data) => {
-                console.log(`stdout: ${data}`);
-        });
-
-        cmd.stderr.on('data', (data) => {
-                console.error(`stderr: ${data}`);
-        });
-
-        cmd.on('close', (code) => {
-                console.log(`child process exited with code ${code}`);
-        });
-
+     cmd.stdout.on('data', (data) => {
+        console.log(`stdout: ${data}`);
+     });
+     cmd.stderr.on('data', (data) => {
+       console.error(`stderr: ${data}`);
+     });
+     cmd.on('close', (code) => {
+       console.log(`child process exited with code ${code}`);
+     });
 }
 
 
