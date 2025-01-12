@@ -23,7 +23,7 @@
     </div>
     <div class="col-md-8">
       <div class="card-body ms-2">
-        <p class="card-text">{highlight.text}</p>
+        <p class="card-text">{@html highlight.text}</p>
         <p class="card-text"><small class="text-muted">   <a
         href="{base}/card/{highlight.uid}"
         class="link-primary link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
