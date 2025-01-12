@@ -8,8 +8,8 @@
 <style>
 
 .outfit-variable {
-        font-family: 'Outfit Variable'
-    }
+   font-family: 'Outfit Variable'
+}
 
 </style>
   
@@ -31,7 +31,7 @@
         {/if}
 
       <blockquote class="blockquote ps-2 pt-0">
-        <p class="quicksand-400 fs-6">{card.text}</p>
+        <p class="quicksand-400 fs-6">{@html card.text}</p>
       </blockquote>
       {#if card.hasOwnProperty("source")}
         <figcaption class="blockquote-footer ps-2">
