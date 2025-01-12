@@ -74,7 +74,7 @@ function processCardImage(card, output_dir) {
 function convertImages(input_dir, output_dir) {
     fs.readdir(input_dir, {recursive:true}, function(err, data) {
        data.forEach(function(file){
-         if ([".jpg", ".png", ".jpeg", ".avif"].indexOf(path.extname(file)) != -1 ) {
+         if ([".jpg", ".png", ".jpeg", ".avif", ".webp"].indexOf(path.extname(file)) != -1 ) {
             let input_file = path.join(input_dir, file);
             let output_file = path.join(output_dir, path.basename(file, path.extname(file)));
             imageToWebp(input_file, output_file, "1024x1024");
