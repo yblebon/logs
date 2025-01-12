@@ -18,7 +18,7 @@ var download = function(url, dest, cb) {
 var labelImage = function(input_file, output_file, title, cb) {
      const cmd = spawn('magick',
 	[input_file,
-	'-pointsize', '30',
+	'-pointsize', '15',
 	'-font', 'DejaVu-Sans-Mono-Bold',
 	'-background', 'black',
 	'-fill', 'white',
