@@ -7,19 +7,21 @@ export function load({ params }) {
   let data = getData();
   let pageSize = getPageSize();
   let cards = [];
+  let slugId;
   if (params.slug.startsWith("page_")) { 
-     const pageNumber = params.slug.split("_")[1];  
-     cards = data.filter((el) => el["section"] == "card").slice((pageNumber-1) * pageSize, (pageNumber) * pageSize);
+     slugId = params.slug.split("_")[1];  
+     cards = data.filter((el) => el["section"] == "card").slice((slugId-1) * pageSize, (slugId) * pageSize);
   }
   else if (params.slug.startsWith("tag_")) {
-   const tagName = params.slug.split("_")[1];
-   cards = data.filter((el) => ( el.hasOwnProperty("tags") ) && (el["tags"].indexOf(tagName) !== -1) );
+   slugId = params.slug.split("_")[1];
+   cards = data.filter((el) => ( el.hasOwnProperty("tags") ) && (el["tags"].indexOf(slugId) !== -1) );
   }
 
   let highlights = data.filter((p) => p["highlight"] == true);
 
   return {
     cards: cards,
+    blink: slugId,
     highlights: highlights
   }
 }

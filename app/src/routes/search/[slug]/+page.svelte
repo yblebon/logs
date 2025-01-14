@@ -17,7 +17,7 @@
     
     </svelte:head>
     
-    <TagsComponent tags={getTags()} />
+    <TagsComponent tags={getTags()} blink={data.blink} />
     <CardNavComponent size={Math.ceil(getCardsTotal()/getPageSize())} />
 
     {#each data.cards as card}
