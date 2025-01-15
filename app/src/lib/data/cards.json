@@ -7,6 +7,9 @@
     "youtube": "https://www.youtube.com/embed/H9fa9aWFbLM?si=_25pzlIZMGD2iUfR",
     "og_image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXt9TfrvjFC3fD22GRMc35zHufcXepYQUZcZuKVu9FQTg",
     "highlight": false,
+    "code": "https://gist.github.com/yblebon/701f0bfccb0c7135f39b40416f1680c8.js",
+    "code_title": "rust: binance realtime market price subscription via websocket",
+    "code_tags": ["rust", "websocket", "binance"],
     "uid": "123595"
   },
 {
