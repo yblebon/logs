@@ -1,7 +1,7 @@
 <script>
 import { base } from "$app/paths";
 export let tags=[];
-export let blink="amsterdam"; 
+export let blink="santé"; 
 
 </script>
 

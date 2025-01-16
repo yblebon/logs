@@ -36,7 +36,7 @@ export function getPageSize() {
 };
 
 export function getTags() {
-  return  ["psyop", "song", "culture", "health", "math", "finance", "movie", "clip", "software", "news", "jimmy", "amsterdam"];
+  return  ["psyop", "song", "culture", "health", "math", "finance", "movie", "clip", "software", "news", "jimmy", "amsterdam", "santé"];
 }
 
 export function initStore() {
