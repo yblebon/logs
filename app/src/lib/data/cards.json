@@ -2208,10 +2208,12 @@
   {
     "src": "https://download.samplelib.com/mp3/sample-a.mp3",
     "type": "audio/mp3",
-    "text": "Quelqu’un de médiocre peut impressionner des gens moins valeureux que lui. ",
+    "text": "Quelqu’un de médiocre peut impressionner des gens moins valeureux que lui.",
     "poster": "IMG_0461.png",
+    "tags": ["shadow"],
     "title": "Expression Française: Au royaume des aveugles, les borgnes sont rois",
     "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXmEvqPAyXy61zhCGNnzWZ7DoXaGnuNGWaxFf49sSFX7c",
+    "og_image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmXmEvqPAyXy61zhCGNnzWZ7DoXaGnuNGWaxFf49sSFX7c",
     "uid": "123406"
   }
 ]
