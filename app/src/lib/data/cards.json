@@ -9,6 +9,16 @@
     "highlight": false,
     "uid": "123604"
   },
+{
+    "text": "<br/><ul><li>'prod config deleted'</li><li>'prod database nuked'</li><li>'terroriste'</li></ul>", 
+    "title": "psyop: joker personality is a deal breaker",
+    "source": "les seigneurs bienveillants",
+    "tags": ["movelang", "joker"],
+    "image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmZs62onwJVsx4nrD6DJLufZDubR7yzJZoM9tsbDGybriA",
+    "og_image": "https://xenogeneic-cyan-boar.myfilebase.com/ipfs/QmZs62onwJVsx4nrD6DJLufZDubR7yzJZoM9tsbDGybriA",
+    "highlight": false,
+    "uid": "123604"
+  },
 
 {
     "text": "Black Americans are significantly more likely to be subjected to tax investigations, the Internal Revenue Service (IRS) has admitted. IRS Commissioner Daniel Werfel said in a letter to the US Senate that recent research indicates black taxpayers are between three and five times more likely to be audited. Mr Werfel said he was 'deeply concerned' by the disparity.",
@@ -660,7 +670,7 @@
     "text": "Plusieurs enlèvements de jeunes filles ont été signalés dans la capitale malgache cette semaine, suscitant une certaine psychose auprès de la population. En deux jours, quatre rapts ont été commis à Antananarivo selon les autorités. Les victimes, âgées d’une vingtaine d’années, ont toutes été retrouvées, quelques heures ou quelques jours plus tard, dans un état second, comme si elles avaient été droguées. Une vidéo montrant l’une d’elles, hébétée, a été publiée sur les réseaux jeudi et fait le buzz. Elle présenterait une trace de piqûre, selon les médias malgaches qui ont repris le témoignage de proches.", 
     "title": "psyops: HIV, attaques aux piqures",
     "source": "lequotidien.re. Juin, 2022",
-    "tags": ["song", "culture"],
+    "tags": ["song", "culture", "hiv"],
     "youtube": "https://www.youtube.com/embed/Ta1gvTqRqmI?si=7eP9eeQg90PCrpRv",
     "highlight": false,
     "uid": "123540"
@@ -1052,12 +1062,11 @@
     "code_tags": ["rust", "threads"]
   },
 {
-    "src": "https://download.samplelib.com/mp31/sample-xx.mp3",
     "type": "audio/mp3",
-    "text": "It is time that we let the world know: Phanatics production",
-    "title": "psyops: the agenda for the dick",
-    "source": "My dick, Avalon",
-    "tags": ["psyops", "song", "culture"],
+    "text": "The politicization of HIV/AIDS has resulted in further stigmatization of vulnerable groups, especially drug users and men who have sex with men, who are blamed for the spread of HIV. Politicization and stigmatization is also harmful because it posits HIV as an epidemic limited to the margins of society.",
+    "title": "psyop: HIV dick obession",
+    "source": "My dick, Avalon & gjia.georgetown.edu",
+    "tags": ["psyop", "song", "culture", "hiv"],
     "highlight": false,
     "uid": "123506",
     "youtube":"https://www.youtube.com/embed/smsiGETScR0?si=4vm4ejrTAZA3RXAg", 
