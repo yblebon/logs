@@ -2,6 +2,7 @@ import { get, writable, readonly } from 'svelte/store';
 import { load } from '$lib/dataloader.js';
 import { createHash } from '$lib/utils.js';
 
+import config from '$lib/data/config.json';
 import xposts from '$lib/data/x-posts.json';
 import videos from '$lib/data/videos.json';
 import articles from '$lib/data/articles.json';
@@ -36,7 +37,11 @@ export function getPageSize() {
 };
 
 export function getTags() {
-  return  ["psyop", "song", "culture", "health", "math", "finance", "movie", "clip", "software", "news", "jimmy", "amsterdam", "santé", "africa", "joker", "hiv", "heart", "baguette"];
+  return  config["tags"];
+}
+
+export function getBlink() {
+ return config["blink"];
 }
 
 export function initStore() {
