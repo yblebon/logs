@@ -23,6 +23,25 @@ export function sortByDate(a, b) {
   return dateA > dateB ? 1 : -1;
 };
 
+function sortStringsAlphabetically(arr) {
+    // Create a new array to avoid mutating the original
+    let sortedArray = [...arr];
+
+    // Use the sort method with a compare function for strings
+    sortedArray.sort((a, b) => {
+        // Convert strings to lowercase for case-insensitive sorting
+        let nameA = a.toLowerCase();
+        let nameB = b.toLowerCase();
+
+        // Compare strings
+        if (nameA < nameB) return -1;
+        if (nameA > nameB) return 1;
+        return 0;
+    });
+
+    return sortedArray;
+}
+
 
 export function getData() {
   return get(dataStore);
@@ -37,7 +56,7 @@ export function getPageSize() {
 };
 
 export function getTags() {
-  return  config["tags"];
+  return  sortStringsAlphabetically(config["tags"]);
 }
 
 export function getBlink() {
