@@ -54,10 +54,13 @@
 
       {#if card.hasOwnProperty("x_video")}
         <div class="ratio ratio-16x9">
-          <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr"><a href="{card.x_video}"></a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+	  <blockquote class="twitter-tweet" data-media-max-width="560">
+ 	    <!-- <p lang="en" dir="ltr"><a href="https://t.co/HhzmqdONHJ">pic.twitter.com/HhzmqdONHJ</a></p> -->
+	    <a href="{card.x_video}"></a>
+          </blockquote>
+          <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
         </div>
       {/if}
-
   
       {#if card.hasOwnProperty("code")}
         <script src={card.code}></script>
