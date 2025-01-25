@@ -51,6 +51,13 @@
           <iframe src="{card.youtube}" title="YouTube video" allowfullscreen></iframe>
         </div>
       {/if}
+
+      {#if card.hasOwnProperty("x_video")}
+        <div class="ratio ratio-16x9">
+          <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Sept 2023, Réunion. &quot;Why fight the time if we can rewind the time&quot; <a href="https://t.co/HhzmqdONHJ">pic.twitter.com/HhzmqdONHJ</a></p>&mdash; Tea Lemon Ginger (@TeaLemonGinger) <a href="https://twitter.com/TeaLemonGinger/status/1882837471433814467?ref_src=twsrc%5Etfw">January 24, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+        </div>
+      {/if}
+
   
       {#if card.hasOwnProperty("code")}
         <script src={card.code}></script>
