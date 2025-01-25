@@ -54,7 +54,7 @@
 
       {#if card.hasOwnProperty("x_video")}
         <div class="ratio ratio-16x9">
-          <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr">Sept 2023, Réunion. &quot;Why fight the time if we can rewind the time&quot; <a href="https://t.co/HhzmqdONHJ">pic.twitter.com/HhzmqdONHJ</a></p>&mdash; Tea Lemon Ginger (@TeaLemonGinger) <a href="{card.x_video}">January 24, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+          <blockquote class="twitter-tweet" data-media-max-width="560"><p lang="en" dir="ltr"><a href="https://t.co/HhzmqdONHJ">pic.twitter.com/HhzmqdONHJ</a></p>&mdash; Tea Lemon Ginger (@TeaLemonGinger) <a href="{card.x_video}">January 24, 2025</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
         </div>
       {/if}
 
