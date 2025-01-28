@@ -45,6 +45,18 @@
     {#if card.image !== undefined}
       <img src={card.image} class="card-img-top" />
     {/if}
+
+    {#if card.images !== undefined}
+      <div class="container text-center">
+      <div class="row row-cols-2">
+        {#each card.images as img}
+          <div class="col">
+	   <img src={img} class="card-img-top" />
+          </div> 
+        {/each}  
+      </div>
+      </div>
+    {/if}
   
       {#if card.hasOwnProperty("youtube")}
         <div class="ratio ratio-16x9">
