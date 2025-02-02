@@ -13,10 +13,10 @@ export let blink="baguette";
 {#each tags as tag}
 
 {#if blink == tag}
-<div class="col bg-danger  border border-secondary">
+<div class="col bg-danger border border-secondary">
  <a href="{base}/search/tag_{tag}">
 
-  <button type="button" class="btn fw-bolder me-1 mb-1"
+  <button type="button" class="btn text-white fw-bolder me-1 mb-1"
         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
   {tag}
 </button>
