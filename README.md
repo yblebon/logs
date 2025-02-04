@@ -10,5 +10,6 @@ Buongiorno
 Hei
 Shalom
 Marhaba
+Aloha
 </h2>
 
