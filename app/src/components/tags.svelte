@@ -18,7 +18,7 @@ export let blink="baguette";
 
   <button type="button" class="btn text-white fw-bolder me-1 mb-1"
         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-  {tag}
+  {tag.toUpperCase()}
 </button>
 </a>
 </div>
@@ -28,7 +28,7 @@ export let blink="baguette";
 
   <button type="button" class="btn me-1 mb-1"
         style="--bs-btn-padding-y: .25rem; --bs-btn-padding-x: .5rem; --bs-btn-font-size: .75rem;">
-  {tag}
+  {tag.toUpperCase()}
 </button>
 </a>
 </div>
