@@ -14,7 +14,7 @@ export let blink="baguette";
 
 {#if blink == tag}
 <div class="col">
-   <button class="button-89" role="button">
+   <button class="button-53" role="button">
     <a href="{base}/search/tag_{tag}">
       <span class="fs-6">{tag.toUpperCase()}</span>
     </a>
@@ -23,7 +23,7 @@ export let blink="baguette";
 </div>
 {:else}
 <div class="col">
-   <button class="button-89" role="button">
+   <button class="button-53" role="button">
     <a href="{base}/search/tag_{tag}">
       <span class="fs-6">{tag.toUpperCase()}</span>
     </a>
